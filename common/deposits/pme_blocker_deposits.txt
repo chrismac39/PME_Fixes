@@ -1,0 +1,210 @@
+##########################################
+### Destroyed Planetary Megastructures ###
+##########################################
+
+pme_b_rudimentary_planetary_megastructure_ruins = {
+    time = 270
+	is_for_colonizable = yes
+	category = deposit_cat_blockers
+
+    resources = {
+		category = deposit_blockers
+		cost = {
+			energy = 2500
+		}
+	}
+	
+	can_be_cleared = {
+		custom_tooltip = {
+			fail_text = has_ranger_lodge
+			planet = {
+				NOT = { has_building = building_ranger_lodge }
+			}
+		}
+	}
+	
+	planet_modifier = {
+		planet_max_districts_add = -1
+	}
+
+
+	all_blocker_swap_types = yes
+
+	on_cleared = {
+		if = {
+			limit = { exists = owner }
+			owner = {
+				add_resource = {
+					minerals = 3500
+                    alloys = 2500
+                    physics_research = 500
+					society_research = 500
+					engineering_research = 500
+                }        
+			}
+		}
+	}
+
+	# weight 0: event added
+	drop_weight = {
+		weight = 0
+	}
+
+}
+
+pme_b_intermediate_planetary_megastructure_ruins = {
+    time = 360
+	is_for_colonizable = yes
+	category = deposit_cat_blockers
+
+    resources = {
+		category = deposit_blockers
+		cost = {
+			energy = 7500
+		}
+	}
+	
+	can_be_cleared = {
+		custom_tooltip = {
+			fail_text = has_ranger_lodge
+			planet = {
+				NOT = { has_building = building_ranger_lodge }
+			}
+		}
+	}
+	
+	planet_modifier = {
+		planet_max_districts_add = -1
+	}
+
+
+	all_blocker_swap_types = yes
+
+	on_cleared = {
+		if = {
+			limit = { exists = owner }
+			owner = {
+				add_resource = {
+					minerals = 5000
+                    alloys = 4000
+                    rare_crystals = 250
+					physics_research = 1500
+					society_research = 1500
+					engineering_research = 1500
+                }        
+			}
+		}
+	}
+
+	# weight 0: event added
+	drop_weight = {
+		weight = 0
+	}
+
+}
+
+pme_b_advanced_planetary_megastructure_ruins = {
+    time = 480
+	is_for_colonizable = yes
+	category = deposit_cat_blockers
+
+    resources = {
+		category = deposit_blockers
+		cost = {
+			energy = 12500
+		}
+	}
+	
+	can_be_cleared = {
+		custom_tooltip = {
+			fail_text = has_ranger_lodge
+			planet = {
+				NOT = { has_building = building_ranger_lodge }
+			}
+		}
+	}
+	
+	planet_modifier = {
+		planet_max_districts_add = -2
+	}
+
+
+	all_blocker_swap_types = yes
+
+	on_cleared = {
+		if = {
+			limit = { exists = owner }
+			owner = {
+				add_resource = {
+					minerals = 7500
+                    alloys = 5500
+                    rare_crystals = 500
+					exotic_gases = 250
+					volatile_motes = 250
+					physics_research = 3500
+					society_research = 3500
+					engineering_research = 3500
+                }        
+			}
+		}
+	}
+
+	# weight 0: event added
+	drop_weight = {
+		weight = 0
+	}
+
+}
+
+pme_b_ascendant_planetary_megastructure_ruins = {
+    time = 600
+	is_for_colonizable = yes
+	category = deposit_cat_blockers
+
+    resources = {
+		category = deposit_blockers
+		cost = {
+			energy = 20000
+		}
+	}
+	
+	can_be_cleared = {
+		custom_tooltip = {
+			fail_text = has_ranger_lodge
+			planet = {
+				NOT = { has_building = building_ranger_lodge }
+			}
+		}
+	}
+	
+	planet_modifier = {
+		planet_max_districts_add = -3
+	}
+
+
+	all_blocker_swap_types = yes
+
+	on_cleared = {
+		if = {
+			limit = { exists = owner }
+			owner = {
+				add_resource = {
+					minerals = 10000
+                    alloys = 8000
+                    rare_crystals = 600
+					exotic_gases = 350
+					volatile_motes = 350
+					physics_research = 10000
+					society_research = 10000
+					engineering_research = 10000
+                }        
+			}
+		}
+	}
+
+	# weight 0: event added
+	drop_weight = {
+		weight = 0
+	}
+
+}

@@ -1,0 +1,198 @@
+﻿l_japanese:
+
+#################
+### Decisions ###
+#################
+
+decision_pme_mini_ecumenopolis:0 "Build a Capital Ecumenopolis"
+decision_pme_mini_ecumenopolis_desc:0 "Cover a portion of the world with ecumenopolis infrastructure to house all government functions and a substantial population."
+
+decision_pme_orbital_colonies:0 "Build Orbital Colonies"
+decision_pme_orbital_colonies_desc:0 "In high orbit around this planet, construct a series of titanic space habitats to house the planet's growing population, as well as free up land on the planet's surface for other projects."
+
+decision_pme_fleet_academy:0 "Build a Grand Fleet Officer's Academy"
+decision_pme_fleet_academy_desc:0 "Build and found an academy to train the finest fleet officer candidates this society has to offer."
+
+decision_pme_university_cityscape:0 "Build a University Cityscape"
+decision_pme_university_cityscape_desc:0 "Fund the construction of a university the size of a large city, providing tuition-free education of the highest quality to every citizen on the planet."
+
+decision_pme_resort_archipelago:0 "Build a Resort Complex"
+decision_pme_resort_archipelago_desc:0 "Fund the construction of an enormous resort covering an archipelago in this planet's most desirable region."
+
+decision_pme_deep_mantle_exotic_hyperforge:0 "Build a Deep Mantle Exotic Hyperforge"
+decision_pme_deep_mantle_exotic_hyperforge_desc:0 "Excavate and construct the cavernous facilities that refine, print and produce the most exotic strategic resources in the galaxy."
+
+decision_pme_gaia_biosphere_preservation_webbing:0 "Construct a Biosphere Preservation Webbing"
+decision_pme_gaia_biosphere_preservation_webbing_desc:0 "Build the countless pedestals and facilities that will form a floating biosphere preservation network across this planet."
+
+decision_pme_space_elevator:0 "Build a Space Elevator"
+decision_pme_space_elevator_desc:0 "Begin the construction of a great space elevator, bringing the wonders of affordable space travel to this planet's population."
+
+decision_pme_worldwide_maglev:0 "Build a Maglev Network"
+decision_pme_worldwide_maglev_desc:0 "Construct an interconnected network of maglev railways connecting every major point on the planetary surface."
+
+decision_pme_mining_construction:0 "Build a Mining and Construction Complex"
+decision_pme_mining_construction_desc:0 "Build a massive complex to house the warehouses, offices, and vehicles of mining and construction firms that operate on this planet."
+
+decision_pme_supermax_prison_rehab:0 "Build an ADX Prison and Rehab Center"
+decision_pme_supermax_prison_rehab_desc:0 "Build a virtually inescapable ADX Prison complex in a sparsely populated region to house this planet's criminals."
+
+decision_pme_interstellar_hospital:0 "Build an Interstellar Hospital"
+decision_pme_interstellar_hospital_desc:0 "Found a hospital equipped the highest quality equipment and the best trained medical staff to serve to population of this planet."
+
+decision_pme_planetary_fusion_grid:0 "Build a Planetary Fusion Grid"
+decision_pme_planetary_fusion_grid_desc:0 "Construct an array of advanced fusion generators to supply this planet with limitless power."
+
+decision_pme_corporate_megacampus:0 "Build a Corporate Megacampus"
+decision_pme_corporate_megacampus_desc:0 "Fund the construction of a Corporate megabuilding to host the most important corporate HQs all in one place. This improves oversight and encourages a less cutthroat relationship between competing corporations."
+
+decision_pme_subsurface_megaforges:0 "Build Subsurface Megaforges"
+decision_pme_subsurface_megaforges_desc:0 "Construct a series of titanic forges in the crust of this planet. These forges, shielded from bombardment or sabotage by layers of intensive security will ensure building materials are never in short supply."
+
+decision_pme_orbital_superfactory:0 "Build an Orbital Superfactory"
+decision_pme_orbital_superfactory_desc:0 "Fund the construction of a massive factory in orbit around this world, opening up the ability to manufacture luxury goods in zero-g."
+
+decision_pme_orbital_defense_grid:0 "Build an Orbital Defense Grid"
+decision_pme_orbital_defense_grid_desc:0 "Undertake construction of a series of defensive stations in orbit of this planet. Armed with the highest quality weapons, these stations will make it nearly impossible for ships to enter low orbit and bombard the planet."
+
+decision_pme_chemical_hazardous_goods:0 "Build Chemical and Hazardous Goods Processing"
+decision_pme_chemical_hazardous_goods_desc:0 "Construct a facility to safely gather, process, and recycle the most dangerous goods in economic circulation."
+
+decision_pme_polar_resource_silos:0 "Build Polar Resource Silos"
+decision_pme_polar_resource_silos_desc:0 "Covering a large portion of the polar regions of this planet, construct the vaults, warehouses and silos necessary to store a staggering amount of resources."
+
+decision_pme_planetary_irrigation_water:0 "Build Planetary Irrigation"
+decision_pme_planetary_irrigation_water_desc:0 "Construct a planetary irrigation and water treatment network, ensuring every facet of society, from households to heavy industry has uninterrupted access to water."
+
+#########################
+### Machine Decisions ###
+#########################
+
+decision_pme_machine_global_management_nexus:0 "Build a Global Management Nexus"
+decision_pme_machine_global_management_nexus_desc:0 "Construct this planet's Global Management Nexus, enabling smoother operations across the board, from the most simple of drones to the most complex of operations."
+
+decision_pme_machine_orbital_colonies:0 "Build Orbital Colonies"
+decision_pme_machine_orbital_colonies_desc:0 "In high orbit around the planet, construct a series of titanic space habitats to house the planet's expanding drone population, providing housing and freeing up land for resource production on the planetary surface."
+
+decision_pme_machine_fleet_coordination_systems:0 "Build Fleet Coordination Systems"
+decision_pme_machine_fleet_coordination_systems_desc:0 "Build the facilities to house the servers and innumerable quantum communications arrays required to support fleet actions in any solar system across the galaxy."
+
+decision_pme_machine_continental_computing_system:0 "Build a Continental Computing System"
+decision_pme_machine_continental_computing_system_desc:0 "Construct a computing system that runs underneath the surface of an entire continent, dedicated to discovering the mysteries of the universe."
+
+decision_pme_machine_planetwide_software_standardization_network:0 "Build a Planetwide Software Standardization Network"
+decision_pme_machine_planetwide_software_standardization_network_desc:0 "Install the infrastructure to support and maintain a planet-wide network of data warehouses and uplink nodes. These will keep all drones running on up-to-date, approved software."
+
+decision_pme_machine_deep_mantle_exotic_hyperforge:0 "Build a Deep Mantle Exotic Hyperforge"
+decision_pme_machine_deep_mantle_exotic_hyperforge_desc:0 "Construct the carvernous machinery required to fabricate dark matter, living metal, and nanites."
+
+decision_pme_machine_space_elevator:0 "Build a Space Elevator"
+decision_pme_machine_space_elevator_desc:0 "Build a towering elevator to allow goods and drones to be efficiently transported to and from outer space."
+
+decision_pme_machine_drone_reprogramming_center:0 "Build a Drone Reprogramming Center"
+decision_pme_machine_drone_reprogramming_center_desc:0 "Construct a facility dedicated to the reprogramming or decommissioning of deviant drones."
+
+decision_pme_machine_auxiliary_assembly_centers:0 "Build Auxiliary Assembly Centers"
+decision_pme_machine_auxiliary_assembly_centers_desc:0 "Build a series of auxiliary assembly centers to accelerate drone production across the planetary surface."
+
+decision_pme_machine_subsurface_megaforges:0 "Build Subsurface Megaforges"
+decision_pme_machine_subsurface_megaforges_desc:0 "Begin excavating titanic caverns and building monstrous subsurface megaforges inside of them."
+
+decision_pme_machine_chemical_hazardous_goods:0 "Build Chemical and Hazardous Goods Processing"
+decision_pme_machine_chemical_hazardous_goods_desc:0 "Construct a massive facility to refine, process and recycle the most dangerous materials used in industry on this planet."
+
+decision_pme_machine_orbital_defense_grid:0 "Build an Orbital Defense Grid"
+decision_pme_machine_orbital_defense_grid_desc:0 "Build and deploy a constellation of defensive stations in orbit, protecting this world from bombardment."
+
+decision_pme_machine_worldwide_maglev:0 "Build a Worldwide Maglev Network"
+decision_pme_machine_worldwide_maglev_desc:0 "Build a network of interconnected maglev rails to facilitate quick, efficient movement of resources and drones across the planetary surface."
+
+decision_pme_machine_polar_resource_silos:0 "Build Polar Resource Silos"
+decision_pme_machine_polar_resource_silos_desc:0 "Around the polar reaches of this planet, construct a series of vaults, silos and warehouses to store the mountains of resources needed to support this planet."
+
+decision_pme_machine_system_extraction:0 "Build a System Extraction Complex"
+decision_pme_machine_system_extraction_desc:0 "Construct the central facility of a system-wide mining and extraction complex, allowing the droids of this world the extract a near endless supply of minerals."
+
+decision_pme_machine_planetary_water_processing:0 "Build Planetary Water Processing Infrastructure"
+decision_pme_machine_planetary_water_processing_desc:0 "Construct the planetary infrastructure required to facilitate a global water processing system."
+
+decision_pme_machine_planetary_fusion_grid:0 "Build a Planetary Fusion Grid"
+decision_pme_machine_planetary_fusion_grid_desc:0 "Build a series of fusion power plants in strategic and well-fortified locations across the planetary surface."
+
+######################
+### Hive Decisions ###
+######################
+
+decision_pme_hive_planetary_coordination_nodes:0 "Build Planetary Coordiantion Nodes"
+decision_pme_hive_planetary_coordination_nodes_desc:0 "Build a series of connected neural nodes that will greatly improve the coordination of this planet's drone population."
+
+decision_pme_hive_orbital_colonies:0 "Build Orbital Colonies"
+decision_pme_hive_orbital_colonies_desc:0 "Fabricate the titanic space stations required to house a significant portion of this planet's constantly growing drone population."
+
+decision_pme_hive_fleet_coordination_nexus:0 "Build a Fleet Coordination Nexus"
+decision_pme_hive_fleet_coordination_nexus_desc:0 "Construct a compound to facilitate the improved coordination of the hive's naval fleets, improving communications, calculations and much more."
+
+decision_pme_hive_collective_computing_consciousness:0 "Build a Collective Computing Consciousness Facility"
+decision_pme_hive_collective_computing_consciousness_desc:0 "Build the facilities required to house a swarm of drones that will coordinate the collective brain power of countless drones all in the pursuit of a greater understanding of the universe."
+
+decision_pme_hive_consciousness_synchronization_lattice:0 "Build a Consciousness Synchronization Lattice"
+decision_pme_hive_consciousness_synchronization_lattice_desc:0 "Construct the planet-spanning framework of a consciousness synchronization lattice. This lattice will significantly improve the cohesion of the hive on this planet."
+
+decision_pme_hive_deep_mantle_exotic_hyperforge:0 "Build a Deep Mantle Exotic Hyperforge"
+decision_pme_hive_deep_mantle_exotic_hyperforge_desc:0 "Excavate a great cavern to house the titanic bio-machines that will create dark matter, living metal and nanites for the hive."
+
+decision_pme_hive_gaia_biosphere_preservation_webbing:0 "Construct a Biosphere Preservation Webbing"
+decision_pme_hive_gaia_biosphere_preservation_webbing_desc:0 "Raise the latticework of pedestals that will support a web of bio-preservation-facilities. These will ensure the planets biosphere remains pristine for the hive's use."
+
+decision_pme_hive_space_elevator:0 "Build a Space Elevator"
+decision_pme_hive_space_elevator_desc:0 "Undertake the simultaneous construction of a titanic space elevator to drastically reduce the cost of moving drones and materials to and from orbit."
+
+decision_pme_hive_neural_regulation_nexus:0 "Build a Neural Regulation Nexus"
+decision_pme_hive_neural_regulation_nexus_desc:0 "Construct an enormous facility to house the deviant drones of this planet, re-integrating them if possible."
+
+decision_pme_hive_supplemental_breeding_pools:0 "Build Supplemental Breeding Pools"
+decision_pme_hive_supplemental_breeding_pools_desc:0 "Build the infrastructure in carefully chosen locations on the planetary surface required to support a large number of supplemental breeding pools."
+
+decision_pme_hive_subsurface_megaforges:0 "Subsurface Megaforges"
+decision_pme_hive_subsurface_megaforges_desc:0 "Excavate and fortify caverns and within those caverns, construct the titanic forges that will supply the hive with a near-endless flow of high-quality alloys."
+
+decision_pme_hive_chemical_hazardous_goods:0 "Build a Hazardous Materials Processing Superfactory"
+decision_pme_hive_chemical_hazardous_goods_desc:0 "Build a sprawling facility that can process, recycle or contain all hazardous goods that the hive requires and uses."
+
+decision_pme_hive_orbital_defense_grid:0 "Build an Orbital Defense Grid"
+decision_pme_hive_orbital_defense_grid_desc:0 "Build the countless defense platforms that will defend this world from any form of external threat."
+
+decision_pme_hive_worldwide_maglev:0 "Build a Worldwide Maglev System"
+decision_pme_hive_worldwide_maglev_desc:0 "Build a planet-spanning system of maglev rails to reduce the cost of transportation of materials and drones across the surface."
+
+decision_pme_hive_polar_resource_silos:0 "Build Polar Resource Silos"
+decision_pme_hive_polar_resource_silos_desc:0 "Construct the warehouses, silos and vaults that will hold the mountains of materials and resources this planet requires to function optimally, as well as emergency stockpiles in case of blockades or other extreme circumstances."
+
+decision_pme_hive_mineral_extraction_warrens:0 "Build Mineral Extraction Warrens"
+decision_pme_hive_mineral_extraction_warrens_desc:0 "Excavate and map the preliminary shafts, tunnels and galleries throughout the planet's crust to enable a sophisticated, large-scale mineral extraction operation."
+
+decision_pme_hive_nutrient_processing_megaplant:0 "Build a Nutrient Processing Megaplant"
+decision_pme_hive_nutrient_processing_megaplant_desc:0 "Build a massive food processing plant to ensure the drones of this world are always properly nourished."
+
+decision_pme_hive_planetary_fusion_grid:0 "Build a Planetary Fusion Grid"
+decision_pme_hive_planetary_fusion_grid_desc:0 "Construct a serious of high-capacity fusion power plants in strategic positions around this planet, ensuring no region is ever without electricity."
+
+###########################
+### Ascension Decisions ###
+###########################
+
+decision_pme_psionic_shroud_emitter:0 "Build a Psionic Shroud Emitter"
+decision_pme_psionic_shroud_emitter_desc:0 "Shortly after we discovered the innate psychic powers of our species our greatest engineers started dreaming of an incredibly ambitious project, the sort that would improve societal cohesion the world over. This is the result of their efforts."
+
+decision_pme_gene_preservation_vaults:0 "Build Gene Preservation Vaults"
+decision_pme_gene_preservation_vaults_desc:0 "Once we mastered genetic engineering our scientists quickly came to the conclusion that we needed new, state-of-the-art facilities dedicated to the improvement and preservation of our genes."
+
+decision_pme_orbital_robotics_assembly_labs:0 "Build Orbital Robotics Assembly Labs"
+decision_pme_orbital_robotics_assembly_labs_desc:0 "Our empire has wholly embraced life as synthetic life forms, as such we require factories, labs and assembly lines to provide synthetic bodies to our entire population. These orbital assembly lines will provide just that."
+
+decision_pme_machine_orbital_robotics_assembly_labs:0 "Build Orbital Robotics Assembly Labs"
+decision_pme_machine_orbital_robotics_assembly_labs_desc:0 "The forges, shipyards, mines, and many other facets of industry require more worker drones. These facilities will produce those units quickly and efficiently."
+
+decision_pme_cybernetics_uplink_facility:0 "Build a Cybernetics Uplink Facility"
+decision_pme_cybernetics_uplink_facility_desc:0 "When our species embraced cybernetics it was clear we could push our augmentations harder, to utilize them to a greater extent. This facility will allow the population of this planet to do just that."
+

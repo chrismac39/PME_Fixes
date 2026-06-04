@@ -1,0 +1,2727 @@
+###########################################
+### Planetary Mega Engineering Deposits ###
+###########################################
+
+
+
+###############################
+###### Advanced Deposits ######
+###############################
+
+
+
+########################
+### Capital Deposits ###
+########################
+
+### Capital Ecumenopolis
+# housing, ethics attraction, unity mult, amenities usage, specialist production, trade value, max districts
+# trader, politician, enforcer, healthcare, entertainer and technician jobs
+# 1 max envoy, 1 official cap and 0.5 influence
+
+pme_d_mini_ecumenopolis = {
+	
+	is_for_colonizable = yes
+	should_swap_deposit_on_terraforming = no
+	use_for_min_max_adjustments = no
+	category = deposit_cat_rare	
+
+	planet_modifier = {
+
+		planet_housing_add = 10000
+		pop_government_ethic_attraction = 0.30
+		planet_jobs_unity_produces_mult = 0.25
+		pop_amenities_usage_mult = -0.20
+		planet_jobs_specialist_produces_mult = 0.20
+		planet_jobs_trade_produces_mult = 0.10
+		planet_max_districts_add = 3
+		job_politician_add = 1000          # not working correctly
+		job_enforcer_add = 500
+
+	}
+
+	inline_script = {
+		script = jobs/pme_trader_add
+		AMOUNT = 500
+	}
+
+	inline_script = {
+		script = jobs/pme_healthcare_add
+		AMOUNT = 500
+	}
+
+	inline_script = {
+		script = jobs/pme_entertainer_add
+		AMOUNT = 500
+	}
+
+	inline_script = {
+		script = jobs/pme_technicians_add
+		AMOUNT = 500
+	}
+
+	inline_script = {
+		script = jobs/pme_soldiers_add
+		AMOUNT = 500
+	}
+
+	country_modifier = {
+			envoys_add = 1
+			country_official_cap_add = 1
+	}
+
+	resources = {
+		category = planet_deposits
+		produces = {
+			influence = 0.50
+		}
+		upkeep = {
+			energy = 80
+			alloys = 20
+		}
+	}
+
+	drop_weight = {
+		weight = 0
+	}	
+
+}
+
+### Global Management Nexus
+# housing, crime reduction, unity mult, amenities usage, specialist production, stability, max districts
+# coordinator, patrol, replicator, technician jobs
+# envoy cap, official cap, influence
+
+pme_d_machine_global_management_nexus = {
+	
+	is_for_colonizable = yes
+	should_swap_deposit_on_terraforming = no
+	use_for_min_max_adjustments = no
+	category = deposit_cat_rare	
+
+	planet_modifier = {
+
+		planet_housing_add = 10000
+		planet_crime_add = -50
+		planet_jobs_unity_produces_mult = 0.30
+		pop_amenities_usage_mult = -0.25
+		planet_jobs_specialist_produces_mult = 0.20
+		planet_stability_add = 15
+		planet_max_districts_add = 3
+		job_coordinator_add = 1600
+		job_patrol_drone_add = 600
+		job_replicator_add = 200
+
+	}
+
+	inline_script = {
+		script = jobs/pme_technicians_add
+		AMOUNT = 500
+	}
+
+	inline_script = {
+		script = jobs/pme_soldiers_add
+		AMOUNT = 500
+	}
+
+	country_modifier = {
+			envoys_add = 1
+			country_official_cap_add = 1
+	}
+
+	resources = {
+		category = planet_deposits
+		produces = {
+			influence = 0.50
+		}
+		upkeep = {
+			energy = 80
+			alloys = 20
+		}
+	}
+
+	drop_weight = {
+		weight = 0
+	}	
+
+}
+
+### Planetary Coordination Nodes
+# housing, crime reduction, unity mult, amenities usage reduction, specialist production, stability, max districts
+# synapse, parols, spawning, technician, farmer jobs
+# envoy cap, official cap, influence
+
+pme_d_hive_planetary_coordination_nodes = {
+	
+	is_for_colonizable = yes
+	should_swap_deposit_on_terraforming = no
+	use_for_min_max_adjustments = no
+	category = deposit_cat_rare	
+
+	planet_modifier = {
+
+		planet_housing_add = 10000
+		planet_crime_add = -50
+		planet_jobs_unity_produces_mult = 0.30
+		pop_amenities_usage_mult = -0.25
+		planet_jobs_specialist_produces_mult = 0.20
+		planet_stability_add = 15
+		planet_max_districts_add = 3
+		job_coordinator_add = 1800
+		job_patrol_drone_add = 600
+		job_spawning_drone_add = 200
+
+	}
+
+	inline_script = {
+		script = jobs/pme_technicians_add
+		AMOUNT = 500
+	}
+
+	inline_script = {
+		script = jobs/pme_farmers_add
+		FARMER_AMOUNT = 500
+		ANGLER_AMOUNT = 500
+	}
+
+	inline_script = {
+		script = jobs/pme_soldiers_add
+		AMOUNT = 500
+	}
+
+	country_modifier = {
+			envoys_add = 1
+			country_official_cap_add = 1
+	}
+
+	resources = {
+		category = planet_deposits
+		produces = {
+			influence = 0.50
+		}
+		upkeep = {
+			energy = 60
+			food = 30
+			alloys = 20
+		}
+	}
+
+	drop_weight = {
+		weight = 0
+	}	
+
+}
+
+########################
+### Orbital Colonies ###
+########################
+
+### Orbital Colonies
+# more max districts, decreases district cost, housing
+# trader, enforcer, healthcare, bureaucrat jobs
+
+pme_d_orbital_colonies = {
+
+	is_for_colonizable = yes
+	should_swap_deposit_on_terraforming = no
+	use_for_min_max_adjustments = no
+	category = deposit_cat_rare
+
+	planet_modifier = {
+
+		planet_housing_add = 3000
+		planet_districts_cost_mult = -0.25
+		planet_max_districts_add = 10
+		job_trader_add = 500
+		job_enforcer_add = 300
+		job_bureaucrat_add = 500
+
+	}
+
+	inline_script = {
+		script = jobs/pme_healthcare_add
+		AMOUNT = 200
+	}
+
+	inline_script = {
+		script = jobs/pme_entertainer_add
+		AMOUNT = 400
+	}
+
+	inline_script = {
+		script = jobs/pme_technicians_add
+		AMOUNT = 500
+	}
+
+	inline_script = {
+		script = jobs/pme_farmers_add
+		FARMER_AMOUNT = 500
+		ANGLER_AMOUNT = 500
+	}
+
+	resources = {
+		category = planet_deposits
+		upkeep = {
+			energy = 60
+			alloys = 20
+		}
+	}
+
+	drop_weight = {
+		weight = 0
+	}
+
+}
+
+### Machine Orbital Colonies
+# housing, district cost, max districts
+# maintenance, patrol, coordinator, technician jobs
+
+pme_d_machine_orbital_colonies = {
+
+	is_for_colonizable = yes
+	should_swap_deposit_on_terraforming = no
+	use_for_min_max_adjustments = no
+	category = deposit_cat_rare
+
+	planet_modifier = {
+
+		planet_housing_add = 3000
+		planet_districts_cost_mult = -0.25
+		planet_max_districts_add = 10
+		job_patrol_drone_add = 200
+		job_coordinator_add = 600
+
+	}
+
+	inline_script = {
+		script = jobs/pme_technicians_add
+		AMOUNT = 600
+	}
+
+	resources = {
+		category = planet_deposits
+		upkeep = {
+			energy = 60
+			alloys = 20
+		}
+	}
+
+	drop_weight = {
+		weight = 0
+	}
+
+}
+
+### Hive Orbital Colonies
+# housing, district cost, max districts
+# maintenance, patrol, synapse, technician, farmer jobs
+
+pme_d_hive_orbital_colonies = {
+
+	is_for_colonizable = yes
+	should_swap_deposit_on_terraforming = no
+	use_for_min_max_adjustments = no
+	category = deposit_cat_rare
+
+	planet_modifier = {
+
+		planet_housing_add = 3000
+		planet_districts_cost_mult = -0.25
+		planet_max_districts_add = 10
+		job_patrol_drone_add = 200
+		job_coordinator_add = 400
+
+	}
+
+	inline_script = {
+		script = jobs/pme_technicians_add
+		AMOUNT = 500
+	}
+
+	inline_script = {
+		script = jobs/pme_farmers_add
+		FARMER_AMOUNT = 500
+		ANGLER_AMOUNT = 500
+	}
+
+	resources = {
+		category = planet_deposits
+		upkeep = {
+			energy = 40
+			food = 30
+			alloys = 20
+		}
+	}
+
+	drop_weight = {
+		weight = 0
+	}
+
+}
+
+######################
+### Fleet Deposits ###
+######################
+
+### Grand Fleet Officer's Academy
+# less housing than jobs (intentional)
+# unity, governing ethics bonuses
+# bureasucrat, enforcer, soldier jobs
+# commander cap, naval cap, ship starting experience, evasion, accuracy, weapon range bonuses (country-wide)
+
+pme_d_fleet_academy = {
+
+	is_for_colonizable = yes
+	should_swap_deposit_on_terraforming = no
+	use_for_min_max_adjustments = no
+	category = deposit_cat_rare	
+
+	planet_modifier = {
+
+		planet_housing_add = 1000
+		planet_jobs_unity_produces_mult = 0.15
+		pop_government_ethic_attraction = 0.15
+		job_bureaucrat_add = 500
+		job_enforcer_add = 500
+
+	}
+
+	inline_script = {
+		script = jobs/pme_soldiers_add
+		AMOUNT = 500
+	}
+
+	country_modifier = {
+		country_commander_cap_add = 1
+		country_naval_cap_add = 250
+		ship_starting_experience_add = 500
+		ship_evasion_mult = 0.05
+		ship_accuracy_mult = 0.05
+		ship_weapon_range_mult = 0.05
+		ship_disengage_chance_mult = 0.05
+	}
+
+	resources = {
+		category = planet_deposits
+		upkeep = {
+			energy = 60
+			alloys = 20
+		}
+	}
+
+	drop_weight = {
+		weight = 0
+	}
+
+}
+
+### Fleet Coordination Systems
+# housing, unity mult
+# coordinator, patrol, warrior jobs
+# commander cap, naval cap, ship starting experience, evasion, accuracy, weapon range
+
+pme_d_machine_fleet_coordination_systems = {
+
+	is_for_colonizable = yes
+	should_swap_deposit_on_terraforming = no
+	use_for_min_max_adjustments = no
+	category = deposit_cat_rare	
+
+	planet_modifier = {
+
+		planet_housing_add = 1000
+		planet_jobs_unity_produces_mult = 0.15
+		job_coordinator_add = 500
+		job_patrol_drone_add = 500
+
+	}
+
+	inline_script = {
+		script = jobs/pme_soldiers_add
+		AMOUNT = 500
+	}
+
+	country_modifier = {
+		country_commander_cap_add = 1
+		country_naval_cap_add = 250
+		ship_starting_experience_add = 500
+		ship_evasion_mult = 0.05
+		ship_accuracy_mult = 0.05
+		ship_weapon_range_mult = 0.05
+		ship_disengage_chance_mult = 0.05
+	}
+
+	resources = {
+		category = planet_deposits
+		upkeep = {
+			energy = 60
+			alloys = 20
+		}
+	}
+
+	drop_weight = {
+		weight = 0
+	}
+
+}
+
+### Fleet Coordination Nexus
+# housing, unity mult
+# synapse, patrol, warrior jobs
+# commander cap, naval cap, ship starting experience, evasion, accuracy, weapon range
+
+pme_d_hive_fleet_coordination_nexus = {
+
+	is_for_colonizable = yes
+	should_swap_deposit_on_terraforming = no
+	use_for_min_max_adjustments = no
+	category = deposit_cat_rare
+
+	planet_modifier = {
+
+		planet_housing_add = 1000
+		planet_jobs_unity_produces_mult = 0.15
+		job_coordinator_add = 400
+		job_patrol_drone_add = 500
+
+	}
+
+	inline_script = {
+		script = jobs/pme_soldiers_add
+		AMOUNT = 500
+	}
+
+	country_modifier = {
+		country_commander_cap_add = 1
+		country_naval_cap_add = 250
+		ship_starting_experience_add = 500
+		ship_evasion_mult = 0.05
+		ship_accuracy_mult = 0.05
+		ship_weapon_range_mult = 0.05
+		ship_disengage_chance_mult = 0.05
+	}
+
+	resources = {
+		category = planet_deposits
+		upkeep = {
+			energy = 40
+			food = 30
+			alloys = 20
+		}
+	}
+
+	drop_weight = {
+		weight = 0
+	}
+
+}
+
+#########################
+### Research Deposits ###
+#########################
+
+### University Cityscape
+# research and researcher upkeep bonuses
+# less housing than jobs (intentional)
+# researcher (elite and specialist), entertainer jobs
+# scientist cap
+
+pme_d_university_cityscape = {
+	
+	is_for_colonizable = yes
+	should_swap_deposit_on_terraforming = no
+	use_for_min_max_adjustments = no
+	category = deposit_cat_rare
+
+	planet_modifier = {
+
+		planet_jobs_physics_research_produces_mult = 0.35
+		planet_jobs_society_research_produces_mult = 0.35
+		planet_jobs_engineering_research_produces_mult = 0.35
+		planet_researchers_upkeep_mult = -0.25
+		planet_housing_add = 3000
+		job_politician_add = 200
+		job_bureaucrat_add = 400  
+
+	}
+
+	inline_script = {
+		script = jobs/pme_campus_research_director_add
+		AMOUNT = 800
+	}
+
+	inline_script = {
+		script = jobs/pme_researchers_add
+		AMOUNT = 1400
+	}
+
+	inline_script = {
+		script = jobs/pme_entertainer_add
+		AMOUNT = 500
+	}
+
+	country_modifier = {
+		country_scientist_cap_add = 1
+	}
+
+	resources = {
+		category = planet_deposits
+		upkeep = {
+			energy = 80
+			alloys = 20
+		}
+	}
+
+	drop_weight = {
+		weight = 0
+	}	
+
+}
+
+### Continental Computing System
+# research mult, researcher upkeep, housing
+# evaluator, researcher jobs
+# scientist cap
+
+pme_d_machine_continental_computing_system = {
+	
+	is_for_colonizable = yes
+	should_swap_deposit_on_terraforming = no
+	use_for_min_max_adjustments = no
+	category = deposit_cat_rare
+
+	planet_modifier = {
+
+		planet_jobs_physics_research_produces_mult = 0.35
+		planet_jobs_society_research_produces_mult = 0.35
+		planet_jobs_engineering_research_produces_mult = 0.35
+		planet_researchers_upkeep_mult = -0.25
+		planet_housing_add = 3000
+		job_evaluator_add = 1000
+
+	}
+
+	inline_script = {
+		script = jobs/pme_researchers_add
+		AMOUNT = 1200
+	}
+
+	country_modifier = {
+		country_scientist_cap_add = 1
+	}
+
+	resources = {
+		category = planet_deposits
+		upkeep = {
+			energy = 80
+			alloys = 20
+		}
+	}
+
+	drop_weight = {
+		weight = 0
+	}	
+
+}
+
+### Collective Computing Consciousness
+# research mult, research upkeep reduction, housing
+# evaluator, research jobs
+
+pme_d_hive_collective_computing_consciousness = {
+	
+	is_for_colonizable = yes
+	should_swap_deposit_on_terraforming = no
+	use_for_min_max_adjustments = no
+	category = deposit_cat_rare
+
+	planet_modifier = {
+
+		planet_jobs_physics_research_produces_mult = 0.35
+		planet_jobs_society_research_produces_mult = 0.35
+		planet_jobs_engineering_research_produces_mult = 0.35
+		planet_researchers_upkeep_mult = -0.25
+		planet_housing_add = 3000
+		job_evaluator_add = 1000
+
+	}
+
+	inline_script = {
+		script = jobs/pme_researchers_add
+		AMOUNT = 1200
+	}
+
+	country_modifier = {
+		country_scientist_cap_add = 1
+	}
+
+	resources = {
+		category = planet_deposits
+		upkeep = {
+			energy = 60
+			food = 30
+			alloys = 20
+		}
+	}
+
+	drop_weight = {
+		weight = 0
+	}	
+
+}
+
+#############################
+### Resort/Unity Deposits ###
+#############################
+
+### Resort Complex
+# Housing
+# unity, happiness, pop growth bonuses
+# healthcare, enforcer, entertainer jobs
+
+pme_d_resort_archipelago = {
+	
+	is_for_colonizable = yes
+	should_swap_deposit_on_terraforming = no
+	use_for_min_max_adjustments = no
+	category = deposit_cat_rare	
+
+	planet_modifier = {
+
+		planet_housing_add = 3000
+		planet_jobs_unity_produces_mult = 0.20
+		pop_government_ethic_attraction = 0.20
+		planet_jobs_trade_produces_mult = 0.10
+		pop_happiness = 0.10
+		logistic_growth_mult = 0.05
+		job_resort_worker_add = 1000
+		job_enforcer_add = 200
+	}
+
+	inline_script = {
+		script = jobs/pme_healthcare_add
+		AMOUNT = 200
+	}
+
+	inline_script = {
+		script = jobs/pme_entertainer_add
+		AMOUNT = 600
+	}
+
+	resources = {
+		category = planet_deposits
+		upkeep = {
+			energy = 60
+			alloys = 20
+		}
+	}
+
+	drop_weight = {
+		weight = 0
+	}
+
+}
+
+### Planetwide Software Standardization Network
+# housing, unity mult, job efficiency
+# coordinator, patrol jobs
+
+pme_d_machine_planetwide_software_standardization_network = {
+	
+	is_for_colonizable = yes
+	should_swap_deposit_on_terraforming = no
+	use_for_min_max_adjustments = no
+	category = deposit_cat_rare	
+
+	planet_modifier = {
+
+		planet_housing_add = 2000
+		planet_jobs_unity_produces_mult = 0.15
+		planet_jobs_produces_mult = 0.10
+		job_coordinator_add = 1000
+		job_patrol_drone_add = 200
+
+	}
+
+	resources = {
+		category = planet_deposits
+		upkeep = {
+			energy = 60
+			alloys = 20
+		}
+	}
+
+	drop_weight = {
+		weight = 0
+	}
+
+}
+
+### Consciousness Syncronization Lattice
+# housing, unity mult
+# synapse, patrol jobs
+
+pme_d_hive_consciousness_synchronization_lattice = {
+	
+	is_for_colonizable = yes
+	should_swap_deposit_on_terraforming = no
+	use_for_min_max_adjustments = no
+	category = deposit_cat_rare	
+
+	planet_modifier = {
+
+		planet_housing_add = 2000
+		planet_jobs_unity_produces_mult = 0.15
+		planet_jobs_produces_mult = 0.15
+		job_coordinator_add = 600
+		job_patrol_drone_add = 200
+
+	}
+
+	resources = {
+		category = planet_deposits
+		upkeep = {
+			energy = 40
+			food = 30
+			alloys = 20
+		}
+	}
+
+	drop_weight = {
+		weight = 0
+	}
+
+}
+
+######################################
+### Deep Mantle Exotic Hyperforges ###
+######################################
+
+pme_d_deep_mantle_exotic_hyperforge = {
+	
+	is_for_colonizable = yes
+	should_swap_deposit_on_terraforming = no
+	use_for_min_max_adjustments = no
+	category = deposit_cat_rare
+
+	country_modifier = {
+		ships_upkeep_mult = -0.10
+		ship_hull_mult = 0.05
+		ship_armor_mult = 0.05
+		ship_shield_mult = 0.05
+		ship_speed_mult = 0.05
+	}
+
+	planet_modifier = {
+
+		planet_orbital_bombardment_damage = -0.80
+		planet_structures_cost_mult = -0.80
+		planet_structures_upkeep_mult = -0.80
+		planet_districts_cost_mult = -0.80
+		planet_districts_energy_upkeep_mult = -0.80
+		job_enforcer_add = 400
+
+	}
+
+	inline_script = {
+		script = jobs/pme_hyperforge_matterweaver_add
+		AMOUNT = 1000
+	}
+
+	resources = {
+		category = planet_deposits
+		upkeep = {
+			energy = 80
+			alloys = 20
+		}
+	}
+
+	drop_weight = {
+		weight = 0
+	}
+}
+
+pme_d_machine_deep_mantle_exotic_hyperforge = {
+	
+	is_for_colonizable = yes
+	should_swap_deposit_on_terraforming = no
+	use_for_min_max_adjustments = no
+	category = deposit_cat_rare
+
+	country_modifier = {
+		ships_upkeep_mult = -0.10
+		ship_hull_mult = 0.05
+		ship_armor_mult = 0.05
+		ship_shield_mult = 0.05
+		ship_speed_mult = 0.05
+	}
+
+	planet_modifier = {
+
+		planet_orbital_bombardment_damage = -0.80
+		planet_structures_cost_mult = -0.80
+		planet_structures_upkeep_mult = -0.80
+		planet_districts_cost_mult = -0.80
+		planet_districts_energy_upkeep_mult = -0.80
+		job_patrol_drone_add = 400
+
+	}
+
+	inline_script = {
+		script = jobs/pme_hyperforge_matterweaver_add
+		AMOUNT = 1000
+	}	
+
+	resources = {
+		category = planet_deposits
+		upkeep = {
+			energy = 80
+			alloys = 20
+		}
+	}
+
+	drop_weight = {
+		weight = 0
+	}
+}
+
+pme_d_hive_deep_mantle_exotic_hyperforge = {
+	
+	is_for_colonizable = yes
+	should_swap_deposit_on_terraforming = no
+	use_for_min_max_adjustments = no
+	category = deposit_cat_rare
+
+	country_modifier = {
+		ships_upkeep_mult = -0.10
+		ship_hull_mult = 0.05
+		ship_armor_mult = 0.05
+		ship_shield_mult = 0.05
+		ship_speed_mult = 0.05
+	}
+
+	planet_modifier = {
+
+		planet_orbital_bombardment_damage = -0.80
+		planet_structures_cost_mult = -0.80
+		planet_structures_upkeep_mult = -0.80
+		planet_districts_cost_mult = -0.80
+		planet_districts_energy_upkeep_mult = -0.80
+		job_patrol_drone_add = 400
+
+	}
+
+	inline_script = {
+		script = jobs/pme_hyperforge_matterweaver_add
+		AMOUNT = 1000
+	}
+
+	resources = {
+		category = planet_deposits
+		upkeep = {
+			energy = 80
+			alloys = 20
+		}
+	}
+
+	drop_weight = {
+		weight = 0
+	}
+}
+
+###########################
+### Gaia World Deposits ###
+###########################
+
+pme_d_gaia_biosphere_preservation_webbing = {
+	
+	is_for_colonizable = yes
+	should_swap_deposit_on_terraforming = no
+	use_for_min_max_adjustments = no
+	category = deposit_cat_rare
+
+	planet_modifier = {
+
+		planet_housing_add = 3000
+		planet_orbital_bombardment_damage = -0.60
+		planet_jobs_produces_mult = 0.15
+		logistic_growth_mult = 0.15
+		planet_stability_add = 10
+		pop_happiness = 0.10
+		job_pme_biosphere_keeper_add = 1000
+		job_resort_worker_add = 600
+
+	}	
+
+	inline_script = {
+		script = jobs/pme_healthcare_add
+		AMOUNT = 600
+	}
+
+	resources = {
+		category = planet_deposits
+		upkeep = {
+			energy = 80
+			alloys = 15
+		}
+	}
+
+	drop_weight = {
+		weight = 0
+	}
+}
+
+pme_d_hive_gaia_biosphere_preservation_webbing = {
+	
+	is_for_colonizable = yes
+	should_swap_deposit_on_terraforming = no
+	use_for_min_max_adjustments = no
+	category = deposit_cat_rare
+
+	planet_modifier = {
+
+		planet_housing_add = 3000
+		planet_orbital_bombardment_damage = -0.60
+		planet_jobs_produces_mult = 0.15
+		logistic_growth_mult = 0.15
+		planet_stability_add = 10
+		job_pme_hive_biosphere_keeper_drone_add = 1000
+		job_spawning_drone_add = 300
+		job_coordinator_add = 600
+
+	}	
+
+	resources = {
+		category = planet_deposits
+		upkeep = {
+			energy = 80
+			alloys = 15
+		}
+	}
+
+	drop_weight = {
+		weight = 0
+	}
+}
+
+###################################
+###### Intermediate Deposits ######
+###################################
+
+
+######################
+### Space Elevator ###
+######################
+
+### Space Elevator
+# trade value and mult, unity, consumer goods upkeep bonuses
+# trader, bureaucrat, enforcer, soldier, entertainer jobs
+
+pme_d_space_elevator = {
+	
+	is_for_colonizable = yes
+	should_swap_deposit_on_terraforming = no
+	use_for_min_max_adjustments = no
+	category = deposit_cat_rare
+	
+	planet_modifier = {
+		
+		planet_jobs_unity_produces_mult = 0.15
+		planet_jobs_trade_produces_mult = 0.25
+		planet_pops_consumer_goods_upkeep_mult = -0.10
+		job_trader_add = 1200
+		job_bureaucrat_add = 500
+		job_enforcer_add = 200
+
+	}
+
+	inline_script = {
+		script = jobs/pme_soldiers_add
+		AMOUNT = 200
+	}
+
+	inline_script = {
+		script = jobs/pme_entertainer_add
+		AMOUNT = 200
+	}
+
+	resources = {
+		category = planet_deposits
+		produces = {
+        	trade_value = 75
+  		}
+		upkeep = {
+			energy = 30
+			alloys = 5
+		}
+	}
+
+	drop_weight = {
+		weight = 0
+	}
+
+}
+
+### Machine Space Elevator
+# job efficiency, unity mult
+# maintenance, coordinator, warrior jobs
+
+pme_d_machine_space_elevator = {
+	
+	is_for_colonizable = yes
+	should_swap_deposit_on_terraforming = no
+	use_for_min_max_adjustments = no
+	category = deposit_cat_rare
+	
+	planet_modifier = {
+		
+		planet_jobs_produces_mult = 0.05
+		planet_jobs_unity_produces_mult = 0.20
+		job_coordinator_add = 1400
+
+	}
+
+	inline_script = {
+		script = jobs/pme_soldiers_add
+		AMOUNT = 200
+	}
+
+	resources = {
+		category = planet_deposits
+		upkeep = {
+			energy = 30
+			alloys = 5
+		}
+	}
+
+	drop_weight = {
+		weight = 0
+	}
+
+}
+
+### Hive Space Elevator
+# unity mult, job efficeincy
+
+pme_d_hive_space_elevator = {
+	
+	is_for_colonizable = yes
+	should_swap_deposit_on_terraforming = no
+	use_for_min_max_adjustments = no
+	category = deposit_cat_rare
+	
+	planet_modifier = {
+		
+		planet_jobs_produces_mult = 0.05
+		planet_jobs_unity_produces_mult = 0.20
+		job_coordinator_add = 800
+
+	}
+
+	inline_script = {
+		script = jobs/pme_soldiers_add
+		AMOUNT = 200
+	}
+
+	resources = {
+		category = planet_deposits
+		upkeep = {
+			energy = 30
+			alloys = 5
+		}
+	}
+
+	drop_weight = {
+		weight = 0
+	}
+
+}
+
+##############################
+### Prison/Crime Reduction ###
+##############################
+
+### ADX Prison
+# reduce crime, reduce structure cost, add housing, stability
+# enforcer, soldier jobs
+
+pme_d_supermax_prison_rehab = {
+	
+	is_for_colonizable = yes
+	should_swap_deposit_on_terraforming = no
+	use_for_min_max_adjustments = no
+	category = deposit_cat_rare	
+	
+	planet_modifier = {
+
+		planet_crime_add = -50
+		planet_housing_add = 2500
+		planet_stability_add = 10
+		planet_structures_cost_mult = -0.10
+		job_enforcer_add = 600
+
+	}
+
+	inline_script = {
+		script = jobs/pme_soldiers_add
+		AMOUNT = 500
+	}
+
+	resources = {
+		category = planet_deposits
+		upkeep = {
+			energy = 30
+			alloys = 5
+		}
+	}
+
+	drop_weight = {
+		weight = 0
+	}
+
+}
+
+### Drone Reprogramming Center
+# crime reduction, housing, stability, pop upkeep
+# patrol, maintenance, soldier jobs
+
+pme_d_machine_drone_reprogramming_center = {
+	
+	is_for_colonizable = yes
+	should_swap_deposit_on_terraforming = no
+	use_for_min_max_adjustments = no
+	category = deposit_cat_rare	
+	
+	planet_modifier = {
+
+		planet_crime_add = -50
+		planet_housing_add = 2500
+		planet_stability_add = 10
+		planet_pops_upkeep_mult = -0.10
+		job_patrol_drone_add = 600
+		job_coordinator_add = 200
+ 
+	}
+
+	inline_script = {
+		script = jobs/pme_soldiers_add
+		AMOUNT = 500
+	}
+
+	resources = {
+		category = planet_deposits
+		upkeep = {
+			energy = 30
+			alloys = 5
+		}
+	}
+
+	drop_weight = {
+		weight = 0
+	}
+
+}
+
+### Neural Regulation Nexus
+# crime reduction, housing, stability, pop upkeep
+# patrol, maintenance, soldier jobs
+
+pme_d_hive_neural_regulation_nexus = {
+	
+	is_for_colonizable = yes
+	should_swap_deposit_on_terraforming = no
+	use_for_min_max_adjustments = no
+	category = deposit_cat_rare	
+	
+	planet_modifier = {
+
+		planet_crime_add = -50
+		planet_housing_add = 2500
+		planet_stability_add = 10
+		planet_pops_upkeep_mult = -0.10
+		job_patrol_drone_add = 600
+		job_coordinator_add = 200
+
+	}
+
+	inline_script = {
+		script = jobs/pme_soldiers_add
+		AMOUNT = 500
+	}
+
+	resources = {
+		category = planet_deposits
+		upkeep = {
+			energy = 30
+			alloys = 5
+		}
+	}
+
+	drop_weight = {
+		weight = 0
+	}
+
+}
+
+###########################
+### Pop Growth/Assembly ###
+###########################
+
+### Interstellar Hospital
+# housing, growth speed, happiness, stability
+# healthcare, enforcer jobs
+
+pme_d_interstellar_hospital = {
+	
+	is_for_colonizable = yes
+	should_swap_deposit_on_terraforming = no
+	use_for_min_max_adjustments = no
+	category = deposit_cat_rare	
+
+	planet_modifier = {
+
+		planet_housing_add = 2500
+		logistic_growth_mult = 0.20
+		pop_happiness = 0.15
+		planet_stability_add = 15
+		job_bureaucrat_add = 200
+		job_enforcer_add = 200
+
+	}
+
+	inline_script = {
+		script = jobs/pme_healthcare_add
+		AMOUNT = 600
+	}
+
+	resources = {
+		category = planet_deposits
+		upkeep = {
+			energy = 30
+			alloys = 5
+		}
+	}
+
+	drop_weight = {
+		weight = 0
+	}
+
+}
+
+### Auxilliary Assembly Centers
+# housing, pop assembly mult, stability
+# replicator/roboticist, coordinator, patrol/enforcer jobs
+
+pme_d_machine_auxiliary_assembly_centers = {
+	
+	is_for_colonizable = yes
+	should_swap_deposit_on_terraforming = no
+	use_for_min_max_adjustments = no
+	category = deposit_cat_rare	
+
+	planet_modifier = {
+
+		planet_housing_add = 2500
+		planet_pop_assembly_mult = 0.10
+		planet_stability_add = 15
+
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = { is_machine_empire = yes }
+		}
+		modifier = {
+			job_replicator_add = 200
+			job_coordinator_add = 500
+			job_patrol_drone_add = 200
+		}
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = { is_individual_machine = yes }
+		}
+		modifier = {
+			job_roboticist_add = 200
+			job_enforcer_add = 200
+		}
+	}
+
+	resources = {
+		category = planet_deposits
+		upkeep = {
+			energy = 30
+			alloys = 5
+		}
+	}
+
+	drop_weight = {
+		weight = 0
+	}
+
+}
+
+### Supplemental Breeding Pools
+# housing, pop growth, stability
+# spawning, synapse, patrol jobs
+
+pme_d_hive_supplemental_breeding_pools = {
+	
+	is_for_colonizable = yes
+	should_swap_deposit_on_terraforming = no
+	use_for_min_max_adjustments = no
+	category = deposit_cat_rare	
+
+	planet_modifier = {
+
+		planet_housing_add = 2500
+		logistic_growth_mult = 0.20
+		planet_stability_add = 15
+		job_spawning_drone_add = 200
+		job_coordinator_add = 400
+		job_patrol_drone_add = 200
+
+	}
+
+	resources = {
+		category = planet_deposits
+		upkeep = {
+			energy = 30
+			alloys = 5
+		}
+	}
+
+	drop_weight = {
+		weight = 0
+	}
+
+}
+
+############################
+### Trade Value Deposits ###
+############################
+
+### Corporate Megacampus
+# trade value mult, consumer and alloy mult, some housing
+# trader, bureaucrat, enforcer jobs
+
+pme_d_corporate_megacampus = {
+	
+	is_for_colonizable = yes
+	should_swap_deposit_on_terraforming = no
+	use_for_min_max_adjustments = no
+	category = deposit_cat_rare	
+
+	planet_modifier = {
+
+		planet_jobs_trade_produces_mult = 0.30
+		planet_jobs_consumer_goods_produces_mult = 0.10
+		planet_jobs_alloys_produces_mult = 0.10
+		planet_housing_add = 500
+		job_trader_add = 1000
+		job_bureaucrat_add = 500
+		job_enforcer_add = 200
+
+	}
+
+	resources = {
+		category = planet_deposits
+		upkeep = {
+			energy = 30
+			alloys = 5
+		}
+	}
+
+	drop_weight = {
+		weight = 0
+	}
+
+}
+
+######################
+### Alloy Deposits ###
+######################
+
+### Subsurface Megaforges
+# alloy production mult, orbital damage reduction, structure cost reduction
+# alloys per job bonus, mineral upkeep from job decrease
+# alloy jobs
+
+pme_d_subsurface_megaforges = {
+	
+	is_for_colonizable = yes
+	should_swap_deposit_on_terraforming = no
+	use_for_min_max_adjustments = no
+	category = deposit_cat_rare	
+
+	planet_modifier = {
+
+		planet_jobs_alloys_produces_mult = 0.25
+		planet_orbital_bombardment_damage = -0.25
+		planet_structures_cost_mult = -0.10
+		planet_metallurgists_minerals_upkeep_add = -2
+		planet_metallurgists_alloys_produces_add = 1
+
+	}	
+
+	inline_script = {
+		script = jobs/pme_foundry_add
+		AMOUNT = 1500
+	}
+
+	resources = {
+		category = planet_deposits
+		upkeep = {
+			energy = 30
+			alloys = 5
+		}
+	}
+
+	drop_weight = {
+		weight = 0
+	}
+
+}
+
+### Machine Subsurface Megaforges
+# alloy mult, bombardment damage reduction, structure cost reduction, metallurgist upkeep and production bonuses
+# alloy jobs
+
+pme_d_machine_subsurface_megaforges = {
+	
+	is_for_colonizable = yes
+	should_swap_deposit_on_terraforming = no
+	use_for_min_max_adjustments = no
+	category = deposit_cat_rare	
+
+	planet_modifier = {
+
+		planet_jobs_alloys_produces_mult = 0.25
+		planet_orbital_bombardment_damage = -0.25
+		planet_structures_cost_mult = -0.10
+		planet_metallurgists_minerals_upkeep_add = -2
+		planet_metallurgists_alloys_produces_add = 1
+
+	}	
+
+	inline_script = {
+		script = jobs/pme_foundry_add
+		AMOUNT = 1500
+	}
+
+	resources = {
+		category = planet_deposits
+		upkeep = {
+			energy = 30
+			alloys = 5
+		}
+	}
+
+	drop_weight = {
+		weight = 0
+	}
+
+}
+
+### Hive Subsurface Megaforges
+# alloy mult, bombardment damage reduction, structure cost reduction, metallurgist upkeep and production bonuses
+# alloy jobs
+
+pme_d_hive_subsurface_megaforges = {
+	
+	is_for_colonizable = yes
+	should_swap_deposit_on_terraforming = no
+	use_for_min_max_adjustments = no
+	category = deposit_cat_rare	
+
+	planet_modifier = {
+
+		planet_jobs_alloys_produces_mult = 0.25
+		planet_orbital_bombardment_damage = -0.25
+		planet_structures_cost_mult = -0.10
+		planet_metallurgists_minerals_upkeep_add = -2
+		planet_metallurgists_alloys_produces_add = 1
+
+	}	
+
+	inline_script = {
+		script = jobs/pme_foundry_add
+		AMOUNT = 1500
+	}
+
+	resources = {
+		category = planet_deposits
+		upkeep = {
+			energy = 30
+			alloys = 5
+		}
+	}
+
+	drop_weight = {
+		weight = 0
+	}
+
+}
+
+###############################
+### Consumer Goods Deposits ###
+###############################
+
+### Orbital Superfactory
+# consumer goods production mult, happiness
+# consumer good production bonus per job, consumer good job mineral upkeep reduction
+# consumer good jobs
+
+pme_d_orbital_superfactory = {
+	
+	is_for_colonizable = yes
+	should_swap_deposit_on_terraforming = no
+	use_for_min_max_adjustments = no
+	category = deposit_cat_rare
+
+	planet_modifier = {
+
+	planet_jobs_consumer_goods_produces_mult = 0.25
+	pop_happiness = 0.10
+	planet_artisans_consumer_goods_produces_add = 2
+	planet_artisans_minerals_upkeep_add = -1
+
+	}
+
+	inline_script = {
+		script = jobs/pme_factory_add
+		AMOUNT = 1500
+	}
+
+	resources = {
+		category = planet_deposits
+		upkeep = {
+			energy = 30
+			alloys = 5
+		}
+	}
+
+	drop_weight = {
+		weight = 0
+	}
+
+}
+
+#########################################
+### Basic Strategic Resource Deposits ###
+#########################################
+
+### Chemical and Hazardous Goods Processing
+# build speed mult
+# bonuses to all basic strategic resource production 
+
+pme_d_chemical_hazardous_goods = {
+	
+	is_for_colonizable = yes
+	should_swap_deposit_on_terraforming = no
+	use_for_min_max_adjustments = no
+	category = deposit_cat_rare
+
+	planet_modifier = {
+
+		planet_building_build_speed_mult = 0.15
+		planet_jobs_exotic_gases_produces_mult = 0.25
+		planet_jobs_rare_crystals_produces_mult = 0.25
+		planet_jobs_volatile_motes_produces_mult = 0.25
+		planet_metallurgists_exotic_gases_produces_add = 1
+		planet_metallurgists_volatile_motes_produces_add = 1
+		planet_metallurgists_rare_crystals_produces_add = 1
+		planet_artisans_exotic_gases_produces_add = 1
+		planet_artisans_rare_crystals_produces_add = 1
+		planet_artisans_volatile_motes_produces_add = 1
+
+	}	
+
+	resources = {
+		category = planet_deposits
+		upkeep = {
+			energy = 30
+			alloys = 5
+		}
+	}
+
+	drop_weight = {
+		weight = 0
+	}
+}
+
+### Machine Chemical and Hazardous Goods Processing
+# build speed mult
+# bonuses to all basic strategic resource production
+
+pme_d_machine_chemical_hazardous_goods = {
+	
+	is_for_colonizable = yes
+	should_swap_deposit_on_terraforming = no
+	use_for_min_max_adjustments = no
+	category = deposit_cat_rare
+
+	planet_modifier = {
+
+		planet_building_build_speed_mult = 0.15
+		planet_jobs_exotic_gases_produces_mult = 0.25
+		planet_jobs_rare_crystals_produces_mult = 0.25
+		planet_jobs_volatile_motes_produces_mult = 0.25
+		planet_metallurgists_exotic_gases_produces_add = 1
+		planet_metallurgists_volatile_motes_produces_add = 1
+		planet_metallurgists_rare_crystals_produces_add = 1
+		planet_artisans_exotic_gases_produces_add = 1
+		planet_artisans_rare_crystals_produces_add = 1
+		planet_artisans_volatile_motes_produces_add = 1
+
+	}
+
+	resources = {
+		category = planet_deposits
+		upkeep = {
+			energy = 30
+			alloys = 5
+		}
+	}
+
+	drop_weight = {
+		weight = 0
+	}
+}
+
+### Hive Chemical and Hazardous Good Processing
+# build speed mult
+# bonuses to all basic strategic resource production
+
+pme_d_hive_chemical_hazardous_goods = {
+	
+	is_for_colonizable = yes
+	should_swap_deposit_on_terraforming = no
+	use_for_min_max_adjustments = no
+	category = deposit_cat_rare
+
+	planet_modifier = {
+
+		planet_building_build_speed_mult = 0.15
+		planet_jobs_exotic_gases_produces_mult = 0.25
+		planet_jobs_rare_crystals_produces_mult = 0.25
+		planet_jobs_volatile_motes_produces_mult = 0.25
+		planet_metallurgists_exotic_gases_produces_add = 1
+		planet_metallurgists_volatile_motes_produces_add = 1
+		planet_metallurgists_rare_crystals_produces_add = 1
+		planet_artisans_exotic_gases_produces_add = 1
+		planet_artisans_rare_crystals_produces_add = 1
+		planet_artisans_volatile_motes_produces_add = 1
+
+	}	
+
+	resources = {
+		category = planet_deposits
+		upkeep = {
+			energy = 20
+			food = 15
+			alloys = 5
+		}
+	}
+
+	drop_weight = {
+		weight = 0
+	}
+}
+
+################################
+### Orbital Defense Deposits ###
+################################
+
+### Orbital Defense Grid
+# orbital damage reduction, stability bonus
+# soldier and enforcer jobs
+
+pme_d_orbital_defense_grid = {
+	
+	is_for_colonizable = yes
+	should_swap_deposit_on_terraforming = no
+	use_for_min_max_adjustments = no
+	category = deposit_cat_rare
+
+	planet_modifier = {
+
+		planet_orbital_bombardment_damage = -0.65
+		planet_stability_add = 10
+		job_enforcer_add = 400
+
+	}
+
+	inline_script = {
+		script = jobs/pme_soldiers_add
+		AMOUNT = 800
+	}
+
+	resources = {
+		category = planet_deposits
+		upkeep = {
+			energy = 30
+			alloys = 5
+		}
+	}
+
+	drop_weight = {
+		weight = 0
+	}
+
+}
+
+### Machine Orbital Defense Grid
+# orbital bombardment damage reduction, stability
+# patrol, soldier jobs
+
+pme_d_machine_orbital_defense_grid = {
+	
+	is_for_colonizable = yes
+	should_swap_deposit_on_terraforming = no
+	use_for_min_max_adjustments = no
+	category = deposit_cat_rare
+
+	planet_modifier = {
+
+	planet_orbital_bombardment_damage = -0.65
+	planet_stability_add = 10
+	job_patrol_drone_add = 500
+
+	}
+
+	inline_script = {
+		script = jobs/pme_soldiers_add
+		AMOUNT = 800
+	}
+
+	resources = {
+		category = planet_deposits
+		upkeep = {
+			energy = 30
+			alloys = 5
+		}
+	}
+
+	drop_weight = {
+		weight = 0
+	}
+
+}
+
+### Hive Orbital Defense Grid
+# planetary bombardment damage reduction, stability
+# patrol, solider jobs
+
+pme_d_hive_orbital_defense_grid = {
+	
+	is_for_colonizable = yes
+	should_swap_deposit_on_terraforming = no
+	use_for_min_max_adjustments = no
+	category = deposit_cat_rare
+
+	planet_modifier = {
+
+	planet_orbital_bombardment_damage = -0.65
+	planet_stability_add = 10
+	job_patrol_drone_add = 500
+
+	}
+
+	inline_script = {
+		script = jobs/pme_soldiers_add
+		AMOUNT = 800
+	}
+
+	resources = {
+		category = planet_deposits
+		upkeep = {
+			energy = 30
+			alloys = 5
+		}
+	}
+
+	drop_weight = {
+		weight = 0
+	}
+
+}
+
+
+
+##################################
+###### Rudiemntary Deposits ######
+##################################
+
+
+
+#######################
+### Maglev Deposits ###
+#######################
+
+### Worldwide Maglev Network
+# upkeep, trade value and unity modifiers
+# enforcer and trader jobs
+
+pme_d_worldwide_maglev = {
+	
+	is_for_colonizable = yes
+	should_swap_deposit_on_terraforming = no
+	use_for_min_max_adjustments = no
+	category = deposit_cat_rare
+	
+	planet_modifier = {	
+
+		planet_pops_upkeep_mult = -0.20
+		pop_amenities_usage_mult = -0.15
+		planet_jobs_trade_produces_mult = 0.10
+		planet_jobs_unity_produces_mult = 0.10
+		job_enforcer_add = 200
+		job_trader_add = 250
+
+	}
+
+	resources = {
+		category = planet_deposits
+		upkeep = {
+			energy = 15
+		}
+	}
+
+	drop_weight = {
+		weight = 0
+	}
+
+}
+
+### Machine Worldwide Maglev Network
+# pop upkeep, amenities usage, unity mult
+# patrol, maintenance jobs
+
+pme_d_machine_worldwide_maglev = {
+	
+	is_for_colonizable = yes
+	should_swap_deposit_on_terraforming = no
+	use_for_min_max_adjustments = no
+	category = deposit_cat_rare
+	
+	planet_modifier = {	
+
+		planet_pops_upkeep_mult = -0.20
+		pop_amenities_usage_mult = -0.15
+		planet_jobs_unity_produces_mult = 0.10
+		job_patrol_drone_add = 200
+		job_coordinator_add = 200
+	}
+
+	resources = {
+		category = planet_deposits
+		upkeep = {
+			energy = 15
+		}
+	}
+
+	drop_weight = {
+		weight = 0
+	}
+
+}
+
+### Hive Worldwide Maglev Network
+# pop upkeep mult, pop amenities usage mult, unity mult
+# patrol, maintenance jobs
+
+pme_d_hive_worldwide_maglev = {
+	
+	is_for_colonizable = yes
+	should_swap_deposit_on_terraforming = no
+	use_for_min_max_adjustments = no
+	category = deposit_cat_rare
+	
+	planet_modifier = {	
+
+		planet_pops_upkeep_mult = -0.20
+		pop_amenities_usage_mult = -0.15
+		planet_jobs_unity_produces_mult = 0.10
+		job_patrol_drone_add = 200
+		job_coordinator_add = 200
+
+	}
+
+	resources = {
+		category = planet_deposits
+		upkeep = {
+			energy = 15
+		}
+	}
+
+	drop_weight = {
+		weight = 0
+	}
+
+}
+
+#################################
+### Resource Storage Deposits ###
+#################################
+
+### Polar Resource Silos
+# resource cap (all)
+# soldier and trader jobs
+
+pme_d_polar_resource_silos = {
+
+	is_for_colonizable = yes
+	should_swap_deposit_on_terraforming = no
+	use_for_min_max_adjustments = no
+	category = deposit_cat_rare
+
+	planet_modifier = {	
+		job_trader_add = 100
+	}
+
+	inline_script = {
+		script = jobs/pme_soldiers_add
+		AMOUNT = 200
+	}
+
+	country_modifier = {
+		country_resource_max_add = 30000
+	}
+
+	resources = {
+		category = planet_deposits
+		upkeep = {
+			energy = 15
+		}
+	}
+
+	drop_weight = {
+		weight = 0
+	}
+
+}
+
+### Machine Polar Resource Silos
+# max resources
+# maintenance, soldier jobs
+
+pme_d_machine_polar_resource_silos = {
+
+	is_for_colonizable = yes
+	should_swap_deposit_on_terraforming = no
+	use_for_min_max_adjustments = no
+	category = deposit_cat_rare
+
+	planet_modifier = {
+		job_coordinator_add = 200
+	}
+
+	inline_script = {
+		script = jobs/pme_soldiers_add
+		AMOUNT = 200
+	}
+
+	country_modifier = {
+		country_resource_max_add = 30000
+	}
+
+	resources = {
+		category = planet_deposits
+		upkeep = {
+			energy = 15
+		}
+	}
+
+	drop_weight = {
+		weight = 0
+	}
+
+}
+
+### Hive Polar Resource Silos
+# resource cap
+# maintenance, soldier jobs
+
+pme_d_hive_polar_resource_silos = {
+
+	is_for_colonizable = yes
+	should_swap_deposit_on_terraforming = no
+	use_for_min_max_adjustments = no
+	category = deposit_cat_rare
+
+	planet_modifier = {
+		job_coordinator_add = 200
+	}
+
+	inline_script = {
+		script = jobs/pme_soldiers_add
+		AMOUNT = 200
+	}
+
+	country_modifier = {
+		country_resource_max_add = 30000
+	}
+
+	resources = {
+		category = planet_deposits
+		upkeep = {
+			energy = 15
+		}
+	}
+
+	drop_weight = {
+		weight = 0
+	}
+
+}
+
+########################
+### Mineral Deposits ###
+########################
+
+### Mining and Construction Complex
+# structure upkeep and cost reduction, build speed mult
+# miner mineral production bonus 
+# miner jobs
+
+pme_d_mining_construction = {
+	
+	is_for_colonizable = yes
+	should_swap_deposit_on_terraforming = no
+	use_for_min_max_adjustments = no
+	category = deposit_cat_rare	
+
+	planet_modifier = {
+
+		planet_jobs_minerals_produces_mult = 0.25
+		planet_structures_upkeep_mult = -0.25
+		planet_building_build_speed_mult = 0.20
+		planet_structures_cost_mult = -0.20
+		planet_miners_minerals_produces_add = 2
+
+	}
+
+	inline_script = {
+		script = jobs/pme_miners_add
+		AMOUNT = 1500
+	}
+
+	resources = {
+		category = planet_deposits
+		upkeep = {
+			energy = 15
+		}
+	}
+
+	drop_weight = {
+		weight = 0
+	}	
+
+}
+
+### System Extraction Complex
+# structure cost and upkeep reduction,build speed mult, mineral production bonus
+# miner jobs
+
+pme_d_machine_system_extraction = {
+	
+	is_for_colonizable = yes
+	should_swap_deposit_on_terraforming = no
+	use_for_min_max_adjustments = no
+	category = deposit_cat_rare	
+
+	planet_modifier = {
+
+		planet_jobs_minerals_produces_mult = 0.25
+		planet_structures_upkeep_mult = -0.25
+		planet_building_build_speed_mult = 0.20
+		planet_structures_cost_mult = -0.20
+		planet_miners_minerals_produces_add = 2
+
+	}
+
+	inline_script = {
+		script = jobs/pme_miners_add
+		AMOUNT = 1500
+	}
+
+	resources = {
+		category = planet_deposits
+		upkeep = {
+			energy = 15
+		}
+	}
+
+	drop_weight = {
+		weight = 0
+	}	
+
+}
+
+### Mineral Extraction Warrens
+# structure upkeep and cost reduction, build speed mult, mineral production bonus
+# miner jobs
+
+pme_d_hive_mineral_extraction_warrens = {
+	
+	is_for_colonizable = yes
+	should_swap_deposit_on_terraforming = no
+	use_for_min_max_adjustments = no
+	category = deposit_cat_rare	
+
+	planet_modifier = {
+
+		planet_jobs_minerals_produces_mult = 0.25
+		planet_structures_upkeep_mult = -0.25
+		planet_building_build_speed_mult = 0.20
+		planet_structures_cost_mult = -0.20
+		planet_miners_minerals_produces_add = 2
+
+	}
+
+	inline_script = {
+		script = jobs/pme_miners_add
+		AMOUNT = 1500
+	}
+
+	resources = {
+		category = planet_deposits
+		upkeep = {
+			energy = 10
+			food = 10
+		}
+	}
+
+	drop_weight = {
+		weight = 0
+	}	
+
+}
+
+#####################
+### Food Deposits ###
+#####################
+
+### Planetary Irrigation
+# growth speed, happiness
+# farmer food production bonus
+# farmer jobs
+
+pme_d_planetary_irrigation_water = {
+	
+	is_for_colonizable = yes
+	should_swap_deposit_on_terraforming = no
+	use_for_min_max_adjustments = no
+	category = deposit_cat_rare
+
+	planet_modifier = {
+
+		planet_jobs_food_produces_mult = 0.25
+		logistic_growth_mult = 0.10
+		pop_happiness = 0.05
+		planet_farmers_food_produces_add = 2
+
+	}
+
+	inline_script = {
+		script = jobs/pme_farmers_add
+		FARMER_AMOUNT = 1500
+		ANGLER_AMOUNT = 1500
+	}
+
+	resources = {
+		category = planet_deposits
+		upkeep = {
+			energy = 15
+		}
+	}
+
+	drop_weight = {
+		weight = 0
+	}
+
+}
+
+### Planetary Water Processing
+# pop growth, happiness, food production mult
+# farmer jobs
+
+pme_d_machine_planetary_water_processing = {
+	
+	is_for_colonizable = yes
+	should_swap_deposit_on_terraforming = no
+	use_for_min_max_adjustments = no
+	category = deposit_cat_rare
+
+	planet_modifier = {
+
+		planet_jobs_food_produces_mult = 0.25
+		logistic_growth_mult = 0.10
+		pop_happiness = 0.05
+		planet_farmers_food_produces_add = 2
+
+	}
+
+	inline_script = {
+		script = jobs/pme_farmers_add
+		FARMER_AMOUNT = 1500
+		ANGLER_AMOUNT = 1500
+	}
+
+	resources = {
+		category = planet_deposits
+		upkeep = {
+			energy = 15
+		}
+	}
+
+	drop_weight = {
+		weight = 0
+	}
+
+}
+
+### Nutrient Processing Megaplant            # Rename to Bio-Works
+# growth speed, happiness, food production mult
+# farmer jobs
+
+pme_d_hive_nutrient_processing_megaplant = {
+	
+	is_for_colonizable = yes
+	should_swap_deposit_on_terraforming = no
+	use_for_min_max_adjustments = no
+	category = deposit_cat_rare
+
+	planet_modifier = {
+
+		planet_jobs_food_produces_mult = 0.25
+		logistic_growth_mult = 0.10
+		pop_happiness = 0.05
+		planet_farmers_food_produces_add = 2
+
+	}
+
+	inline_script = {
+		script = jobs/pme_farmers_add
+		FARMER_AMOUNT = 1500
+		ANGLER_AMOUNT = 1500
+	}
+
+	resources = {
+		category = planet_deposits
+		upkeep = {
+			energy = 15
+		}
+	}
+
+	drop_weight = {
+		weight = 0
+	}
+
+}
+
+#######################
+### Energy Deposits ###
+#######################
+
+### Planetry Fusion Grid
+# energy production bonus
+# technician jobs
+
+pme_d_planetary_fusion_grid = {
+	
+	is_for_colonizable = yes
+	should_swap_deposit_on_terraforming = no
+	use_for_min_max_adjustments = no
+	category = deposit_cat_rare	
+
+	planet_modifier = {
+
+		planet_jobs_energy_produces_mult = 0.25	
+		planet_districts_energy_upkeep_mult = -0.15
+		planet_buildings_energy_upkeep_mult = -0.15
+		planet_technician_energy_produces_add = 2
+
+	}
+
+	inline_script = {
+		script = jobs/pme_technicians_add
+		AMOUNT = 1500
+	}
+
+	resources = {
+		category = planet_deposits
+		upkeep = {
+			alloys = 5
+		}
+	}
+
+	drop_weight = {
+		weight = 0
+	}
+
+}
+
+### Machine Planetary Fusion Grid
+# buildings and district energy upkeep reduction, energy production mult
+# technician jobs
+
+pme_d_machine_planetary_fusion_grid = {
+	
+	is_for_colonizable = yes
+	should_swap_deposit_on_terraforming = no
+	use_for_min_max_adjustments = no
+	category = deposit_cat_rare	
+
+	planet_modifier = {
+
+		planet_jobs_energy_produces_mult = 0.25	
+		planet_districts_energy_upkeep_mult = -0.15
+		planet_buildings_energy_upkeep_mult = -0.15
+		planet_technician_energy_produces_add = 2.25
+
+	}
+
+	inline_script = {
+		script = jobs/pme_technicians_add
+		AMOUNT = 1500
+	}
+
+	resources = {
+		category = planet_deposits
+		upkeep = {
+			alloys = 5
+		}
+	}
+
+	drop_weight = {
+		weight = 0
+	}
+
+}
+
+### Hive Planetary Fusion Grid
+# building and district energy upkeep reduction, energy production mult
+# technician jobs
+
+pme_d_hive_planetary_fusion_grid = {
+	
+	is_for_colonizable = yes
+	should_swap_deposit_on_terraforming = no
+	use_for_min_max_adjustments = no
+	category = deposit_cat_rare	
+
+	planet_modifier = {
+
+		planet_jobs_energy_produces_mult = 0.25	
+		planet_districts_energy_upkeep_mult = -0.15
+		planet_buildings_energy_upkeep_mult = -0.15
+		planet_technician_energy_produces_add = 2
+
+	}
+
+	inline_script = {
+		script = jobs/pme_technicians_add
+		AMOUNT = 1500
+	}
+
+	resources = {
+		category = planet_deposits
+		upkeep = {
+			alloys = 5
+		}
+	}
+
+	drop_weight = {
+		weight = 0
+	}
+
+}
+
+##########################
+### Ascension Deposits ###
+##########################
+
+### Psionic Shroud Emitter            ### Add Hive Variant
+# crime reduction, ethics attraction, jobs and unity mult, happiness, stability
+# encryption and decryption bonuses
+# telepath jobs
+
+pme_d_psionic_shroud_emitter = {
+
+	is_for_colonizable = yes
+	should_swap_deposit_on_terraforming = no
+	use_for_min_max_adjustments = no
+	category = deposit_cat_rare	
+
+	planet_modifier = {
+
+		planet_crime_add = -50
+		pop_government_ethic_attraction = 0.50
+		planet_jobs_produces_mult = 0.30
+		planet_jobs_unity_produces_mult = 0.20
+		pop_happiness = 0.15
+		planet_stability_add = 15
+		job_telepath_add = 600
+
+	}
+
+	country_modifier = {
+		intel_encryption_add = 1
+		intel_decryption_add = 1
+	}
+
+	resources = {
+		category = planet_deposits
+		upkeep = {
+			 energy = 80
+       	 	 alloys = 25
+        	 rare_crystals = 4
+       		 volatile_motes = 4
+      		 exotic_gases = 4
+        	 sr_dark_matter = 2
+		}
+	}
+
+	drop_weight = {
+		weight = 0
+	}
+
+}
+
+### Gene Preservation Vaults
+# pop assembly and growth bonuses, job production mult
+# leader lifespan, leader xp, biological species trait point and pick   # all likely broken
+# healthcare/spawning+offspring jobs
+
+pme_d_gene_preservation_vaults = {
+
+	is_for_colonizable = yes
+	should_swap_deposit_on_terraforming = no
+	use_for_min_max_adjustments = no
+	category = deposit_cat_rare	
+
+	planet_modifier = {
+
+		planet_jobs_produces_mult = 0.20
+		logistic_growth_mult = 0.35
+
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = { is_regular_empire = yes }
+		}
+		modifier = {
+			job_healthcare_add = 800
+		}
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = { is_hive_empire = yes }
+		}
+		modifier = {
+			job_spawning_drone_add = 400
+			job_offspring_drone_add = 400
+		}
+	}
+
+	# Below likely broken, look into fixing later
+
+	country_modifier = {
+		leader_lifespan_add = 25
+		species_leader_exp_gain = 0.25
+		BIOLOGICAL_species_trait_points_add = 1
+		BIOLOGICAL_species_trait_picks_add = 1
+	}
+
+	resources = {
+		category = planet_deposits
+		upkeep = {
+			 energy = 80
+       	 	 alloys = 25
+        	 rare_crystals = 4
+       		 volatile_motes = 4
+      		 exotic_gases = 4
+        	 sr_dark_matter = 2
+		}
+	}
+
+	drop_weight = {
+		weight = 0
+	}
+
+}
+
+### Orbital Robotics Assembly Labs
+# machine pop assembly bonuses, research mult, job production mult
+# robot/machine trait point and pick      # probably broken
+# roboticist jobs
+
+pme_d_orbital_robotics_assembly_labs = {
+
+	is_for_colonizable = yes
+	should_swap_deposit_on_terraforming = no
+	use_for_min_max_adjustments = no
+	category = deposit_cat_rare	
+
+	planet_modifier = {
+
+		planet_pop_assembly_mult = 0.15
+		planet_jobs_produces_mult = 0.20
+		planet_jobs_physics_research_produces_mult = 0.15
+		planet_jobs_society_research_produces_mult = 0.10
+		planet_jobs_engineering_research_produces_mult = 0.20
+		job_roboticist_add = 400
+
+	}
+
+	country_modifier = {
+		ROBOT_species_trait_picks_add = 1
+		ROBOT_species_trait_points_add = 1
+		machine_species_trait_picks_add = 1
+		machine_species_trait_points_add = 1
+	}
+
+	resources = {
+		category = planet_deposits
+		upkeep = {
+			 energy = 80
+       	 	 alloys = 25
+        	 rare_crystals = 4
+       		 volatile_motes = 4
+      		 exotic_gases = 4
+        	 sr_dark_matter = 2
+		}
+	}
+
+	drop_weight = {
+		weight = 0
+	}
+
+}
+
+### Machine Orbital Assembly Labs
+# pop assembly mult, pop jobs production, research mult
+# robot/machine trait point and pick        # probably broken
+# replicator jobs
+
+pme_d_machine_orbital_robotics_assembly_labs = {
+
+	is_for_colonizable = yes
+	should_swap_deposit_on_terraforming = no
+	use_for_min_max_adjustments = no
+	category = deposit_cat_rare	
+
+	planet_modifier = {
+
+		planet_pop_assembly_mult = 0.15
+		planet_jobs_produces_mult = 0.20
+		planet_jobs_physics_research_produces_mult = 0.25
+		planet_jobs_society_research_produces_mult = 0.25
+		planet_jobs_engineering_research_produces_mult = 0.25
+		job_replicator_add = 400
+
+	}
+
+	country_modifier = {
+		ROBOT_species_trait_picks_add = 1
+		ROBOT_species_trait_points_add = 1
+		machine_species_trait_picks_add = 1
+		machine_species_trait_points_add = 1
+	}
+
+	resources = {
+		category = planet_deposits
+		upkeep = {
+			 energy = 80
+       	 	 alloys = 25
+        	 rare_crystals = 4
+       		 volatile_motes = 4
+      		 exotic_gases = 4
+        	 sr_dark_matter = 2
+		}
+	}
+
+	drop_weight = {
+		weight = 0
+	}
+
+}
+
+### Cybernetic Uplink Facility
+# job production mult, unity mult, pop assembly mult, pop growth mult, research mult
+# army starting experience, planetary army built speed, biological trait point, robot trait pick
+# augmentor jobs
+
+pme_d_cybernetics_uplink_facility = {
+
+	is_for_colonizable = yes
+	should_swap_deposit_on_terraforming = no
+	use_for_min_max_adjustments = no
+	category = deposit_cat_rare	
+
+	planet_modifier = {
+
+		planet_jobs_produces_mult = 0.20
+		planet_jobs_unity_produces_mult = 0.15
+		planet_pop_assembly_mult = 0.10
+		logistic_growth_mult = 0.10
+		planet_jobs_physics_research_produces_mult = 0.10
+		planet_jobs_society_research_produces_mult = 0.10
+		planet_jobs_engineering_research_produces_mult = 0.10
+
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = { is_regular_empire = yes }
+		}
+		modifier = {
+			job_augmentor_add = 600
+		}
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = { is_gestalt = yes }
+		}
+		modifier = {
+			job_augmentor_drone_add = 600
+		}
+	}
+
+	country_modifier = {
+		army_starting_experience_add = 1000
+		planet_army_build_speed_mult = 1
+		BIOLOGICAL_species_trait_points_add = 1
+		ROBOT_species_trait_picks_add = 1
+	}
+
+	resources = {
+		category = planet_deposits
+		upkeep = {
+			 energy = 80
+       	 	 alloys = 25
+        	 rare_crystals = 4
+       		 volatile_motes = 4
+      		 exotic_gases = 4
+        	 sr_dark_matter = 2
+		}
+	}
+
+	drop_weight = {
+		weight = 0
+	}
+
+}

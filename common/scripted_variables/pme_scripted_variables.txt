@@ -1,0 +1,27 @@
+############################
+### Technology Variables ###
+############################
+
+########################
+### Tehcnology Costs ###
+########################
+
+@pme_tech_cost_r1 = 8000
+
+@pme_tech_cost_r2 = 12000
+
+@pme_tech_cost_r3 = 16000
+
+@pme_tech_cost_r4 = 22000
+
+##########################
+### Technology Weights ###
+##########################
+
+@pme_tech_weight_r1 = 65
+
+@pme_tech_weight_r2 = 60
+
+@pme_tech_weight_r3 = 55
+
+@pme_tech_weight_r4 = 50

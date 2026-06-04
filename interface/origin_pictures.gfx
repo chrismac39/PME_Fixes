@@ -1,0 +1,7 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_origin_pme_late_ftl"
+		texturefile = "gfx/event_pictures/origins/origin_pme_late_ftl.dds"
+		alwaystransparent = yes
+	}
+}

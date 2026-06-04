@@ -1,0 +1,24 @@
+origin_pme_late_ftl = {
+	is_origin = yes
+	icon = "gfx/interface/icons/origins/origins_eldest_sibling.dds"
+	picture = GFX_origin_pme_late_ftl
+
+	advanced_start = no
+
+	possible = {
+		authority = { NOT = { value = auth_machine_intelligence } }
+		authority = { NOT = { value = auth_hive_mind } }
+	}
+
+	description = "origin_tooltip_pme_late_ftl_effects"
+
+	flags = { pme_late_ftl_start }
+
+	preferred_planet_class_neighbor = no
+
+	max_once_global = no
+
+	random_weight = {
+		base = 1
+	}
+}

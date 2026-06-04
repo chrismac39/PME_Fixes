@@ -1,0 +1,29 @@
+﻿l_russian:
+
+####################
+### Technologies ###
+####################
+
+tech_pme_rudimentary_planetary_mega_engineering:0 "Элементарная планетарная Мегаинженерия"
+tech_pme_rudimentary_planetary_mega_engineering_desc:0 "Чтобы реализовать масштабные инженерные проекты, о которых давно мечтали наши инженеры, мы должны найти материалы, необходимые для таких масштабов. Этот проект знаменует собой первый шаг на пути к освоению планетарного мегапроектирования."
+
+tech_pme_intermediate_economic_planetary_mega_engineering:0 "§dПродвинутая экономическая планетарная Мегаинженерия§!"
+tech_pme_intermediate_economic_planetary_mega_engineering_desc:0 "Промежуточный шаг на пути к реализации наших самых смелых планетарных мечтаний. Мы должны научиться интегрировать наш оборонный, промышленный, государственный и экономический секторы в эти мегапроекты, поощряя их процветание, как никогда раньше."
+
+tech_pme_intermediate_governmental_planetary_mega_engineering:0 "§dПродвинутая правительственная планетарная Мегаинженерия§!"
+tech_pme_intermediate_governmental_planetary_mega_engineering_desc:0 "Промежуточный шаг на пути к реализации наших самых смелых планетарных мечтаний. Мы должны научиться интегрировать наш оборонный, промышленный, государственный и экономический секторы в эти мегапроекты, поощряя их процветание, как никогда раньше."
+
+tech_pme_intermediate_defensive_planetary_mega_engineering:0 "§dПродвинутая защитная планетарная Мегаинженерия§!"
+tech_pme_intermediate_defensive_planetary_mega_engineering_desc:0 "Промежуточный шаг на пути к реализации наших самых смелых планетарных мечтаний. Мы должны научиться интегрировать наш оборонный, промышленный, государственный и экономический секторы в эти мегапроекты, поощряя их процветание, как никогда раньше."
+
+tech_pme_intermediate_industrial_planetary_mega_engineering:0 "§dПродвинутая индустриальная планетарная Мегаинженерия§!"
+tech_pme_intermediate_industrial_planetary_mega_engineering_desc:0 "Промежуточный шаг на пути к реализации наших самых смелых планетарных мечтаний. Мы должны научиться интегрировать наш оборонный, промышленный, государственный и экономический секторы в эти мегапроекты, поощряя их процветание, как никогда раньше."
+
+tech_pme_advanced_planetary_mega_engineering:0 "§KПередовая планетарная Мегаинженерия§!"
+tech_pme_advanced_planetary_mega_engineering_desc:0 "Это оно. В рамках этого проекта мы будем исследовать потребности общества в сверхмасштабных проектах планетарной инженерии, подобных которым никогда раньше не было. Их влияние на общество небесного тела будет огромным, и наша империя от этого станет только сильнее."
+
+tech_pme_specialized_planetary_mega_engineering:0 "Specialized Planetary Mega Engineering"
+tech_pme_ascendant_planetary_mega_engineering_desc:0 "Advances in construction and terraforming technology have resulted in the drafting of specialized Mega Engineering projects. These projects will make use of the unique features of our specially engineered worlds, allowing industry and society to flourish like never before."
+
+tech_pme_ascendant_planetary_mega_engineering:0 "§_Вознесенная планетарная Мегаинженерия§!"
+tech_pme_ascendant_planetary_mega_engineering_desc:0 "Мы вознеслись. Наша старая жизнь сейчас кажется такой далекой, почти невообразимой, и величайшие инженерные проекты нашего общества должны отражать эту реальность. Этот проект заложит основу для некоторых величайших мегаструктур, которые когда-либо создавала наша империя."

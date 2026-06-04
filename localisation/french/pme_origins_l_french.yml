@@ -1,0 +1,10 @@
+﻿l_french:
+
+###########
+# Origins #
+###########
+
+origin_pme_late_ftl:0 "Late Arrivals"
+origin_pme_late_ftl_desc:0 "This species has opted to spend an additional century improving their homeworld instead of exploring their solar system, which has resulted in a far higher population on their homeworld and far better-developed infrastructure than most fledgling interstellar nations. \n \n Tragically, a large accident during the construction of two planetary megastructures has resulted in both being ruined, as well as two surrounding projects. This has led to roughly 6% of the planet's population being reduced to living in slums, some of the planet's industry falling into disrepair, and a great deal of land being left unusable due to debris from the accident."
+
+origin_tooltip_pme_late_ftl_effects:0 "-§YHomeworld effects§! \n \n -Start on a large world with a much higher population and the infrastrcture to support that population. \n \n -Start with three powerful Planetary Mega Engineering Projects already constructed on your homeworld and the first tier of planetary engineering technology researched. \n \n Start with two blockers on your homeworld that are very expensive to clear. \n \n -§RNo guaranteed habitable worlds.§! \n \n -§RDefinitely not balanced.§!"
