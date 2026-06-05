@@ -1,0 +1,2713 @@
+################################################
+##### Planetary Mega Engineering Decisions #####
+################################################
+
+
+
+################################
+###### Advanced Decisions ######
+################################
+
+
+
+#########################
+### Capital Decisions ###
+#########################
+
+decision_pme_mini_ecumenopolis = {
+	owned_planets_only = yes
+	sound = event_administrative_work
+	prerequisites = {
+		 "tech_pme_advanced_planetary_mega_engineering" 
+	}
+	icon = decision_pme_mini_ecumenopolis
+	enactment_time = 720
+
+	resources = {
+		category = decisions
+		cost = {
+			unity = 10000
+			alloys = 11000
+			minerals = 20000
+			energy = 60000
+			rare_crystals = 2500
+			exotic_gases = 2500
+			volatile_motes = 2500
+			influence = 100
+		}
+
+	}
+
+	potential = {
+		owner = { is_regular_empire = yes }
+		NOT = { has_deposit = pme_d_mini_ecumenopolis }
+	}
+
+	allow = {
+		sapient_pop_amount > 10000
+		NOT = { has_deposit = pme_d_mini_ecumenopolis }
+	}
+
+	effect = {
+		add_deposit = pme_d_mini_ecumenopolis
+	}
+
+	ai_weight = {
+		weight = 10
+	}
+
+}
+
+decision_pme_machine_global_management_nexus = {
+	owned_planets_only = yes
+	sound = event_administrative_work
+	prerequisites = {
+		 "tech_pme_advanced_planetary_mega_engineering" 
+	}
+	icon = decision_pme_machine_global_management_nexus
+	enactment_time = 720
+
+	resources = {
+		category = decisions
+		cost = {
+			unity = 5000
+			alloys = 10000
+			minerals = 15000
+			energy = 60000
+			rare_crystals = 2500
+			exotic_gases = 2500
+			volatile_motes = 2500
+			influence = 100
+		}
+
+	}
+
+	potential = {
+		owner = { is_machine_empire = yes }
+		NOT = { has_deposit = pme_d_machine_global_management_nexus }
+	}
+
+	allow = {
+		sapient_pop_amount > 10000
+		NOT = { has_deposit = pme_d_machine_global_management_nexus }
+	}
+
+	effect = {
+		add_deposit = pme_d_machine_global_management_nexus
+	}
+
+	ai_weight = {
+		weight = 10
+	}
+
+}
+
+decision_pme_hive_planetary_coordination_nodes = {
+	owned_planets_only = yes
+	sound = event_administrative_work
+	prerequisites = {
+		 "tech_pme_advanced_planetary_mega_engineering" 
+	}
+	icon = decision_pme_hive_planetary_coordination_nodes
+	enactment_time = 720
+
+	resources = {
+		category = decisions
+		cost = {
+			unity = 5000
+			alloys = 10000
+			minerals = 15000
+			energy = 60000
+			rare_crystals = 2500
+			exotic_gases = 2500
+			volatile_motes = 2500
+			influence = 100
+		}
+
+	}
+
+	potential = {
+		owner = { is_hive_empire = yes }
+		NOT = { has_deposit = pme_d_hive_planetary_coordination_nodes }
+	}
+
+	allow = {
+		sapient_pop_amount > 10000
+		NOT = { has_deposit = pme_d_hive_planetary_coordination_nodes }
+	}
+
+	effect = {
+		add_deposit = pme_d_hive_planetary_coordination_nodes
+	}
+
+	ai_weight = {
+		weight = 10
+	}
+
+}
+
+########################
+### Orbital Colonies ###
+########################
+
+decision_pme_orbital_colonies = {
+	owned_planets_only = yes
+	sound = event_administrative_work
+	prerequisites = {
+		 "tech_pme_advanced_planetary_mega_engineering" 
+	}
+	icon = decision_pme_orbital_colonies
+	enactment_time = 640
+
+	resources = {
+		category = decisions
+		cost = {
+			unity = 5000
+			alloys = 10000
+			minerals = 15000
+			energy = 40000
+			rare_crystals = 2500
+			exotic_gases = 2000
+			volatile_motes = 2000
+			influence = 75
+		}
+	}
+
+	potential = {
+		owner = { is_regular_empire = yes }
+		NOT = { has_deposit = pme_d_orbital_colonies }
+	}
+
+	allow = {
+		sapient_pop_amount > 8000
+		NOT = { has_deposit = pme_d_orbital_colonies }
+	}
+
+	effect = {
+		add_deposit = pme_d_orbital_colonies
+	}
+
+	ai_weight = {
+		weight = 10
+	}
+
+}
+
+decision_pme_machine_orbital_colonies = {
+	owned_planets_only = yes
+	sound = event_administrative_work
+	prerequisites = {
+		 "tech_pme_advanced_planetary_mega_engineering" 
+	}
+	icon = decision_pme_machine_orbital_colonies
+	enactment_time = 640
+
+	resources = {
+		category = decisions
+		cost = {
+			unity = 5000
+			alloys = 10000
+			minerals = 15000
+			energy = 40000
+			rare_crystals = 3000
+			exotic_gases = 2000
+			volatile_motes = 2000
+			influence = 75
+		}
+	}
+
+	potential = {
+		owner = { is_machine_empire = yes }
+		NOT = { has_deposit = pme_d_machine_orbital_colonies }
+	}
+
+	allow = {
+		sapient_pop_amount > 8000
+		NOT = { has_deposit = pme_d_machine_orbital_colonies }
+	}
+
+	effect = {
+		add_deposit = pme_d_machine_orbital_colonies
+	}
+
+	ai_weight = {
+		weight = 10
+	}
+
+}
+
+decision_pme_hive_orbital_colonies = {
+	owned_planets_only = yes
+	sound = event_administrative_work
+	prerequisites = {
+		 "tech_pme_advanced_planetary_mega_engineering" 
+	}
+	icon = decision_pme_hive_orbital_colonies
+	enactment_time = 640
+
+	resources = {
+		category = decisions
+		cost = {
+			unity = 5000
+			alloys = 10000
+			minerals = 15000
+			energy = 40000
+			rare_crystals = 3000
+			exotic_gases = 2000
+			volatile_motes = 2000
+			influence = 75
+		}
+	}
+
+	potential = {
+		owner = { is_hive_empire = yes }
+		NOT = { has_deposit = pme_d_hive_orbital_colonies }
+	}
+
+	allow = {
+		sapient_pop_amount > 8000
+		NOT = { has_deposit = pme_d_hive_orbital_colonies }
+	}
+
+	effect = {
+		add_deposit = pme_d_hive_orbital_colonies
+	}
+
+	ai_weight = {
+		weight = 10
+	}
+
+}
+
+#######################
+### Fleet Decisions ###
+#######################
+
+decision_pme_fleet_academy = {
+	owned_planets_only = yes
+	sound = event_administrative_work
+	prerequisites = {
+		 "tech_pme_advanced_planetary_mega_engineering" 
+	}
+	icon = decision_pme_fleet_academy
+	enactment_time = 640
+
+	resources = {
+		category = decisions
+		cost = {
+			unity = 5000
+			alloys = 10000
+			minerals = 10000
+			energy = 50000
+			rare_crystals = 1500
+			exotic_gases = 1000
+			volatile_motes = 1500
+			influence = 75
+		}
+
+	}
+
+	potential = {
+		owner = { is_regular_empire = yes }
+		NOT = { has_deposit = pme_d_fleet_academy }
+	}
+
+	allow = {
+		sapient_pop_amount > 7500
+		NOT = { has_deposit = pme_d_fleet_academy }
+	}
+
+	effect = {
+		add_deposit = pme_d_fleet_academy
+	}
+
+	ai_weight = {
+		weight = 10
+	}
+
+}
+
+decision_pme_machine_fleet_coordination_systems = {
+	owned_planets_only = yes
+	sound = event_administrative_work
+	prerequisites = {
+		 "tech_pme_advanced_planetary_mega_engineering" 
+	}
+	icon = decision_pme_machine_fleet_coordination_systems
+	enactment_time = 640
+
+	resources = {
+		category = decisions
+		cost = {
+			unity = 5000
+			alloys = 10000
+			minerals = 10000
+			energy = 50000
+			rare_crystals = 1500
+			exotic_gases = 1000
+			volatile_motes = 1500
+			influence = 75
+		}
+
+	}
+
+	potential = {
+		owner = { is_machine_empire = yes }
+		NOT = { has_deposit = pme_d_machine_fleet_coordination_systems }
+	}
+
+	allow = {
+		sapient_pop_amount > 7500
+		NOT = { has_deposit = pme_d_machine_fleet_coordination_systems }
+	}
+
+	effect = {
+		add_deposit = pme_d_machine_fleet_coordination_systems
+	}
+
+	ai_weight = {
+		weight = 10
+	}
+
+}
+
+decision_pme_hive_fleet_coordination_nexus = {
+	owned_planets_only = yes
+	sound = event_administrative_work
+	prerequisites = {
+		 "tech_pme_advanced_planetary_mega_engineering" 
+	}
+	icon = decision_pme_hive_fleet_coordination_nexus
+	enactment_time = 640
+
+	resources = {
+		category = decisions
+		cost = {
+			unity = 5000
+			alloys = 10000
+			minerals = 10000
+			energy = 50000
+			rare_crystals = 1500
+			exotic_gases = 1000
+			volatile_motes = 1500
+			influence = 75
+		}
+
+	}
+
+	potential = {
+		owner = { is_hive_empire = yes }
+		NOT = { has_deposit = pme_d_hive_fleet_coordination_nexus }
+	}
+
+	allow = {
+		sapient_pop_amount > 7500
+		NOT = { has_deposit = pme_d_hive_fleet_coordination_nexus }
+	}
+
+	effect = {
+		add_deposit = pme_d_hive_fleet_coordination_nexus
+	}
+
+	ai_weight = {
+		weight = 10
+	}
+
+}
+
+##########################
+### Research Decisions ###
+##########################
+
+decision_pme_university_cityscape = {
+	owned_planets_only = yes
+	sound = event_administrative_work
+	prerequisites = {
+		 "tech_pme_advanced_planetary_mega_engineering" 
+	}
+	icon = decision_pme_university_cityscape
+	enactment_time = 640
+
+	resources = {
+		category = decisions
+		cost = {
+			unity = 5000
+			alloys = 10000
+			minerals = 15000
+			energy = 35000
+			rare_crystals = 1500
+			volatile_motes = 1500
+			exotic_gases = 1500
+			influence = 75
+		}
+
+	}
+
+	potential = {
+		owner = { is_regular_empire = yes }
+		NOT = { has_deposit = pme_d_university_cityscape }
+	}
+
+	allow = {
+		sapient_pop_amount > 7500
+		NOT = { has_deposit = pme_d_university_cityscape }
+	}
+
+	effect = {
+		add_deposit = pme_d_university_cityscape
+	}
+
+	ai_weight = {
+		weight = 10
+	}
+
+}
+
+decision_pme_machine_continental_computing_system = {
+	owned_planets_only = yes
+	sound = event_administrative_work
+	prerequisites = {
+		 "tech_pme_advanced_planetary_mega_engineering" 
+	}
+	icon = decision_pme_machine_continental_computing_system
+	enactment_time = 640
+
+	resources = {
+		category = decisions
+		cost = {
+			unity = 5000
+			alloys = 10000
+			minerals = 15000
+			energy = 35000
+			rare_crystals = 1000
+			volatile_motes = 1000
+			influence = 75
+		}
+
+	}
+
+	potential = {
+		owner = { is_machine_empire = yes }
+		NOT = { has_deposit = pme_d_machine_continental_computing_system }
+	}
+
+	allow = {
+		sapient_pop_amount > 7500
+		NOT = { has_deposit = pme_d_machine_continental_computing_system }
+	}
+
+	effect = {
+		add_deposit = pme_d_machine_continental_computing_system
+	}
+
+	ai_weight = {
+		weight = 10
+	}
+
+}
+
+decision_pme_hive_collective_computing_consciousness = {
+	owned_planets_only = yes
+	sound = event_administrative_work
+	prerequisites = {
+		 "tech_pme_advanced_planetary_mega_engineering" 
+	}
+	icon = decision_pme_hive_collective_computing_consciousness
+	enactment_time = 640
+
+	resources = {
+		category = decisions
+		cost = {
+			unity = 5000
+			alloys = 10000
+			minerals = 15000
+			energy = 35000
+			rare_crystals = 1500
+			volatile_motes = 1500
+			exotic_gases = 1500
+			influence = 75
+		}
+
+	}
+
+	potential = {
+		owner = { is_hive_empire = yes }
+		NOT = { has_deposit = pme_d_hive_collective_computing_consciousness }
+	}
+
+	allow = {
+		sapient_pop_amount > 7500
+		NOT = { has_deposit = pme_d_hive_collective_computing_consciousness }
+	}
+
+	effect = {
+		add_deposit = pme_d_hive_collective_computing_consciousness
+	}
+
+	ai_weight = {
+		weight = 10
+	}
+
+}
+
+##############################
+### Resort/Unity Decisions ###
+##############################
+
+decision_pme_resort_archipelago = {
+	owned_planets_only = yes
+	sound = event_administrative_work
+	prerequisites = {
+		 "tech_pme_advanced_planetary_mega_engineering" 
+	}
+	icon = decision_pme_resort_archipelago
+	enactment_time = 640
+
+	resources = {
+		category = decisions
+		cost = {
+			unity = 5000
+			alloys = 10000
+			minerals = 10000
+			energy = 40000
+			rare_crystals = 1000
+			exotic_gases = 2000
+			volatile_motes = 500
+			influence = 75
+		}
+
+	}
+
+	potential = {
+		owner = { is_regular_empire = yes }
+		NOT = { has_deposit = pme_d_resort_archipelago }
+	}
+
+	allow = {
+		sapient_pop_amount > 7500
+		NOT = { has_deposit = pme_d_resort_archipelago }
+	}
+
+	effect = {
+		add_deposit = pme_d_resort_archipelago
+	}
+
+	ai_weight = {
+		weight = 10
+	}
+
+}
+
+decision_pme_machine_planetwide_software_standardization_network = {
+	owned_planets_only = yes
+	sound = event_administrative_work
+	prerequisites = {
+		 "tech_pme_advanced_planetary_mega_engineering" 
+	}
+	icon = decision_pme_machine_planetwide_software_standardization_network
+	enactment_time = 640
+
+	resources = {
+		category = decisions
+		cost = {
+			unity = 5000
+			alloys = 10000
+			minerals = 10000
+			energy = 40000
+			rare_crystals = 1000
+			exotic_gases = 1000
+			volatile_motes = 500
+			influence = 75
+		}
+
+	}
+
+	potential = {
+		owner = { is_machine_empire = yes }
+		NOT = { has_deposit = pme_d_machine_planetwide_software_standardization_network }
+	}
+
+	allow = {
+		sapient_pop_amount > 7500
+		NOT = { has_deposit = pme_d_machine_planetwide_software_standardization_network }
+	}
+
+	effect = {
+		add_deposit = pme_d_machine_planetwide_software_standardization_network
+	}
+
+	ai_weight = {
+		weight = 10
+	}
+
+}
+
+decision_pme_hive_consciousness_synchronization_lattice = {
+	owned_planets_only = yes
+	sound = event_administrative_work
+	prerequisites = {
+		 "tech_pme_advanced_planetary_mega_engineering" 
+	}
+	icon = decision_pme_hive_consciousness_synchronization_lattice
+	enactment_time = 640
+
+	resources = {
+		category = decisions
+		cost = {
+			unity = 5000
+			alloys = 10000
+			minerals = 10000
+			energy = 40000
+			rare_crystals = 1000
+			exotic_gases = 2000
+			volatile_motes = 500
+			influence = 75
+		}
+
+	}
+
+	potential = {
+		owner = { is_hive_empire = yes }
+		NOT = { has_deposit = pme_d_hive_consciousness_synchronization_lattice }
+	}
+
+	allow = {
+		sapient_pop_amount > 7500
+		NOT = { has_deposit = pme_d_hive_consciousness_synchronization_lattice }
+	}
+
+	effect = {
+		add_deposit = pme_d_hive_consciousness_synchronization_lattice
+	}
+
+	ai_weight = {
+		weight = 10
+	}
+
+}
+
+######################################
+### Deep Mantle Exotic Hyperforges ###
+######################################
+
+decision_pme_deep_mantle_exotic_hyperforge = {
+	owned_planets_only = yes
+	sound = event_administrative_work
+	prerequisites = {
+		 "tech_pme_advanced_planetary_mega_engineering" 
+	}
+	icon = decision_pme_deep_mantle_exotic_hyperforge
+	enactment_time = 640
+
+	resources = {
+		category = decisions
+		cost = {
+			unity = 5000
+			alloys = 12500
+			minerals = 15000
+			energy = 40000
+			rare_crystals = 3000
+			exotic_gases = 2000
+			volatile_motes = 2000
+			influence = 75
+		}
+
+	}
+
+	potential = {
+		owner = { is_regular_empire = yes }
+		NOT = { has_deposit = pme_d_deep_mantle_exotic_hyperforge }
+	}
+
+	allow = {
+		sapient_pop_amount > 8000
+		NOT = { has_deposit = pme_d_deep_mantle_exotic_hyperforge }
+	}
+
+	effect = {
+		add_deposit = pme_d_deep_mantle_exotic_hyperforge
+	}
+
+	ai_weight = {
+		weight = 10
+	}
+
+}
+
+decision_pme_machine_deep_mantle_exotic_hyperforge = {
+	owned_planets_only = yes
+	sound = event_administrative_work
+	prerequisites = {
+		 "tech_pme_advanced_planetary_mega_engineering" 
+	}
+	icon = decision_pme_machine_deep_mantle_exotic_hyperforge
+	enactment_time = 640
+
+	resources = {
+		category = decisions
+		cost = {
+			unity = 5000
+			alloys = 12500
+			minerals = 15000
+			energy = 40000
+			rare_crystals = 3000
+			exotic_gases = 2000
+			volatile_motes = 2000
+			influence = 75
+		}
+
+	}
+
+	potential = {
+		owner = { is_machine_empire = yes }
+		NOT = { has_deposit = pme_d_machine_deep_mantle_exotic_hyperforge }
+	}
+
+	allow = {
+		sapient_pop_amount > 8000
+		NOT = { has_deposit = pme_d_machine_deep_mantle_exotic_hyperforge }
+	}
+
+	effect = {
+		add_deposit = pme_d_machine_deep_mantle_exotic_hyperforge
+	}
+
+	ai_weight = {
+		weight = 10
+	}
+
+}
+
+decision_pme_hive_deep_mantle_exotic_hyperforge = {
+	owned_planets_only = yes
+	sound = event_administrative_work
+	prerequisites = {
+		 "tech_pme_advanced_planetary_mega_engineering" 
+	}
+	icon = decision_pme_hive_deep_mantle_exotic_hyperforge
+	enactment_time = 640
+
+	resources = {
+		category = decisions
+		cost = {
+			unity = 5000
+			alloys = 12500
+			minerals = 15000
+			energy = 40000
+			rare_crystals = 3000
+			exotic_gases = 2000
+			volatile_motes = 2000
+			influence = 75
+		}
+
+	}
+
+	potential = {
+		owner = { is_hive_empire = yes }
+		NOT = { has_deposit = pme_d_hive_deep_mantle_exotic_hyperforge }
+	}
+
+	allow = {
+		sapient_pop_amount > 8000
+		NOT = { has_deposit = pme_d_hive_deep_mantle_exotic_hyperforge }
+	}
+
+	effect = {
+		add_deposit = pme_d_hive_deep_mantle_exotic_hyperforge
+	}
+
+	ai_weight = {
+		weight = 10
+	}
+
+}
+
+############################
+### Gaia World Decisions ###
+############################
+
+decision_pme_gaia_biosphere_preservation_webbing = {
+	owned_planets_only = yes
+	sound = event_administrative_work
+	prerequisites = {
+		 "tech_pme_specialized_planetary_mega_engineering" 
+	}
+	icon = decision_pme_gaia_biosphere_preservation_webbing
+	enactment_time = 640
+
+	resources = {
+		category = decisions
+		cost = {
+			unity = 5000
+			alloys = 10000
+			minerals = 15000
+			energy = 35000
+			rare_crystals = 1000
+			exotic_gases = 3000
+			volatile_motes = 500
+			influence = 75
+		}
+
+	}
+
+	potential = {
+		pme_is_gaia_planet = yes
+		owner = { is_regular_empire = yes }
+		NOT = { has_deposit = pme_d_gaia_biosphere_preservation_webbing }
+	}
+
+	allow = {
+		pme_is_gaia_planet = yes
+		sapient_pop_amount > 8000
+		NOT = { has_deposit = pme_d_gaia_biosphere_preservation_webbing }
+	}
+
+	effect = {
+		add_deposit = pme_d_gaia_biosphere_preservation_webbing
+	}
+
+	ai_weight = {
+		weight = 10
+	}
+
+}
+
+decision_pme_hive_gaia_biosphere_preservation_webbing = {
+	owned_planets_only = yes
+	sound = event_administrative_work
+	prerequisites = {
+		 "tech_pme_specialized_planetary_mega_engineering" 
+	}
+	icon = decision_pme_hive_gaia_biosphere_preservation_webbing
+	enactment_time = 640
+
+	resources = {
+		category = decisions
+		cost = {
+			unity = 5000
+			alloys = 10000
+			minerals = 15000
+			energy = 35000
+			rare_crystals = 1000
+			exotic_gases = 3000
+			volatile_motes = 500
+			influence = 75
+		}
+
+	}
+
+	potential = {
+		pme_is_gaia_planet = yes
+		owner = { is_hive_empire = yes }
+		NOT = { has_deposit = pme_d_hive_gaia_biosphere_preservation_webbing }
+	}
+
+	allow = {
+		pme_is_gaia_planet = yes
+		sapient_pop_amount > 8000
+		NOT = { has_deposit = pme_d_hive_gaia_biosphere_preservation_webbing }
+	}
+
+	effect = {
+		add_deposit = pme_d_hive_gaia_biosphere_preservation_webbing
+	}
+
+	ai_weight = {
+		weight = 10
+	}
+
+}
+
+
+
+####################################
+###### Intermediate Decisions ######
+####################################
+
+
+
+######################
+### Space Elevator ###
+######################
+
+decision_pme_space_elevator = {
+	owned_planets_only = yes
+	sound = event_administrative_work
+	prerequisites = {
+		 "tech_pme_intermediate_economic_planetary_mega_engineering" 
+	}
+	icon = decision_pme_space_elevator
+	enactment_time = 640
+
+	resources = {
+		category = decisions
+		cost = {
+			alloys = 7500
+			minerals = 15000
+			energy = 30000
+			rare_crystals = 2500
+			influence = 50
+		}
+
+	}
+
+	potential = {
+		owner = { is_regular_empire = yes }
+		NOT = { has_deposit = pme_d_space_elevator }
+	}
+
+	allow = {
+		sapient_pop_amount > 5000
+		NOT = { has_deposit = pme_d_space_elevator }
+	}
+
+	effect = {
+		add_deposit = pme_d_space_elevator
+	}
+
+	ai_weight = {
+		weight = 10
+	}
+
+}
+
+decision_pme_machine_space_elevator = {
+	owned_planets_only = yes
+	sound = event_administrative_work
+	prerequisites = {
+		 "tech_pme_intermediate_economic_planetary_mega_engineering" 
+	}
+	icon = decision_pme_machine_space_elevator
+	enactment_time = 640
+
+	resources = {
+		category = decisions
+		cost = {
+			alloys = 7500
+			minerals = 15000
+			energy = 30000
+			rare_crystals = 2500
+			influence = 50
+		}
+
+	}
+
+	potential = {
+		owner = { is_machine_empire = yes }
+		NOT = { has_deposit = pme_d_machine_space_elevator }
+	}
+
+	allow = {
+		sapient_pop_amount > 5000
+		NOT = { has_deposit = pme_d_machine_space_elevator }
+	}
+
+	effect = {
+		add_deposit = pme_d_machine_space_elevator
+	}
+
+	ai_weight = {
+		weight = 10
+	}
+
+}
+
+decision_pme_hive_space_elevator = {
+	owned_planets_only = yes
+	sound = event_administrative_work
+	prerequisites = {
+		 "tech_pme_intermediate_economic_planetary_mega_engineering" 
+	}
+	icon = decision_pme_hive_space_elevator
+	enactment_time = 640
+
+	resources = {
+		category = decisions
+		cost = {
+			alloys = 7500
+			minerals = 15000
+			energy = 30000
+			rare_crystals = 2500
+			influence = 50
+		}
+
+	}
+
+	potential = {
+		owner = { is_hive_empire = yes }
+		NOT = { has_deposit = pme_d_hive_space_elevator }
+	}
+
+	allow = {
+		sapient_pop_amount > 5000
+		NOT = { has_deposit = pme_d_hive_space_elevator }
+	}
+
+	effect = {
+		add_deposit = pme_d_hive_space_elevator
+	}
+
+	ai_weight = {
+		weight = 10
+	}
+
+}
+
+##############################
+### Prison/Crime Reduction ###
+##############################
+
+decision_pme_supermax_prison_rehab = {
+	owned_planets_only = yes
+	sound = event_administrative_work
+	prerequisites = {
+		 "tech_pme_intermediate_governmental_planetary_mega_engineering" 
+	}
+	icon = decision_pme_supermax_prison_rehab
+	enactment_time = 540
+
+	resources = {
+		category = decisions
+		cost = {
+			alloys = 7500
+			minerals = 10000
+			energy = 20000
+			rare_crystals = 2000
+			exotic_gases = 1000
+			volatile_motes = 500
+			influence = 50
+		}
+
+	}
+
+	potential = {
+		owner = { is_regular_empire = yes }
+		NOT = { has_deposit = pme_d_supermax_prison_rehab }
+	}
+
+	allow = {
+		sapient_pop_amount > 5000
+		NOT = { has_deposit = pme_d_supermax_prison_rehab }
+	}
+
+	effect = {
+		add_deposit = pme_d_supermax_prison_rehab
+	}
+
+	ai_weight = {
+		weight = 10
+	}
+
+}
+
+decision_pme_machine_drone_reprogramming_center = {
+	owned_planets_only = yes
+	sound = event_administrative_work
+	prerequisites = {
+		 "tech_pme_intermediate_governmental_planetary_mega_engineering" 
+	}
+	icon = decision_pme_machine_drone_reprogramming_center
+	enactment_time = 540
+
+	resources = {
+		category = decisions
+		cost = {
+			alloys = 7500
+			minerals = 10000
+			energy = 20000
+			rare_crystals = 2000
+			exotic_gases = 1000
+			volatile_motes = 500
+			influence = 50
+		}
+
+	}
+
+	potential = {
+		owner = { is_machine_empire = yes }
+		NOT = { has_deposit = pme_d_machine_drone_reprogramming_center }
+	}
+
+	allow = {
+		sapient_pop_amount > 5000
+		NOT = { has_deposit = pme_d_machine_drone_reprogramming_center }
+	}
+
+	effect = {
+		add_deposit = pme_d_machine_drone_reprogramming_center
+	}
+
+	ai_weight = {
+		weight = 10
+	}
+
+}
+
+decision_pme_hive_neural_regulation_nexus = {
+	owned_planets_only = yes
+	sound = event_administrative_work
+	prerequisites = {
+		 "tech_pme_intermediate_governmental_planetary_mega_engineering" 
+	}
+	icon = decision_pme_hive_neural_regulation_nexus
+	enactment_time = 540
+
+	resources = {
+		category = decisions
+		cost = {
+			alloys = 7500
+			minerals = 10000
+			energy = 20000
+			rare_crystals = 2000
+			exotic_gases = 1000
+			volatile_motes = 500
+			influence = 50
+		}
+
+	}
+
+	potential = {
+		owner = { is_hive_empire = yes }
+		NOT = { has_deposit = pme_d_hive_neural_regulation_nexus }
+	}
+
+	allow = {
+		sapient_pop_amount > 5000
+		NOT = { has_deposit = pme_d_hive_neural_regulation_nexus }
+	}
+
+	effect = {
+		add_deposit = pme_d_hive_neural_regulation_nexus
+	}
+
+	ai_weight = {
+		weight = 10
+	}
+
+}
+
+###########################
+### Pop Growth/Assembly ###
+###########################
+
+decision_pme_interstellar_hospital = {
+	owned_planets_only = yes
+	sound = event_administrative_work
+	prerequisites = {
+		 "tech_pme_intermediate_governmental_planetary_mega_engineering" 
+	}
+	icon = decision_pme_interstellar_hospital
+	enactment_time = 540
+
+	resources = {
+		category = decisions
+		cost = {
+			alloys = 7500
+			minerals = 10000
+			energy = 20000
+			rare_crystals = 2000
+			exotic_gases = 2000
+			volatile_motes = 500
+			influence = 50
+		}
+
+	}
+
+	potential = {
+		owner = { is_regular_empire = yes }
+		NOT = { has_deposit = pme_d_interstellar_hospital }
+		NOT = { owner = { is_individual_machine = yes } }
+	}
+
+	allow = {
+		sapient_pop_amount > 5000
+		NOT = { has_deposit = pme_d_interstellar_hospital }
+	}
+
+	effect = {
+		add_deposit = pme_d_interstellar_hospital
+	}
+
+	ai_weight = {
+		weight = 10
+	}
+
+}
+
+decision_pme_machine_auxiliary_assembly_centers = {
+	owned_planets_only = yes
+	sound = event_administrative_work
+	prerequisites = { 
+		"tech_pme_intermediate_governmental_planetary_mega_engineering" 
+	}
+	icon = decision_pme_machine_auxiliary_assembly_centers
+	enactment_time = 540
+
+	resources = {
+		category = decisions
+		cost = {
+			alloys = 7500
+			minerals = 10000
+			energy = 20000
+			rare_crystals = 2000
+			exotic_gases = 2000
+			volatile_motes = 500
+			influence = 50
+		}
+
+	}
+
+	potential = {
+		OR = {
+		owner = { is_machine_empire = yes }
+		owner = { is_individual_machine = yes }
+		}
+		NOT = { has_deposit = pme_d_machine_auxiliary_assembly_centers }
+	}
+
+	allow = {
+		sapient_pop_amount > 5000
+		NOT = { has_deposit = pme_d_machine_auxiliary_assembly_centers }
+	}
+
+	effect = {
+		add_deposit = pme_d_machine_auxiliary_assembly_centers
+	}
+
+	ai_weight = {
+		weight = 10
+	}
+
+}
+
+decision_pme_hive_supplemental_breeding_pools = {
+	owned_planets_only = yes
+	sound = event_administrative_work
+	prerequisites = {
+		 "tech_pme_intermediate_governmental_planetary_mega_engineering" 
+	}
+	icon = decision_pme_hive_supplemental_breeding_pools
+	enactment_time = 540
+
+	resources = {
+		category = decisions
+		cost = {
+			alloys = 7500
+			minerals = 10000
+			energy = 20000
+			rare_crystals = 2000
+			exotic_gases = 2000
+			volatile_motes = 500
+			influence = 50
+		}
+
+	}
+
+	potential = {
+		owner = { is_hive_empire = yes }
+		NOT = { has_deposit = pme_d_hive_supplemental_breeding_pools }
+	}
+
+	allow = {
+		sapient_pop_amount > 5000
+		NOT = { has_deposit = pme_d_hive_supplemental_breeding_pools }
+	}
+
+	effect = {
+		add_deposit = pme_d_hive_supplemental_breeding_pools
+	}
+
+	ai_weight = {
+		weight = 10
+	}
+
+}
+
+#############################
+### Trade Value Decisions ###
+#############################
+
+decision_pme_corporate_megacampus = {
+	owned_planets_only = yes
+	sound = event_administrative_work
+	prerequisites = {
+		 "tech_pme_intermediate_economic_planetary_mega_engineering" 
+	}
+	icon = decision_pme_corporate_megacampus
+	enactment_time = 560
+
+	resources = {
+		category = decisions
+		cost = {
+			alloys = 7500
+			minerals = 10000
+			energy = 20000
+			rare_crystals = 2000
+			exotic_gases = 500
+			volatile_motes = 1000
+			influence = 50
+		}
+
+	}
+
+	potential = {
+		owner = { is_regular_empire = yes }
+		NOT = { has_deposit = pme_d_corporate_megacampus }
+	}
+
+	allow = {
+		sapient_pop_amount > 5000
+		NOT = { has_deposit = pme_d_corporate_megacampus }
+	}
+
+	effect = {
+		add_deposit = pme_d_corporate_megacampus
+	}
+
+	ai_weight = {
+		weight = 10
+	}
+
+}
+
+#######################
+### Alloy Decisions ###
+#######################
+
+decision_pme_subsurface_megaforges = {
+	owned_planets_only = yes
+	sound = event_administrative_work
+	prerequisites = {
+		 "tech_pme_intermediate_industrial_planetary_mega_engineering" 
+	}
+	icon = decision_pme_subsurface_megaforges
+	enactment_time = 560
+
+	resources = {
+		category = decisions
+		cost = {
+			alloys = 7500
+			minerals = 10000
+			energy = 20000
+			rare_crystals = 1000
+			volatile_motes = 1000
+			influence = 50
+		}
+
+	}
+
+	potential = {
+		owner = { is_regular_empire = yes }
+		NOT = { has_deposit = pme_d_subsurface_megaforges }
+	}
+
+	allow = {
+		sapient_pop_amount > 4000
+		NOT = { has_deposit = pme_d_subsurface_megaforges }
+	}
+
+	effect = {
+		add_deposit = pme_d_subsurface_megaforges
+	}
+
+	ai_weight = {
+		weight = 10
+	}
+
+}
+
+decision_pme_machine_subsurface_megaforges = {
+	owned_planets_only = yes
+	sound = event_administrative_work
+	prerequisites = {
+		 "tech_pme_intermediate_industrial_planetary_mega_engineering" 
+	}
+	icon = decision_pme_machine_subsurface_megaforges
+	enactment_time = 560
+
+	resources = {
+		category = decisions
+		cost = {
+			alloys = 7500
+			minerals = 10000
+			energy = 20000
+			rare_crystals = 1000
+			volatile_motes = 1000
+			influence = 50
+		}
+
+	}
+
+	potential = {
+		owner = { is_machine_empire = yes }
+		NOT = { has_deposit = pme_d_machine_subsurface_megaforges }
+	}
+
+	allow = {
+		sapient_pop_amount > 4000
+		NOT = { has_deposit = pme_d_machine_subsurface_megaforges }
+	}
+
+	effect = {
+		add_deposit = pme_d_machine_subsurface_megaforges
+	}
+
+	ai_weight = {
+		weight = 10
+	}
+
+}
+
+decision_pme_hive_subsurface_megaforges = {
+	owned_planets_only = yes
+	sound = event_administrative_work
+	prerequisites = {
+		 "tech_pme_intermediate_industrial_planetary_mega_engineering" 
+	}
+	icon = decision_pme_hive_subsurface_megaforges
+	enactment_time = 560
+
+	resources = {
+		category = decisions
+		cost = {
+			alloys = 7500
+			minerals = 10000
+			energy = 20000
+			rare_crystals = 1000
+			volatile_motes = 1000
+			influence = 50
+		}
+
+	}
+
+	potential = {
+		owner = { is_hive_empire = yes }
+		NOT = { has_deposit = pme_d_hive_subsurface_megaforges }
+	}
+
+	allow = {
+		sapient_pop_amount > 4000
+		NOT = { has_deposit = pme_d_hive_subsurface_megaforges }
+	}
+
+	effect = {
+		add_deposit = pme_d_hive_subsurface_megaforges
+	}
+
+	ai_weight = {
+		weight = 10
+	}
+
+}
+
+################################
+### Consumer Goods Decisions ###
+################################
+
+decision_pme_orbital_superfactory = {
+	owned_planets_only = yes
+	sound = event_administrative_work
+	prerequisites = {
+		 "tech_pme_intermediate_industrial_planetary_mega_engineering" 
+	}
+	icon = decision_pme_orbital_superfactory
+	enactment_time = 560
+
+	resources = {
+		category = decisions
+		cost = {
+			alloys = 7500
+			minerals = 10000
+			energy = 20000
+			rare_crystals = 1000
+			volatile_motes = 1000
+			influence = 50
+		}
+
+	}
+
+	potential = {
+		owner = { is_regular_empire = yes }
+		NOT = { has_deposit = pme_d_orbital_superfactory }
+	}
+
+	allow = {
+		sapient_pop_amount > 4000
+		NOT = { has_deposit = pme_d_orbital_superfactory }
+	}
+
+	effect = {
+		add_deposit = pme_d_orbital_superfactory
+	}
+
+	ai_weight = {
+		weight = 10
+	}
+
+}
+
+##########################################
+### Basic Strategic Resource Decisions ###
+##########################################
+
+decision_pme_chemical_hazardous_goods = {
+	owned_planets_only = yes
+	sound = event_administrative_work
+	prerequisites = {
+		 "tech_pme_intermediate_industrial_planetary_mega_engineering" 
+	}
+	icon = decision_pme_chemical_hazardous_goods
+	enactment_time = 560
+
+	resources = {
+		category = decisions
+		cost = {
+			alloys = 10000
+			minerals = 10000
+			energy = 20000
+			rare_crystals = 1500
+			exotic_gases = 1500
+			volatile_motes = 1500
+			influence = 50
+		}
+	}
+
+	potential = {
+		owner = { is_regular_empire = yes }
+		NOT = { has_deposit = pme_d_chemical_hazardous_goods }
+	}
+
+	allow = {
+		sapient_pop_amount > 4000
+		NOT = { has_deposit = pme_d_chemical_hazardous_goods }
+	}
+
+	effect = {
+		add_deposit = pme_d_chemical_hazardous_goods
+	}
+
+	ai_weight = {
+		weight = 10
+	}
+
+
+}
+
+decision_pme_machine_chemical_hazardous_goods = {
+	owned_planets_only = yes
+	sound = event_administrative_work
+	prerequisites = {
+		 "tech_pme_intermediate_industrial_planetary_mega_engineering" 
+	}
+	icon = decision_pme_machine_chemical_hazardous_goods
+	enactment_time = 560
+
+	resources = {
+		category = decisions
+		cost = {
+			alloys = 10000
+			minerals = 10000
+			energy = 20000
+			rare_crystals = 1500
+			exotic_gases = 1500
+			volatile_motes = 1500
+			influence = 50
+		}
+	}
+
+	potential = {
+		owner = { is_machine_empire = yes }
+		NOT = { has_deposit = pme_d_machine_chemical_hazardous_goods }
+	}
+
+	allow = {
+		sapient_pop_amount > 4000
+		NOT = { has_deposit = pme_d_machine_chemical_hazardous_goods }
+	}
+
+	effect = {
+		add_deposit = pme_d_machine_chemical_hazardous_goods
+	}
+
+	ai_weight = {
+		weight = 10
+	}
+
+
+}
+
+decision_pme_hive_chemical_hazardous_goods = {
+	owned_planets_only = yes
+	sound = event_administrative_work
+	prerequisites = {
+		 "tech_pme_intermediate_industrial_planetary_mega_engineering" 
+	}
+	icon = decision_pme_hive_chemical_hazardous_goods
+	enactment_time = 560
+
+	resources = {
+		category = decisions
+		cost = {
+			alloys = 10000
+			minerals = 10000
+			energy = 20000
+			rare_crystals = 1500
+			exotic_gases = 1500
+			volatile_motes = 1500
+			influence = 50
+		}
+	}
+
+	potential = {
+		owner = { is_hive_empire = yes }
+		NOT = { has_deposit = pme_d_hive_chemical_hazardous_goods }
+	}
+
+	allow = {
+		sapient_pop_amount > 4000
+		NOT = { has_deposit = pme_d_hive_chemical_hazardous_goods }
+	}
+
+	effect = {
+		add_deposit = pme_d_hive_chemical_hazardous_goods
+	}
+
+	ai_weight = {
+		weight = 10
+	}
+
+
+}
+
+#################################
+### Orbital Defense Decisions ###
+#################################
+
+decision_pme_orbital_defense_grid = {
+	owned_planets_only = yes
+	sound = event_administrative_work
+	prerequisites = {
+		 "tech_pme_intermediate_defensive_planetary_mega_engineering" 
+	}
+	icon = decision_pme_orbital_defense_grid
+	enactment_time = 560
+
+	resources = {
+		category = decisions
+		cost = {
+			alloys = 7500
+			minerals = 10000
+			energy = 20000
+			rare_crystals = 1000
+			volatile_motes = 2000
+			influence = 50
+		}
+
+	}
+
+	potential = {
+		owner = { is_regular_empire = yes }
+		NOT = { has_deposit = pme_d_orbital_defense_grid }
+	}
+
+	allow = {
+		sapient_pop_amount > 4000
+		NOT = { has_deposit = pme_d_orbital_defense_grid }
+	}
+
+	effect = {
+		add_deposit = pme_d_orbital_defense_grid
+	}
+
+	ai_weight = {
+		weight = 10
+	}
+
+}
+
+decision_pme_machine_orbital_defense_grid = {
+	owned_planets_only = yes
+	sound = event_administrative_work
+	prerequisites = {
+		 "tech_pme_intermediate_defensive_planetary_mega_engineering" 
+	}
+	icon = decision_pme_machine_orbital_defense_grid
+	enactment_time = 560
+
+	resources = {
+		category = decisions
+		cost = {
+			alloys = 7500
+			minerals = 10000
+			energy = 20000
+			rare_crystals = 1000
+			volatile_motes = 2000
+			influence = 50
+		}
+
+	}
+
+	potential = {
+		owner = { is_machine_empire = yes }
+		NOT = { has_deposit = pme_d_machine_orbital_defense_grid }
+	}
+
+	allow = {
+		sapient_pop_amount > 4000
+		NOT = { has_deposit = pme_d_machine_orbital_defense_grid }
+	}
+
+	effect = {
+		add_deposit = pme_d_machine_orbital_defense_grid
+	}
+
+	ai_weight = {
+		weight = 10
+	}
+
+}
+
+decision_pme_hive_orbital_defense_grid = {
+	owned_planets_only = yes
+	sound = event_administrative_work
+	prerequisites = {
+		 "tech_pme_intermediate_defensive_planetary_mega_engineering" 
+	}
+	icon = decision_pme_hive_orbital_defense_grid
+	enactment_time = 560
+
+	resources = {
+		category = decisions
+		cost = {
+			alloys = 7500
+			minerals = 10000
+			energy = 20000
+			rare_crystals = 1000
+			volatile_motes = 2000
+			influence = 50
+		}
+
+	}
+
+	potential = {
+		owner = { is_hive_empire = yes }
+		NOT = { has_deposit = pme_d_hive_orbital_defense_grid }
+	}
+
+	allow = {
+		sapient_pop_amount > 4000
+		NOT = { has_deposit = pme_d_hive_orbital_defense_grid }
+	}
+
+	effect = {
+		add_deposit = pme_d_hive_orbital_defense_grid
+	}
+
+	ai_weight = {
+		weight = 10
+	}
+
+}
+
+
+
+###################################
+###### Rudiemntary Decisions ######
+###################################
+
+
+
+########################
+### Maglev Decisions ###
+########################
+
+decision_pme_worldwide_maglev = {
+	owned_planets_only = yes
+	sound = event_administrative_work
+	prerequisites = {
+		 "tech_pme_rudimentary_planetary_mega_engineering" 
+	}
+	icon = decision_pme_worldwide_maglev
+	enactment_time = 480
+
+	resources = {
+		category = decisions
+		cost = {
+			alloys = 5000
+			minerals = 10000
+			energy = 15000
+			rare_crystals = 1000
+			volatile_motes = 1000
+			influence = 25
+		}
+
+	}
+
+	potential = {
+		owner = { is_regular_empire = yes }
+		NOT = { has_deposit = pme_d_worldwide_maglev }
+	}
+
+	allow = {
+		sapient_pop_amount > 2500
+	}
+
+	effect = {
+		add_deposit = pme_d_worldwide_maglev
+		NOT = { has_deposit = pme_d_worldwide_maglev }
+	}
+
+	ai_weight = {
+		weight = 10
+	}
+
+}
+
+decision_pme_machine_worldwide_maglev = {
+	owned_planets_only = yes
+	sound = event_administrative_work
+	prerequisites = {
+		 "tech_pme_rudimentary_planetary_mega_engineering" 
+	}
+	icon = decision_pme_machine_worldwide_maglev
+	enactment_time = 480
+
+	resources = {
+		category = decisions
+		cost = {
+			alloys = 5000
+			minerals = 10000
+			energy = 15000
+			rare_crystals = 1000
+			volatile_motes = 1000
+			influence = 25
+		}
+
+	}
+
+	potential = {
+		owner = { is_machine_empire = yes }
+		NOT = { has_deposit = pme_d_machine_worldwide_maglev }
+	}
+
+	allow = {
+		sapient_pop_amount > 2500
+		NOT = { has_deposit = pme_d_machine_worldwide_maglev }
+	}
+
+	effect = {
+		add_deposit = pme_d_machine_worldwide_maglev
+	}
+
+	ai_weight = {
+		weight = 10
+	}
+
+}
+
+decision_pme_hive_worldwide_maglev = {
+	owned_planets_only = yes
+	sound = event_administrative_work
+	prerequisites = {
+		 "tech_pme_rudimentary_planetary_mega_engineering" 
+	}
+	icon = decision_pme_hive_worldwide_maglev
+	enactment_time = 480
+
+	resources = {
+		category = decisions
+		cost = {
+			alloys = 5000
+			minerals = 10000
+			energy = 15000
+			rare_crystals = 1000
+			volatile_motes = 1000
+			influence = 25
+		}
+
+	}
+
+	potential = {
+		owner = { is_hive_empire = yes }
+		NOT = { has_deposit = pme_d_hive_worldwide_maglev }
+	}
+
+	allow = {
+		sapient_pop_amount > 2500
+		NOT = { has_deposit = pme_d_hive_worldwide_maglev }
+	}
+
+	effect = {
+		add_deposit = pme_d_hive_worldwide_maglev
+	}
+
+	ai_weight = {
+		weight = 10
+	}
+
+}
+
+##################################
+### Resource Storage Decisions ###
+##################################
+
+decision_pme_polar_resource_silos = {
+	owned_planets_only = yes
+	sound = event_administrative_work
+	prerequisites = {
+		 "tech_pme_rudimentary_planetary_mega_engineering" 
+	}
+	icon = decision_pme_polar_resource_silos
+	enactment_time = 360
+
+	resources = {
+		category = decisions
+		cost = {
+			alloys = 2500
+			minerals = 5000
+			energy = 5000
+			rare_crystals = 500
+			influence = 25
+		}
+
+	}
+
+	potential = {
+		owner = { is_regular_empire = yes }
+		NOT = { has_deposit = pme_d_polar_resource_silos }
+	}
+
+	allow = {
+		sapient_pop_amount > 2000
+		NOT = { has_deposit = pme_d_polar_resource_silos }
+	}
+
+	effect = {
+		add_deposit = pme_d_polar_resource_silos
+	}
+
+	ai_weight = {
+		weight = 10
+	}
+
+}
+
+decision_pme_machine_polar_resource_silos = {
+	owned_planets_only = yes
+	sound = event_administrative_work
+	prerequisites = {
+		 "tech_pme_rudimentary_planetary_mega_engineering" 
+	}
+	icon = decision_pme_machine_polar_resource_silos
+	enactment_time = 360
+
+	resources = {
+		category = decisions
+		cost = {
+			alloys = 2500
+			minerals = 5000
+			energy = 5000
+			rare_crystals = 500
+			influence = 25
+		}
+
+	}
+
+	potential = {
+		owner = { is_machine_empire = yes }
+		NOT = { has_deposit = pme_d_machine_polar_resource_silos }
+	}
+
+	allow = {
+		sapient_pop_amount > 2000
+		NOT = { has_deposit = pme_d_machine_polar_resource_silos }
+	}
+
+	effect = {
+		add_deposit = pme_d_machine_polar_resource_silos
+	}
+
+	ai_weight = {
+		weight = 10
+	}
+
+}
+
+decision_pme_hive_polar_resource_silos = {
+	owned_planets_only = yes
+	sound = event_administrative_work
+	prerequisites = {
+		 "tech_pme_rudimentary_planetary_mega_engineering" 
+	}
+	icon = decision_pme_hive_polar_resource_silos
+	enactment_time = 360
+
+	resources = {
+		category = decisions
+		cost = {
+			alloys = 2500
+			minerals = 5000
+			energy = 5000
+			rare_crystals = 500
+			influence = 25
+		}
+
+	}
+
+	potential = {
+		owner = { is_hive_empire = yes }
+		NOT = { has_deposit = pme_d_hive_polar_resource_silos }
+	}
+
+	allow = {
+		sapient_pop_amount > 2000
+		NOT = { has_deposit = pme_d_hive_polar_resource_silos }
+	}
+
+	effect = {
+		add_deposit = pme_d_hive_polar_resource_silos
+	}
+
+	ai_weight = {
+		weight = 10
+	}
+
+}
+
+#########################
+### Mineral Decisions ###
+#########################
+
+decision_pme_mining_construction = {
+	owned_planets_only = yes
+	sound = event_administrative_work
+	prerequisites = {
+		 "tech_pme_rudimentary_planetary_mega_engineering" 
+	}
+	icon = decision_pme_mining_construction
+	enactment_time = 360
+
+	resources = {
+		category = decisions
+		cost = {
+			alloys = 5000
+			minerals = 5000
+			energy = 15000
+			rare_crystals = 500
+			volatile_motes = 1500
+			influence = 25
+		}
+
+	}
+
+	potential = {
+		owner = { is_regular_empire = yes }
+		NOT = { has_deposit = pme_d_mining_construction }
+	}
+
+	allow = {
+		sapient_pop_amount > 2500
+		NOT = { has_deposit = pme_d_mining_construction }
+	}
+
+	effect = {
+		add_deposit = pme_d_mining_construction
+	}
+
+	ai_weight = {
+		weight = 10
+	}
+
+}
+
+decision_pme_machine_system_extraction = {
+	owned_planets_only = yes
+	sound = event_administrative_work
+	prerequisites = {
+		 "tech_pme_rudimentary_planetary_mega_engineering" 
+	}
+	icon = decision_pme_machine_system_extraction
+	enactment_time = 360
+
+	resources = {
+		category = decisions
+		cost = {
+			alloys = 5000
+			minerals = 5000
+			energy = 15000
+			rare_crystals = 500
+			volatile_motes = 1500
+			influence = 25
+		}
+
+	}
+
+	potential = {
+		owner = { is_machine_empire = yes }
+		NOT = { has_deposit = pme_d_machine_system_extraction }
+	}
+
+	allow = {
+		sapient_pop_amount > 2500
+		NOT = { has_deposit = pme_d_machine_system_extraction }
+	}
+
+	effect = {
+		add_deposit = pme_d_machine_system_extraction
+	}
+
+	ai_weight = {
+		weight = 10
+	}
+
+}
+
+decision_pme_hive_mineral_extraction_warrens = {
+	owned_planets_only = yes
+	sound = event_administrative_work
+	prerequisites = {
+		 "tech_pme_rudimentary_planetary_mega_engineering" 
+	}
+	icon = decision_pme_hive_mineral_extraction_warrens
+	enactment_time = 360
+
+	resources = {
+		category = decisions
+		cost = {
+			alloys = 5000
+			minerals = 5000
+			energy = 15000
+			rare_crystals = 500
+			volatile_motes = 1500
+			influence = 25
+		}
+
+	}
+
+	potential = {
+		owner = { is_hive_empire = yes }
+		NOT = { has_deposit = pme_d_hive_mineral_extraction_warrens }
+	}
+
+	allow = {
+		sapient_pop_amount > 2500
+		NOT = { has_deposit = pme_d_hive_mineral_extraction_warrens }
+	}
+
+	effect = {
+		add_deposit = pme_d_hive_mineral_extraction_warrens 
+	}
+
+	ai_weight = {
+		weight = 10
+	}
+
+}
+
+######################
+### Food Decisions ###
+######################
+
+decision_pme_planetary_irrigation_water = {
+	owned_planets_only = yes
+	sound = event_administrative_work
+	prerequisites = {
+		 "tech_pme_rudimentary_planetary_mega_engineering" 
+	}
+	icon = decision_pme_planetary_irrigation_water
+	enactment_time = 360
+
+	resources = {
+		category = decisions
+		cost = {
+			alloys = 5000
+			minerals = 5000
+			energy = 15000
+			rare_crystals = 500
+			exotic_gases = 1500
+			influence = 25
+		}
+
+	}
+
+	potential = {
+		owner = { is_regular_empire = yes }
+		NOT = { has_deposit = pme_d_planetary_irrigation_water }
+	}
+
+	allow = {
+		sapient_pop_amount > 2500
+		NOT = { has_deposit = pme_d_planetary_irrigation_water }
+	}
+
+	effect = {
+		add_deposit = pme_d_planetary_irrigation_water
+	}
+
+	ai_weight = {
+		weight = 10
+	}
+
+}
+
+decision_pme_machine_planetary_water_processing = {
+	owned_planets_only = yes
+	sound = event_administrative_work
+	prerequisites = {
+		 "tech_pme_rudimentary_planetary_mega_engineering" 
+	}
+	icon = decision_pme_machine_planetary_water_processing
+	enactment_time = 360
+
+	resources = {
+		category = decisions
+		cost = {
+			alloys = 5000
+			minerals = 5000
+			energy = 15000
+			rare_crystals = 500
+			exotic_gases = 1500
+			influence = 25
+		}
+
+	}
+
+	potential = {
+		owner = { is_machine_empire = yes }
+		NOT = { has_deposit = pme_d_machine_planetary_water_processing }
+	}
+
+	allow = {
+		sapient_pop_amount > 2500
+		NOT = { has_deposit = pme_d_machine_planetary_water_processing }
+	}
+
+	effect = {
+		add_deposit = pme_d_machine_planetary_water_processing
+	}
+
+	ai_weight = {
+		weight = 10
+	}
+
+}
+
+decision_pme_hive_nutrient_processing_megaplant = {
+	owned_planets_only = yes
+	sound = event_administrative_work
+	prerequisites = {
+		 "tech_pme_rudimentary_planetary_mega_engineering" 
+	}
+	icon = decision_pme_hive_nutrient_processing_megaplant
+	enactment_time = 360
+
+	resources = {
+		category = decisions
+		cost = {
+			alloys = 5000
+			minerals = 5000
+			energy = 15000
+			rare_crystals = 500
+			exotic_gases = 1500
+			influence = 25
+		}
+
+	}
+
+	potential = {
+		owner = { is_hive_empire = yes }
+		NOT = { has_deposit = pme_d_hive_nutrient_processing_megaplant }
+	}
+
+	allow = {
+		sapient_pop_amount > 2500
+		NOT = { has_deposit = pme_d_hive_nutrient_processing_megaplant }
+	}
+
+	effect = {
+		add_deposit = pme_d_hive_nutrient_processing_megaplant
+	}
+
+	ai_weight = {
+		weight = 10
+	}
+
+}
+
+########################
+### Energy Decisions ###
+########################
+
+decision_pme_planetary_fusion_grid = {
+	owned_planets_only = yes
+	sound = event_administrative_work
+	prerequisites = {
+		 "tech_pme_rudimentary_planetary_mega_engineering" 
+	}
+	icon = decision_pme_planetary_fusion_grid
+	enactment_time = 360
+
+	resources = {
+		category = decisions
+		cost = {
+			alloys = 5000
+			minerals = 5000
+			energy = 15000
+			rare_crystals = 500
+			exotic_gases = 1500
+			influence = 25
+		}
+
+	}
+
+	potential = {
+		owner = { is_regular_empire = yes }
+		NOT = { has_deposit = pme_d_planetary_fusion_grid }
+	}
+
+	allow = {
+		sapient_pop_amount > 2500
+		NOT = { has_deposit = pme_d_planetary_fusion_grid }
+	}
+
+	effect = {
+		add_deposit = pme_d_planetary_fusion_grid
+	}
+
+	ai_weight = {
+		weight = 10
+	}
+
+}
+
+decision_pme_machine_planetary_fusion_grid = {
+	owned_planets_only = yes
+	sound = event_administrative_work
+	prerequisites = {
+		 "tech_pme_rudimentary_planetary_mega_engineering" 
+	}
+	icon = decision_pme_machine_planetary_fusion_grid
+	enactment_time = 360
+
+	resources = {
+		category = decisions
+		cost = {
+			alloys = 5000
+			minerals = 5000
+			energy = 15000
+			rare_crystals = 500
+			exotic_gases = 1500
+			influence = 25
+		}
+
+	}
+
+	potential = {
+		owner = { is_machine_empire = yes }
+		NOT = { has_deposit = pme_d_machine_planetary_fusion_grid }
+	}
+
+	allow = {
+		sapient_pop_amount > 2500
+		NOT = { has_deposit = pme_d_machine_planetary_fusion_grid }
+	}
+
+	effect = {
+		add_deposit = pme_d_machine_planetary_fusion_grid
+	}
+
+	ai_weight = {
+		weight = 10
+	}
+
+}
+
+decision_pme_hive_planetary_fusion_grid = {
+	owned_planets_only = yes
+	sound = event_administrative_work
+	prerequisites = {
+		 "tech_pme_rudimentary_planetary_mega_engineering" 
+	}
+	icon = decision_pme_hive_planetary_fusion_grid
+	enactment_time = 360
+
+	resources = {
+		category = decisions
+		cost = {
+			alloys = 5000
+			minerals = 5000
+			energy = 15000
+			rare_crystals = 500
+			exotic_gases = 1500
+			influence = 25
+		}
+
+	}
+
+	potential = {
+		owner = { is_hive_empire = yes }
+		NOT = { has_deposit = pme_d_hive_planetary_fusion_grid }
+	}
+
+	allow = {
+		sapient_pop_amount > 2500
+		NOT = { has_deposit = pme_d_hive_planetary_fusion_grid }
+	}
+
+	effect = {
+		add_deposit = pme_d_hive_planetary_fusion_grid
+	}
+
+	ai_weight = {
+		weight = 10
+	}
+
+}
+
+
+
+#################################
+###### Ascension Decisions ######
+#################################
+
+
+
+decision_pme_psionic_shroud_emitter = {
+	owned_planets_only = yes
+	sound = event_administrative_work
+	icon = decision_pme_psionic_shroud_emitter
+	enactment_time = 1080
+
+	prerequisites = {
+		 "tech_pme_ascendant_planetary_mega_engineering" 
+	}
+
+	resources = {
+		category = decisions
+		cost = {
+			unity = 5000
+			alloys = 12000
+			minerals = 20000
+			energy = 50000
+			rare_crystals = 2500
+			exotic_gases = 2500
+			volatile_motes = 2500
+			influence = 100
+		}
+
+	}
+
+	potential = {
+		owner = { has_tradition = tr_psionics_finish }
+		NOT = { has_deposit = pme_d_psionic_shroud_emitter }
+	}
+
+	allow = {
+		sapient_pop_amount > 7000
+		NOT = { has_deposit = pme_d_psionic_shroud_emitter }
+	}
+
+	effect = {	
+		add_deposit = pme_d_psionic_shroud_emitter
+	}
+
+	ai_weight = {
+		weight = 10
+	}
+
+}
+
+decision_pme_gene_preservation_vaults = {
+	owned_planets_only = yes
+	sound = event_administrative_work
+	prerequisites = {
+		 "tech_pme_ascendant_planetary_mega_engineering" 
+	}
+	icon = decision_pme_gene_preservation_vaults
+	enactment_time = 1080
+
+	resources = {
+		category = decisions
+		cost = {
+			unity = 5000
+			alloys = 12000
+			minerals = 20000
+			energy = 50000
+			rare_crystals = 2500
+			exotic_gases = 2500
+			volatile_motes = 2500
+			influence = 100
+		}
+
+	}
+
+	potential = {
+		OR = {
+			owner = { has_tradition = tr_mutation_finish }
+			owner = { has_tradition = tr_purity_finish }
+			owner = { has_tradition = tr_cloning_finish }
+		}
+		NOT = { has_deposit = pme_d_gene_preservation_vaults }
+	}
+
+	allow = {
+		sapient_pop_amount > 7000
+		NOT = { has_deposit = pme_d_gene_preservation_vaults }
+	}
+
+	effect = {
+		add_deposit = pme_d_gene_preservation_vaults
+	}
+
+	ai_weight = {
+		weight = 10
+	}
+
+}
+
+decision_pme_orbital_robotics_assembly_labs = {
+	owned_planets_only = yes
+	sound = event_administrative_work
+	prerequisites = {
+		 "tech_pme_ascendant_planetary_mega_engineering" 
+	}
+	icon = decision_pme_orbital_robotics_assembly_labs
+	enactment_time = 1080
+
+	resources = {
+		category = decisions
+		cost = {
+			unity = 5000
+			alloys = 12000
+			minerals = 20000
+			energy = 50000
+			rare_crystals = 2500
+			exotic_gases = 2500
+			volatile_motes = 2500
+			influence = 100
+		}
+
+	}
+
+	potential = {
+		OR = {
+			owner = { is_regular_empire = yes }
+			owner = { is_individual_machine = yes }
+		}
+		OR = {
+			owner = { has_tradition = tr_synthetics_finish }
+			owner = { has_tradition = tr_modularity_finish }
+			owner = { has_tradition = tr_nanotech_finish }
+			owner = { has_tradition = tr_virtuality_finish }
+		}
+		NOT = { has_deposit = pme_d_orbital_robotics_assembly_labs }
+	}
+
+	allow = {
+		sapient_pop_amount > 7000
+		NOT = { has_deposit = pme_d_orbital_robotics_assembly_labs }
+	}
+
+	effect = {
+		add_deposit = pme_d_orbital_robotics_assembly_labs
+	}
+
+	ai_weight = {
+		weight = 10
+	}
+
+}
+
+decision_pme_machine_orbital_robotics_assembly_labs = {
+	owned_planets_only = yes
+	sound = event_administrative_work
+	prerequisites = {
+		 "tech_pme_ascendant_planetary_mega_engineering" 
+	}
+	icon = decision_pme_orbital_robotics_assembly_labs
+	enactment_time = 1080
+
+	resources = {
+		category = decisions
+		cost = {
+			unity = 5000
+			alloys = 12000
+			minerals = 20000
+			energy = 50000
+			rare_crystals = 2500
+			exotic_gases = 2500
+			volatile_motes = 2500
+			influence = 100
+		}
+
+	}
+
+	potential = {
+		OR = {
+			owner = { has_tradition = tr_synthetics_finish }
+			owner = { has_tradition = tr_modularity_finish }
+			owner = { has_tradition = tr_nanotech_finish }
+			owner = { has_tradition = tr_virtuality_finish }
+		}
+		owner = { is_machine_empire = yes }
+		NOT = { has_deposit = pme_d_machine_orbital_robotics_assembly_labs }
+	}
+
+	allow = {
+		sapient_pop_amount > 7000
+		NOT = { has_deposit = pme_d_machine_orbital_robotics_assembly_labs }
+	}
+
+	effect = {
+		add_deposit = pme_d_machine_orbital_robotics_assembly_labs
+	}
+
+	ai_weight = {
+		weight = 10
+	}
+
+}
+
+decision_pme_cybernetics_uplink_facility = {
+	owned_planets_only = yes
+	sound = event_administrative_work
+	prerequisites = {
+		 "tech_pme_ascendant_planetary_mega_engineering" 
+	}
+	icon = decision_pme_cybernetics_uplink_facility
+	enactment_time = 1080
+
+	resources = {
+		category = decisions
+		cost = {
+			unity = 5000
+			alloys = 12000
+			minerals = 20000
+			energy = 50000
+			rare_crystals = 2500
+			exotic_gases = 2500
+			volatile_motes = 2500
+			influence = 100
+		}
+
+	}
+
+	potential = {
+		owner = { has_tradition = tr_cybernetics_finish }
+		NOT = { has_deposit = pme_d_cybernetics_uplink_facility }
+	}
+
+	allow = {
+		sapient_pop_amount > 7000
+		NOT = { has_deposit = pme_d_cybernetics_uplink_facility }
+	}
+
+	effect = {
+		add_deposit = pme_d_cybernetics_uplink_facility
+	}
+
+	ai_weight = {
+		weight = 10
+	}
+
+}
