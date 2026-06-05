@@ -1,0 +1,1023 @@
+# Planet Class Catalog
+
+Generated: 2026-06-05 09:30:45
+Scope: Workspace folders under common/planet_classes/*.txt
+
+## Summary
+
+- Definition entries found: 516
+- Unique planet classes found: 461
+- Mods with planet class definitions: 10
+
+## Unique Planet Classes
+
+- pc_a_star
+- pc_acot_enigmatic
+- pc_acot_enigmopolis
+- pc_acot_pmc_data_planet
+- pc_acot_pmc_storage_planet
+- pc_acot_pmc_vault
+- pc_acot_pmc_vault_unshielded
+- pc_acot_void_hole
+- pc_acot_void_star
+- pc_ag_black_dwarf
+- pc_ag_city
+- pc_ag_cosmogenesis_world
+- pc_ag_crystalized_asteroid_red
+- pc_ag_crystalized_asteroid_violet
+- pc_ag_hive
+- pc_ag_lambda_space_rift
+- pc_ag_machine
+- pc_ag_psionic_star
+- pc_ag_ringworld_alpine
+- pc_ag_ringworld_arctic
+- pc_ag_ringworld_arid
+- pc_ag_ringworld_city
+- pc_ag_ringworld_continental
+- pc_ag_ringworld_desert
+- pc_ag_ringworld_gaia
+- pc_ag_ringworld_machine
+- pc_ag_ringworld_nexus_kappa
+- pc_ag_ringworld_ocean
+- pc_ag_ringworld_savannah
+- pc_ag_ringworld_shrouded
+- pc_ag_ringworld_tech_psionic
+- pc_ag_ringworld_tropical
+- pc_ag_ringworld_tundra
+- pc_ag_shell_world
+- pc_ag_shell_world_base
+- pc_ag_shell_world_base_can_be_invaded
+- pc_ag_shell_world_base_fixed_city
+- pc_ag_shell_world_base_fixed_city_can_be_invaded
+- pc_ag_shell_world_base_no_city
+- pc_ag_shell_world_base_no_city_can_be_invaded
+- pc_ag_shell_world_can_be_invaded
+- pc_ag_shell_world_damaged
+- pc_ag_shell_world_dynamic_city
+- pc_ag_shell_world_dynamic_city_can_be_invaded
+- pc_ag_shell_world_no_city
+- pc_ag_shell_world_no_city_can_be_invaded
+- pc_ag_shell_world_surface
+- pc_ag_shell_world_surface_dynamic_city
+- pc_ag_shell_world_surface_no_city
+- pc_ag_shrouded
+- pc_ag_shrouded_gas_giant
+- pc_ag_void_planet
+- pc_ag_void_star
+- pc_ai
+- pc_alderson_slice_gaia
+- pc_alderson_slice_gaia_shattered
+- pc_alpine
+- pc_aquahabitat
+- pc_aquatic
+- pc_aquatic_hot
+- pc_aquatic_shroud
+- pc_aquatic_shroud_hot
+- pc_arctic
+- pc_arid
+- pc_asteroid
+- pc_astral_scar
+- pc_b_star
+- pc_barren
+- pc_barren_cold
+- pc_birch
+- pc_black_hole
+- pc_black_hole_giga
+- pc_borg
+- pc_broken
+- pc_bulk_matter_cache
+- pc_carbon
+- pc_chthonian
+- pc_city
+- pc_cloudless_gas_giant
+- pc_cold_gas_giant
+- pc_continental
+- pc_core_black_hole
+- pc_core_mined
+- pc_core_quasar
+- pc_cosmogenesis_world
+- pc_crystal_asteroid
+- pc_crystal_habitat
+- pc_cutholoid
+- pc_cybrex
+- pc_dark_fractured
+- pc_dark_fractured_ae
+- pc_dark_fractured_ae_unstable
+- pc_dark_fractured_unstable
+- pc_desert
+- pc_diamond
+- pc_disco_moon
+- pc_ds_ai
+- pc_ds_ai_core
+- pc_ds_ai_large
+- pc_ds_arcane
+- pc_ds_ark
+- pc_ds_aurora
+- pc_ds_biomechanical
+- pc_ds_ethereal
+- pc_ds_fragment_ecu
+- pc_ds_fragment_world
+- pc_ds_fungal
+- pc_ds_halo
+- pc_ds_hyperflora
+- pc_ds_immortal
+- pc_ds_infested
+- pc_ds_kompass
+- pc_ds_luminescent
+- pc_ds_mercurius
+- pc_ds_metallic
+- pc_ds_minerva
+- pc_ds_nalin
+- pc_ds_oceanic
+- pc_ds_oceanic_toxic
+- pc_ds_prism
+- pc_ds_retinal
+- pc_ds_rift_star
+- pc_ds_shrouded_relic
+- pc_ds_skycatcher
+- pc_ds_stormworld
+- pc_ds_surrelist
+- pc_ds_tempest
+- pc_ds_void_star
+- pc_ds_xeelee_holosphere
+- pc_ds_yellow_star
+- pc_dwarf_gas_giant
+- pc_egg_cracked
+- pc_ehof_black_hole
+- pc_ehof_cplanet
+- pc_ehof_habitat
+- pc_ehof_planet
+- pc_ehof_unhabitat
+- pc_equatorial_shipyard
+- pc_ethane_ocean
+- pc_f_star
+- pc_flat_world
+- pc_flusion_gaia_ecu
+- pc_food_giant
+- pc_frozen
+- pc_g_star
+- pc_gaia
+- pc_gas_giant
+- pc_giga_asteroid_artillery
+- pc_giga_edge_of_eternity
+- pc_giga_elysium
+- pc_giga_empty_space
+- pc_giga_empty_space_asteroid
+- pc_giga_frameworld
+- pc_giga_frameworld_outpost_artificial
+- pc_giga_frameworld_outpost_planet
+- pc_giga_frameworld_outpost_ringworld
+- pc_giga_maginot_gas_giant
+- pc_giga_maginot_ringworld
+- pc_giga_maginot_world
+- pc_giga_o_star
+- pc_giga_orbital
+- pc_giga_orbital_site
+- pc_giga_penrose_habitable
+- pc_giga_penrose_shrouded_habitable
+- pc_giga_planetary_computer
+- pc_giga_siegfried_world
+- pc_gigabrown_dwarf
+- pc_gigaignited_star
+- pc_gigaorbital_ring
+- pc_gigaorbital_ring_ruined
+- pc_gray_goo
+- pc_habitable_gas_giant
+- pc_habitat
+- pc_habitat_shielded
+- pc_hive
+- pc_hive_dummy
+- pc_hot_gas_giant
+- pc_hothouse
+- pc_hydrocarbon
+- pc_ice_asteroid
+- pc_infested
+- pc_interstellar_habitat
+- pc_interstellar_ringworld_habitable
+- pc_interstellar_shrouded_ringworld_habitable
+- pc_iron
+- pc_junk
+- pc_k_star
+- pc_katzenland
+- pc_ll_foggy
+- pc_ll_temperate
+- pc_ll_torrid
+- pc_m_giant_star
+- pc_m_star
+- pc_machine
+- pc_machine_broken
+- pc_melted_frozen
+- pc_metallic_hydrogen
+- pc_molten
+- pc_nanotech
+- pc_neutron_star
+- pc_nuked
+- pc_ocean
+- pc_origin_birch
+- pc_origin_dummy_birch
+- pc_pd_aeolian
+- pc_pd_aerial
+- pc_pd_agriworld
+- pc_pd_algae
+- pc_pd_amethyst
+- pc_pd_antarctic
+- pc_pd_aqua_shroud_habitat
+- pc_pd_aquatic_cave
+- pc_pd_aquatic_city
+- pc_pd_aquatic_hive
+- pc_pd_aquatic_machine
+- pc_pd_aquatic_relic
+- pc_pd_aquatic_shroud_cave
+- pc_pd_aquatic_shroud_city
+- pc_pd_aquatic_shroud_relic
+- pc_pd_aquifer
+- pc_pd_archipelago
+- pc_pd_ash
+- pc_pd_aspen
+- pc_pd_atoll
+- pc_pd_badlands
+- pc_pd_barnacle
+- pc_pd_barren_cave
+- pc_pd_barren_superhabitable
+- pc_pd_barren_tidally_locked
+- pc_pd_basalt
+- pc_pd_biolumen
+- pc_pd_biosynth
+- pc_pd_blossom
+- pc_pd_bog
+- pc_pd_boreal
+- pc_pd_cactus
+- pc_pd_calcite
+- pc_pd_carotene
+- pc_pd_cascadian
+- pc_pd_cenote
+- pc_pd_city_headquarters_aquatic
+- pc_pd_city_headquarters_aquatic_shroud
+- pc_pd_city_headquarters_necro
+- pc_pd_city_headquarters_necro_shroud
+- pc_pd_city_headquarters_shroud
+- pc_pd_city_machine_capital_aquatic
+- pc_pd_city_palace_aquatic
+- pc_pd_city_palace_aquatic_shroud
+- pc_pd_city_palace_necro
+- pc_pd_city_palace_necro_shroud
+- pc_pd_city_palace_shroud
+- pc_pd_city_senate_aquatic
+- pc_pd_city_senate_aquatic_shroud
+- pc_pd_city_senate_necro
+- pc_pd_city_senate_necro_shroud
+- pc_pd_city_senate_shroud
+- pc_pd_coastal
+- pc_pd_cold_cave
+- pc_pd_cold_desert
+- pc_pd_cold_gaia
+- pc_pd_cold_gaia_tidally_locked
+- pc_pd_cold_superhabitable
+- pc_pd_cold_tidally_locked
+- pc_pd_columnar
+- pc_pd_commercial_city
+- pc_pd_commercial_city_aquatic
+- pc_pd_commercial_city_aquatic_shroud
+- pc_pd_commercial_city_necro
+- pc_pd_commercial_city_necro_shroud
+- pc_pd_commercial_city_shroud
+- pc_pd_con_ocean
+- pc_pd_coral
+- pc_pd_core_tap
+- pc_pd_crag
+- pc_pd_craton
+- pc_pd_crevasse
+- pc_pd_cryoflora
+- pc_pd_cryovolcano
+- pc_pd_crystal
+- pc_pd_domed_colony_barren
+- pc_pd_domed_colony_barren_cold
+- pc_pd_domed_colony_cave
+- pc_pd_domed_colony_frozen
+- pc_pd_domed_colony_superhabitable
+- pc_pd_domed_colony_tidally_locked
+- pc_pd_domed_colony_toxic
+- pc_pd_dry_cave
+- pc_pd_dry_gaia
+- pc_pd_dry_gaia_tidally_locked
+- pc_pd_dry_superhabitable
+- pc_pd_dry_tidally_locked
+- pc_pd_dune
+- pc_pd_dune_forest
+- pc_pd_dust
+- pc_pd_ferrospring
+- pc_pd_fjord
+- pc_pd_floating
+- pc_pd_flora_hive
+- pc_pd_fog
+- pc_pd_fog_desert
+- pc_pd_forest
+- pc_pd_fortress_city
+- pc_pd_fungal
+- pc_pd_fungi
+- pc_pd_gaia_cave
+- pc_pd_gaia_superhabitable
+- pc_pd_gaia_tidally_locked
+- pc_pd_garden_city
+- pc_pd_garden_city_aquatic
+- pc_pd_garden_city_aquatic_shroud
+- pc_pd_garden_city_machine_capital_aquatic
+- pc_pd_garden_city_necro
+- pc_pd_garden_city_necro_shroud
+- pc_pd_garden_city_shroud
+- pc_pd_geothermal
+- pc_pd_glacial
+- pc_pd_glaciovolcanic
+- pc_pd_highland
+- pc_pd_hive
+- pc_pd_hive_cave
+- pc_pd_hive_cave_arc
+- pc_pd_hive_superhabitable
+- pc_pd_hive_superhabitable_arc
+- pc_pd_hive_tidally_locked
+- pc_pd_hive_tidally_locked_arc
+- pc_pd_ice_dunes
+- pc_pd_ice_spike
+- pc_pd_iceberg
+- pc_pd_ironsand
+- pc_pd_kelp
+- pc_pd_lake
+- pc_pd_lanthanide
+- pc_pd_lichen
+- pc_pd_lilypad
+- pc_pd_lithoid_aquatic
+- pc_pd_lithoid_aquatic_shroud
+- pc_pd_lithoid_cyan
+- pc_pd_lithoid_necro
+- pc_pd_lithoid_necro_shroud
+- pc_pd_lithoid_red
+- pc_pd_lithoid_shroud
+- pc_pd_lithoid_yellow
+- pc_pd_machine
+- pc_pd_machine_cave
+- pc_pd_machine_cave_arc
+- pc_pd_machine_superhabitable
+- pc_pd_machine_superhabitable_arc
+- pc_pd_machine_tidally_locked
+- pc_pd_machine_tidally_locked_arc
+- pc_pd_mangrove
+- pc_pd_marsh
+- pc_pd_mediterranean
+- pc_pd_megaflora
+- pc_pd_megaflora_hive
+- pc_pd_megaflora_hive_bloomed
+- pc_pd_mesa
+- pc_pd_monsoon
+- pc_pd_moss
+- pc_pd_mud
+- pc_pd_mushroom
+- pc_pd_mycelium
+- pc_pd_necro
+- pc_pd_necro_cave
+- pc_pd_necro_city
+- pc_pd_necro_relic
+- pc_pd_necro_shroud
+- pc_pd_necro_shroud_cave
+- pc_pd_necro_shroud_city
+- pc_pd_necro_shroud_relic
+- pc_pd_nuked_cave
+- pc_pd_nuked_superhabitable
+- pc_pd_nuked_tidally_locked
+- pc_pd_oasis
+- pc_pd_obsidian
+- pc_pd_opal
+- pc_pd_outback
+- pc_pd_peatland
+- pc_pd_petrified
+- pc_pd_prairie
+- pc_pd_primal
+- pc_pd_ravine
+- pc_pd_reef
+- pc_pd_retinal
+- pc_pd_sakura
+- pc_pd_salt
+- pc_pd_sandstone
+- pc_pd_semi_arid
+- pc_pd_shroud
+- pc_pd_shroud_cave
+- pc_pd_shroud_city
+- pc_pd_shroud_habitat
+- pc_pd_shroud_relic
+- pc_pd_shroud_ring
+- pc_pd_silvergrass
+- pc_pd_sinkhole
+- pc_pd_snow
+- pc_pd_sodalite
+- pc_pd_steppe
+- pc_pd_storm
+- pc_pd_striped
+- pc_pd_stripmine
+- pc_pd_succulent
+- pc_pd_superbloom
+- pc_pd_supercontinent
+- pc_pd_supraglacial_lakes
+- pc_pd_swamp
+- pc_pd_taiga
+- pc_pd_tepid
+- pc_pd_tepui
+- pc_pd_thunder
+- pc_pd_tidally_necro
+- pc_pd_tidally_wasteland
+- pc_pd_tidepool
+- pc_pd_travertine
+- pc_pd_treeline
+- pc_pd_turquoise
+- pc_pd_tuya
+- pc_pd_wasteland
+- pc_pd_wasteland_cave
+- pc_pd_wet_cave
+- pc_pd_wet_gaia
+- pc_pd_wet_superhabitable
+- pc_pd_wet_tidally_locked
+- pc_pouchkinn_black_hole
+- pc_pulsar
+- pc_rare_crystal_asteroid
+- pc_red_toxic
+- pc_relic
+- pc_rift_star
+- pc_ringworld_habitable
+- pc_ringworld_habitable_damaged
+- pc_ringworld_habitable_shrouded
+- pc_ringworld_seam
+- pc_ringworld_seam_damaged
+- pc_ringworld_shielded
+- pc_ringworld_tech
+- pc_ringworld_tech_damaged
+- pc_savannah
+- pc_shattered
+- pc_shattered_2
+- pc_shattered_ring_habitable
+- pc_shielded
+- pc_shrouded
+- pc_shrouded_equatorial_shipyard
+- pc_squareworld_habitable
+- pc_squareworld_shrouded_habitable
+- pc_strip_mined
+- pc_subglacial
+- pc_t_star
+- pc_t_star_big
+- pc_toxic
+- pc_toxoid_star
+- pc_tropical
+- pc_tundra
+- pc_void_birch
+- pc_volcanic
+- pc_volcanic_pd
+- pc_warden_guardian
+- pc_wh_star
+- pc_whc_star
+- pc_whdyson_star
+
+## Catalog By Mod
+
+### ACOT (13 unique classes, 13 definitions)
+
+- pc_acot_enigmatic  |  ACOT/common/planet_classes/acot_planet_classs.txt:77
+- pc_acot_enigmopolis  |  ACOT/common/planet_classes/acot_planet_classs.txt:176
+- pc_acot_pmc_data_planet  |  ACOT/common/planet_classes/acot_planet_classs.txt:369
+- pc_acot_pmc_storage_planet  |  ACOT/common/planet_classes/acot_planet_classs.txt:394
+- pc_acot_pmc_vault  |  ACOT/common/planet_classes/acot_planet_classs.txt:278
+- pc_acot_pmc_vault_unshielded  |  ACOT/common/planet_classes/acot_planet_classs.txt:328
+- pc_acot_void_hole  |  ACOT/common/planet_classes/acot_planet_classs.txt:249
+- pc_acot_void_star  |  ACOT/common/planet_classes/acot_planet_classs.txt:227
+- pc_dark_fractured  |  ACOT/common/planet_classes/acot_planet_classs.txt:3
+- pc_dark_fractured_ae  |  ACOT/common/planet_classes/acot_planet_classs.txt:54
+- pc_dark_fractured_ae_unstable  |  ACOT/common/planet_classes/acot_planet_classs.txt:149
+- pc_dark_fractured_unstable  |  ACOT/common/planet_classes/acot_planet_classs.txt:124
+- pc_gray_goo  |  ACOT/common/planet_classes/acot_planet_override_classs.txt:3
+
+### Ancient Empire (44 unique classes, 44 definitions)
+
+- pc_ag_black_dwarf  |  Ancient Empire/common/planet_classes/ag_planet_classes.txt:986
+- pc_ag_city  |  Ancient Empire/common/planet_classes/ag_planet_classes.txt:771
+- pc_ag_cosmogenesis_world  |  Ancient Empire/common/planet_classes/ag_planet_classes.txt:1785
+- pc_ag_crystalized_asteroid_red  |  Ancient Empire/common/planet_classes/ag_planet_classes.txt:953
+- pc_ag_crystalized_asteroid_violet  |  Ancient Empire/common/planet_classes/ag_planet_classes.txt:969
+- pc_ag_hive  |  Ancient Empire/common/planet_classes/ag_planet_classes.txt:820
+- pc_ag_lambda_space_rift  |  Ancient Empire/common/planet_classes/ag_planet_classes.txt:1009
+- pc_ag_machine  |  Ancient Empire/common/planet_classes/ag_planet_classes.txt:866
+- pc_ag_psionic_star  |  Ancient Empire/common/planet_classes/ag_planet_classes.txt:910
+- pc_ag_ringworld_alpine  |  Ancient Empire/common/planet_classes/ag_planet_classes.txt:515
+- pc_ag_ringworld_arctic  |  Ancient Empire/common/planet_classes/ag_planet_classes.txt:466
+- pc_ag_ringworld_arid  |  Ancient Empire/common/planet_classes/ag_planet_classes.txt:172
+- pc_ag_ringworld_city  |  Ancient Empire/common/planet_classes/ag_planet_classes.txt:614
+- pc_ag_ringworld_continental  |  Ancient Empire/common/planet_classes/ag_planet_classes.txt:319
+- pc_ag_ringworld_desert  |  Ancient Empire/common/planet_classes/ag_planet_classes.txt:123
+- pc_ag_ringworld_gaia  |  Ancient Empire/common/planet_classes/ag_planet_classes.txt:668
+- pc_ag_ringworld_machine  |  Ancient Empire/common/planet_classes/ag_planet_classes.txt:565
+- pc_ag_ringworld_nexus_kappa  |  Ancient Empire/common/planet_classes/ag_planet_classes.txt:720
+- pc_ag_ringworld_ocean  |  Ancient Empire/common/planet_classes/ag_planet_classes.txt:270
+- pc_ag_ringworld_savannah  |  Ancient Empire/common/planet_classes/ag_planet_classes.txt:221
+- pc_ag_ringworld_shrouded  |  Ancient Empire/common/planet_classes/ag_planet_classes.txt:92
+- pc_ag_ringworld_tech_psionic  |  Ancient Empire/common/planet_classes/ag_planet_classes.txt:929
+- pc_ag_ringworld_tropical  |  Ancient Empire/common/planet_classes/ag_planet_classes.txt:368
+- pc_ag_ringworld_tundra  |  Ancient Empire/common/planet_classes/ag_planet_classes.txt:417
+- pc_ag_shell_world  |  Ancient Empire/common/planet_classes/ag_planet_classes.txt:1030
+- pc_ag_shell_world_base  |  Ancient Empire/common/planet_classes/ag_planet_classes.txt:1226
+- pc_ag_shell_world_base_can_be_invaded  |  Ancient Empire/common/planet_classes/ag_planet_classes.txt:1275
+- pc_ag_shell_world_base_fixed_city  |  Ancient Empire/common/planet_classes/ag_planet_classes.txt:1324
+- pc_ag_shell_world_base_fixed_city_can_be_invaded  |  Ancient Empire/common/planet_classes/ag_planet_classes.txt:1373
+- pc_ag_shell_world_base_no_city  |  Ancient Empire/common/planet_classes/ag_planet_classes.txt:1422
+- pc_ag_shell_world_base_no_city_can_be_invaded  |  Ancient Empire/common/planet_classes/ag_planet_classes.txt:1471
+- pc_ag_shell_world_can_be_invaded  |  Ancient Empire/common/planet_classes/ag_planet_classes.txt:1079
+- pc_ag_shell_world_damaged  |  Ancient Empire/common/planet_classes/ag_planet_classes.txt:1759
+- pc_ag_shell_world_dynamic_city  |  Ancient Empire/common/planet_classes/ag_planet_classes.txt:1128
+- pc_ag_shell_world_dynamic_city_can_be_invaded  |  Ancient Empire/common/planet_classes/ag_planet_classes.txt:1177
+- pc_ag_shell_world_no_city  |  Ancient Empire/common/planet_classes/ag_planet_classes.txt:1520
+- pc_ag_shell_world_no_city_can_be_invaded  |  Ancient Empire/common/planet_classes/ag_planet_classes.txt:1569
+- pc_ag_shell_world_surface  |  Ancient Empire/common/planet_classes/ag_planet_classes.txt:1618
+- pc_ag_shell_world_surface_dynamic_city  |  Ancient Empire/common/planet_classes/ag_planet_classes.txt:1665
+- pc_ag_shell_world_surface_no_city  |  Ancient Empire/common/planet_classes/ag_planet_classes.txt:1712
+- pc_ag_shrouded  |  Ancient Empire/common/planet_classes/ag_planet_classes.txt:47
+- pc_ag_shrouded_gas_giant  |  Ancient Empire/common/planet_classes/ag_planet_classes.txt:69
+- pc_ag_void_planet  |  Ancient Empire/common/planet_classes/ag_planet_classes.txt:25
+- pc_ag_void_star  |  Ancient Empire/common/planet_classes/ag_planet_classes.txt:3
+
+### DarkSpace (35 unique classes, 35 definitions)
+
+- pc_borg  |  DarkSpace/common/planet_classes/ds_planets.txt:507
+- pc_ds_ai  |  DarkSpace/common/planet_classes/ds_planets.txt:564
+- pc_ds_ai_core  |  DarkSpace/common/planet_classes/ds_planets.txt:596
+- pc_ds_ai_large  |  DarkSpace/common/planet_classes/ds_planets.txt:580
+- pc_ds_arcane  |  DarkSpace/common/planet_classes/ds_planets.txt:176
+- pc_ds_ark  |  DarkSpace/common/planet_classes/ds_planets.txt:76
+- pc_ds_aurora  |  DarkSpace/common/planet_classes/ds_planets.txt:693
+- pc_ds_biomechanical  |  DarkSpace/common/planet_classes/ds_planets.txt:213
+- pc_ds_ethereal  |  DarkSpace/common/planet_classes/ds_planets.txt:740
+- pc_ds_fragment_ecu  |  DarkSpace/common/planet_classes/ds_planets.txt:373
+- pc_ds_fragment_world  |  DarkSpace/common/planet_classes/ds_planets.txt:340
+- pc_ds_fungal  |  DarkSpace/common/planet_classes/ds_planets.txt:725
+- pc_ds_halo  |  DarkSpace/common/planet_classes/ds_planets.txt:3
+- pc_ds_hyperflora  |  DarkSpace/common/planet_classes/ds_planets.txt:115
+- pc_ds_immortal  |  DarkSpace/common/planet_classes/ds_planets.txt:409
+- pc_ds_infested  |  DarkSpace/common/planet_classes/ds_planets.txt:546
+- pc_ds_kompass  |  DarkSpace/common/planet_classes/ds_planets.txt:436
+- pc_ds_luminescent  |  DarkSpace/common/planet_classes/ds_planets.txt:709
+- pc_ds_mercurius  |  DarkSpace/common/planet_classes/ds_planets.txt:1015
+- pc_ds_metallic  |  DarkSpace/common/planet_classes/ds_planets.txt:658
+- pc_ds_minerva  |  DarkSpace/common/planet_classes/ds_planets.txt:1051
+- pc_ds_nalin  |  DarkSpace/common/planet_classes/ds_planets.txt:40
+- pc_ds_oceanic  |  DarkSpace/common/planet_classes/ds_planets.txt:612
+- pc_ds_oceanic_toxic  |  DarkSpace/common/planet_classes/ds_planets.txt:627
+- pc_ds_prism  |  DarkSpace/common/planet_classes/ds_planets.txt:144
+- pc_ds_retinal  |  DarkSpace/common/planet_classes/ds_planets.txt:678
+- pc_ds_rift_star  |  DarkSpace/common/planet_classes/ds_planets.txt:758
+- pc_ds_shrouded_relic  |  DarkSpace/common/planet_classes/ds_planets.txt:242
+- pc_ds_skycatcher  |  DarkSpace/common/planet_classes/ds_planets.txt:472
+- pc_ds_stormworld  |  DarkSpace/common/planet_classes/ds_planets.txt:642
+- pc_ds_surrelist  |  DarkSpace/common/planet_classes/ds_planets.txt:1085
+- pc_ds_tempest  |  DarkSpace/common/planet_classes/ds_planets.txt:272
+- pc_ds_void_star  |  DarkSpace/common/planet_classes/ds_planets.txt:778
+- pc_ds_xeelee_holosphere  |  DarkSpace/common/planet_classes/ds_planets.txt:304
+- pc_ds_yellow_star  |  DarkSpace/common/planet_classes/ds_planets.txt:817
+
+### Gigastructures (65 unique classes, 65 definitions)
+
+- pc_alderson_slice_gaia  |  Gigastructures/common/planet_classes/giga_alderson.txt:3
+- pc_alderson_slice_gaia_shattered  |  Gigastructures/common/planet_classes/giga_alderson.txt:47
+- pc_birch  |  Gigastructures/common/planet_classes/giga_galactic_core.txt:38
+- pc_black_hole_giga  |  Gigastructures/common/planet_classes/giga_extra_stars.txt:80
+- pc_bulk_matter_cache  |  Gigastructures/common/planet_classes/giga_planet_classes.txt:971
+- pc_core_black_hole  |  Gigastructures/common/planet_classes/giga_galactic_core.txt:1
+- pc_core_mined  |  Gigastructures/common/planet_classes/giga_planet_classes.txt:623
+- pc_core_quasar  |  Gigastructures/common/planet_classes/giga_galactic_core.txt:19
+- pc_disco_moon  |  Gigastructures/common/planet_classes/giga_planet_classes.txt:549
+- pc_ehof_black_hole  |  Gigastructures/common/planet_classes/giga_extra_stars.txt:120
+- pc_ehof_cplanet  |  Gigastructures/common/planet_classes/giga_planet_classes.txt:762
+- pc_ehof_habitat  |  Gigastructures/common/planet_classes/giga_planet_classes.txt:789
+- pc_ehof_planet  |  Gigastructures/common/planet_classes/giga_planet_classes.txt:734
+- pc_ehof_unhabitat  |  Gigastructures/common/planet_classes/giga_planet_classes.txt:825
+- pc_equatorial_shipyard  |  Gigastructures/common/planet_classes/giga_planet_classes.txt:24
+- pc_flat_world  |  Gigastructures/common/planet_classes/giga_planet_classes.txt:393
+- pc_flusion_gaia_ecu  |  Gigastructures/common/planet_classes/giga_katzen_planet_classes.txt:1
+- pc_food_giant  |  Gigastructures/common/planet_classes/giga_planet_classes.txt:581
+- pc_giga_asteroid_artillery  |  Gigastructures/common/planet_classes/giga_artillery_planet_classes.txt:1
+- pc_giga_edge_of_eternity  |  Gigastructures/common/planet_classes/giga_galactic_core.txt:150
+- pc_giga_elysium  |  Gigastructures/common/planet_classes/giga_planet_classes.txt:447
+- pc_giga_empty_space  |  Gigastructures/common/planet_classes/giga_extra_stars.txt:5
+- pc_giga_empty_space_asteroid  |  Gigastructures/common/planet_classes/giga_frameworld.txt:45
+- pc_giga_frameworld  |  Gigastructures/common/planet_classes/giga_frameworld.txt:3
+- pc_giga_frameworld_outpost_artificial  |  Gigastructures/common/planet_classes/giga_frameworld.txt:93
+- pc_giga_frameworld_outpost_planet  |  Gigastructures/common/planet_classes/giga_frameworld.txt:67
+- pc_giga_frameworld_outpost_ringworld  |  Gigastructures/common/planet_classes/giga_frameworld.txt:125
+- pc_giga_maginot_gas_giant  |  Gigastructures/common/planet_classes/giga_maginot_planet_class.txt:59
+- pc_giga_maginot_ringworld  |  Gigastructures/common/planet_classes/giga_maginot_planet_class.txt:115
+- pc_giga_maginot_world  |  Gigastructures/common/planet_classes/giga_maginot_planet_class.txt:3
+- pc_giga_o_star  |  Gigastructures/common/planet_classes/giga_extra_stars.txt:27
+- pc_giga_orbital  |  Gigastructures/common/planet_classes/giga_planet_classes.txt:490
+- pc_giga_orbital_site  |  Gigastructures/common/planet_classes/giga_planet_classes.txt:528
+- pc_giga_penrose_habitable  |  Gigastructures/common/planet_classes/giga_planet_classes.txt:249
+- pc_giga_penrose_shrouded_habitable  |  Gigastructures/common/planet_classes/giga_planet_classes.txt:898
+- pc_giga_planetary_computer  |  Gigastructures/common/planet_classes/giga_planet_classes.txt:56
+- pc_giga_siegfried_world  |  Gigastructures/common/planet_classes/giga_maginot_planet_class.txt:170
+- pc_gigabrown_dwarf  |  Gigastructures/common/planet_classes/giga_planet_classes.txt:644
+- pc_gigaignited_star  |  Gigastructures/common/planet_classes/giga_extra_stars.txt:142
+- pc_gigaorbital_ring  |  Gigastructures/common/planet_classes/giga_planet_classes.txt:286
+- pc_gigaorbital_ring_ruined  |  Gigastructures/common/planet_classes/giga_planet_classes.txt:685
+- pc_habitable_gas_giant  |  Gigastructures/common/planet_classes/giga_planet_classes.txt:90
+- pc_interstellar_habitat  |  Gigastructures/common/planet_classes/giga_planet_classes.txt:322
+- pc_interstellar_ringworld_habitable  |  Gigastructures/common/planet_classes/giga_planet_classes.txt:357
+- pc_interstellar_shrouded_ringworld_habitable  |  Gigastructures/common/planet_classes/giga_planet_classes.txt:946
+- pc_katzenland  |  Gigastructures/common/planet_classes/giga_planet_classes.txt:424
+- pc_ll_foggy  |  Gigastructures/common/planet_classes/giga_planet_classes.txt:155
+- pc_ll_temperate  |  Gigastructures/common/planet_classes/giga_planet_classes.txt:125
+- pc_ll_torrid  |  Gigastructures/common/planet_classes/giga_planet_classes.txt:183
+- pc_melted_frozen  |  Gigastructures/common/planet_classes/giga_planet_classes.txt:665
+- pc_metallic_hydrogen  |  Gigastructures/common/planet_classes/giga_planet_classes.txt:560
+- pc_origin_birch  |  Gigastructures/common/planet_classes/giga_galactic_core.txt:79
+- pc_origin_dummy_birch  |  Gigastructures/common/planet_classes/giga_galactic_core.txt:116
+- pc_pouchkinn_black_hole  |  Gigastructures/common/planet_classes/giga_extra_stars.txt:99
+- pc_red_toxic  |  Gigastructures/common/planet_classes/giga_planet_classes.txt:707
+- pc_ringworld_habitable_shrouded  |  Gigastructures/common/planet_classes/giga_planet_classes.txt:853
+- pc_shrouded_equatorial_shipyard  |  Gigastructures/common/planet_classes/giga_planet_classes.txt:923
+- pc_squareworld_habitable  |  Gigastructures/common/planet_classes/giga_planet_classes.txt:210
+- pc_squareworld_shrouded_habitable  |  Gigastructures/common/planet_classes/giga_planet_classes.txt:875
+- pc_strip_mined  |  Gigastructures/common/planet_classes/giga_planet_classes.txt:602
+- pc_t_star_big  |  Gigastructures/common/planet_classes/giga_extra_stars.txt:56
+- pc_void_birch  |  Gigastructures/common/planet_classes/giga_voidbirch.txt:1
+- pc_wh_star  |  Gigastructures/common/planet_classes/giga_extra_stars.txt:195
+- pc_whc_star  |  Gigastructures/common/planet_classes/giga_extra_stars.txt:165
+- pc_whdyson_star  |  Gigastructures/common/planet_classes/giga_extra_stars.txt:217
+
+### Planetary Diversity (164 unique classes, 164 definitions)
+
+- pc_carbon  |  Planetary Diversity/common/planet_classes/pd_unihabitabile_planet_classes.txt:3
+- pc_chthonian  |  Planetary Diversity/common/planet_classes/pd_unihabitabile_planet_classes.txt:131
+- pc_cloudless_gas_giant  |  Planetary Diversity/common/planet_classes/pd_unihabitabile_planet_classes.txt:168
+- pc_cold_gas_giant  |  Planetary Diversity/common/planet_classes/pd_unihabitabile_planet_classes.txt:189
+- pc_diamond  |  Planetary Diversity/common/planet_classes/pd_unihabitabile_planet_classes.txt:99
+- pc_dwarf_gas_giant  |  Planetary Diversity/common/planet_classes/pd_unihabitabile_planet_classes.txt:210
+- pc_ethane_ocean  |  Planetary Diversity/common/planet_classes/pd_unihabitabile_planet_classes.txt:83
+- pc_hot_gas_giant  |  Planetary Diversity/common/planet_classes/pd_unihabitabile_planet_classes.txt:147
+- pc_hothouse  |  Planetary Diversity/common/planet_classes/pd_unihabitabile_planet_classes.txt:67
+- pc_hydrocarbon  |  Planetary Diversity/common/planet_classes/pd_unihabitabile_planet_classes.txt:51
+- pc_iron  |  Planetary Diversity/common/planet_classes/pd_unihabitabile_planet_classes.txt:19
+- pc_pd_aeolian  |  Planetary Diversity/common/planet_classes/pd_regular_frozen_planet_dummy_classes.txt:75
+- pc_pd_aerial  |  Planetary Diversity/common/planet_classes/pd_regular_wet_planet_dummy_classes.txt:569
+- pc_pd_algae  |  Planetary Diversity/common/planet_classes/pd_regular_wet_planet_dummy_classes.txt:335
+- pc_pd_amethyst  |  Planetary Diversity/common/planet_classes/pd_regular_dry_planet_dummy_classes.txt:395
+- pc_pd_antarctic  |  Planetary Diversity/common/planet_classes/pd_regular_frozen_planet_dummy_classes.txt:52
+- pc_pd_aquatic_cave  |  Planetary Diversity/common/planet_classes/pd_cavern_planet_classes.txt:314
+- pc_pd_aquatic_shroud_cave  |  Planetary Diversity/common/planet_classes/pd_cavern_planet_classes.txt:386
+- pc_pd_aquifer  |  Planetary Diversity/common/planet_classes/pd_regular_dry_planet_dummy_classes.txt:235
+- pc_pd_archipelago  |  Planetary Diversity/common/planet_classes/pd_regular_wet_planet_dummy_classes.txt:443
+- pc_pd_ash  |  Planetary Diversity/common/planet_classes/pd_regular_volcanic_planet_dummy_classes.txt:14
+- pc_pd_aspen  |  Planetary Diversity/common/planet_classes/pd_regular_dry_planet_dummy_classes.txt:577
+- pc_pd_atoll  |  Planetary Diversity/common/planet_classes/pd_regular_wet_planet_dummy_classes.txt:464
+- pc_pd_badlands  |  Planetary Diversity/common/planet_classes/pd_regular_dry_planet_dummy_classes.txt:326
+- pc_pd_barnacle  |  Planetary Diversity/common/planet_classes/pd_regular_wet_planet_dummy_classes.txt:401
+- pc_pd_barren_cave  |  Planetary Diversity/common/planet_classes/pd_cavern_planet_classes.txt:118
+- pc_pd_barren_superhabitable  |  Planetary Diversity/common/planet_classes/pd_superhabitable_planet_classes.txt:80
+- pc_pd_barren_tidally_locked  |  Planetary Diversity/common/planet_classes/pd_tidally_locked_planet_classes.txt:174
+- pc_pd_basalt  |  Planetary Diversity/common/planet_classes/pd_regular_frozen_planet_dummy_classes.txt:570
+- pc_pd_biolumen  |  Planetary Diversity/common/planet_classes/pd_regular_wet_planet_dummy_classes.txt:673
+- pc_pd_blossom  |  Planetary Diversity/common/planet_classes/pd_regular_frozen_planet_dummy_classes.txt:371
+- pc_pd_bog  |  Planetary Diversity/common/planet_classes/pd_regular_frozen_planet_dummy_classes.txt:506
+- pc_pd_boreal  |  Planetary Diversity/common/planet_classes/pd_regular_frozen_planet_dummy_classes.txt:257
+- pc_pd_cactus  |  Planetary Diversity/common/planet_classes/pd_regular_dry_planet_dummy_classes.txt:144
+- pc_pd_calcite  |  Planetary Diversity/common/planet_classes/pd_regular_dry_planet_dummy_classes.txt:646
+- pc_pd_carotene  |  Planetary Diversity/common/planet_classes/pd_regular_wet_planet_dummy_classes.txt:163
+- pc_pd_cascadian  |  Planetary Diversity/common/planet_classes/pd_regular_wet_planet_dummy_classes.txt:227
+- pc_pd_cenote  |  Planetary Diversity/common/planet_classes/pd_regular_wet_planet_dummy_classes.txt:527
+- pc_pd_coastal  |  Planetary Diversity/common/planet_classes/pd_regular_dry_planet_dummy_classes.txt:75
+- pc_pd_cold_cave  |  Planetary Diversity/common/planet_classes/pd_cavern_planet_classes.txt:4
+- pc_pd_cold_desert  |  Planetary Diversity/common/planet_classes/pd_regular_frozen_planet_dummy_classes.txt:7
+- pc_pd_cold_gaia  |  Planetary Diversity/common/planet_classes/pd_gaia_planet_classes.txt:48
+- pc_pd_cold_gaia_tidally_locked  |  Planetary Diversity/common/planet_classes/pd_tidally_locked_planet_classes.txt:143
+- pc_pd_cold_superhabitable  |  Planetary Diversity/common/planet_classes/pd_superhabitable_planet_classes.txt:30
+- pc_pd_cold_tidally_locked  |  Planetary Diversity/common/planet_classes/pd_tidally_locked_planet_classes.txt:55
+- pc_pd_columnar  |  Planetary Diversity/common/planet_classes/pd_regular_wet_planet_dummy_classes.txt:357
+- pc_pd_con_ocean  |  Planetary Diversity/common/planet_classes/pd_regular_wet_planet_dummy_classes.txt:692
+- pc_pd_coral  |  Planetary Diversity/common/planet_classes/pd_regular_dry_planet_dummy_classes.txt:464
+- pc_pd_crag  |  Planetary Diversity/common/planet_classes/pd_regular_wet_planet_dummy_classes.txt:270
+- pc_pd_craton  |  Planetary Diversity/common/planet_classes/pd_regular_frozen_planet_dummy_classes.txt:417
+- pc_pd_crevasse  |  Planetary Diversity/common/planet_classes/pd_regular_frozen_planet_dummy_classes.txt:121
+- pc_pd_cryoflora  |  Planetary Diversity/common/planet_classes/pd_regular_frozen_planet_dummy_classes.txt:703
+- pc_pd_cryovolcano  |  Planetary Diversity/common/planet_classes/pd_regular_frozen_planet_dummy_classes.txt:614
+- pc_pd_domed_colony_barren  |  Planetary Diversity/common/planet_classes/pd_domed_colonies_classes.txt:2
+- pc_pd_domed_colony_barren_cold  |  Planetary Diversity/common/planet_classes/pd_domed_colonies_classes.txt:29
+- pc_pd_domed_colony_cave  |  Planetary Diversity/common/planet_classes/pd_domed_colonies_classes.txt:166
+- pc_pd_domed_colony_frozen  |  Planetary Diversity/common/planet_classes/pd_domed_colonies_classes.txt:56
+- pc_pd_domed_colony_superhabitable  |  Planetary Diversity/common/planet_classes/pd_domed_colonies_classes.txt:110
+- pc_pd_domed_colony_tidally_locked  |  Planetary Diversity/common/planet_classes/pd_domed_colonies_classes.txt:138
+- pc_pd_domed_colony_toxic  |  Planetary Diversity/common/planet_classes/pd_domed_colonies_classes.txt:83
+- pc_pd_dry_cave  |  Planetary Diversity/common/planet_classes/pd_cavern_planet_classes.txt:29
+- pc_pd_dry_gaia  |  Planetary Diversity/common/planet_classes/pd_gaia_planet_classes.txt:6
+- pc_pd_dry_gaia_tidally_locked  |  Planetary Diversity/common/planet_classes/pd_tidally_locked_planet_classes.txt:112
+- pc_pd_dry_superhabitable  |  Planetary Diversity/common/planet_classes/pd_superhabitable_planet_classes.txt:55
+- pc_pd_dry_tidally_locked  |  Planetary Diversity/common/planet_classes/pd_tidally_locked_planet_classes.txt:29
+- pc_pd_dune  |  Planetary Diversity/common/planet_classes/pd_regular_dry_planet_dummy_classes.txt:7
+- pc_pd_dune_forest  |  Planetary Diversity/common/planet_classes/pd_regular_frozen_planet_dummy_classes.txt:325
+- pc_pd_dust  |  Planetary Diversity/common/planet_classes/pd_regular_dry_planet_dummy_classes.txt:167
+- pc_pd_ferrospring  |  Planetary Diversity/common/planet_classes/pd_regular_frozen_planet_dummy_classes.txt:190
+- pc_pd_fjord  |  Planetary Diversity/common/planet_classes/pd_regular_frozen_planet_dummy_classes.txt:348
+- pc_pd_fog  |  Planetary Diversity/common/planet_classes/pd_regular_wet_planet_dummy_classes.txt:291
+- pc_pd_fog_desert  |  Planetary Diversity/common/planet_classes/pd_regular_dry_planet_dummy_classes.txt:280
+- pc_pd_forest  |  Planetary Diversity/common/planet_classes/pd_regular_wet_planet_dummy_classes.txt:46
+- pc_pd_fungal  |  Planetary Diversity/common/planet_classes/pd_regular_wet_planet_dummy_classes.txt:548
+- pc_pd_fungi  |  Planetary Diversity/common/planet_classes/pd_regular_dry_planet_dummy_classes.txt:98
+- pc_pd_gaia_cave  |  Planetary Diversity/common/planet_classes/pd_cavern_planet_classes.txt:77
+- pc_pd_gaia_superhabitable  |  Planetary Diversity/common/planet_classes/pd_superhabitable_planet_classes.txt:106
+- pc_pd_gaia_tidally_locked  |  Planetary Diversity/common/planet_classes/pd_tidally_locked_planet_classes.txt:81
+- pc_pd_geothermal  |  Planetary Diversity/common/planet_classes/pd_regular_wet_planet_dummy_classes.txt:653
+- pc_pd_glacial  |  Planetary Diversity/common/planet_classes/pd_regular_frozen_planet_dummy_classes.txt:29
+- pc_pd_glaciovolcanic  |  Planetary Diversity/common/planet_classes/pd_regular_frozen_planet_dummy_classes.txt:461
+- pc_pd_highland  |  Planetary Diversity/common/planet_classes/pd_regular_frozen_planet_dummy_classes.txt:302
+- pc_pd_hive_cave  |  Planetary Diversity/common/planet_classes/pd_cavern_planet_classes.txt:178
+- pc_pd_hive_cave_arc  |  Planetary Diversity/common/planet_classes/pd_cavern_planet_classes.txt:212
+- pc_pd_hive_superhabitable  |  Planetary Diversity/common/planet_classes/pd_superhabitable_planet_classes.txt:163
+- pc_pd_hive_superhabitable_arc  |  Planetary Diversity/common/planet_classes/pd_superhabitable_planet_classes.txt:197
+- pc_pd_hive_tidally_locked  |  Planetary Diversity/common/planet_classes/pd_tidally_locked_planet_classes.txt:227
+- pc_pd_hive_tidally_locked_arc  |  Planetary Diversity/common/planet_classes/pd_tidally_locked_planet_classes.txt:256
+- pc_pd_ice_dunes  |  Planetary Diversity/common/planet_classes/pd_regular_frozen_planet_dummy_classes.txt:144
+- pc_pd_ice_spike  |  Planetary Diversity/common/planet_classes/pd_regular_frozen_planet_dummy_classes.txt:98
+- pc_pd_iceberg  |  Planetary Diversity/common/planet_classes/pd_regular_frozen_planet_dummy_classes.txt:234
+- pc_pd_ironsand  |  Planetary Diversity/common/planet_classes/pd_regular_dry_planet_dummy_classes.txt:121
+- pc_pd_kelp  |  Planetary Diversity/common/planet_classes/pd_regular_wet_planet_dummy_classes.txt:313
+- pc_pd_lake  |  Planetary Diversity/common/planet_classes/pd_regular_wet_planet_dummy_classes.txt:26
+- pc_pd_lanthanide  |  Planetary Diversity/common/planet_classes/pd_regular_frozen_planet_dummy_classes.txt:482
+- pc_pd_lichen  |  Planetary Diversity/common/planet_classes/pd_regular_frozen_planet_dummy_classes.txt:724
+- pc_pd_lilypad  |  Planetary Diversity/common/planet_classes/pd_regular_wet_planet_dummy_classes.txt:590
+- pc_pd_machine_cave  |  Planetary Diversity/common/planet_classes/pd_cavern_planet_classes.txt:246
+- pc_pd_machine_cave_arc  |  Planetary Diversity/common/planet_classes/pd_cavern_planet_classes.txt:280
+- pc_pd_machine_superhabitable  |  Planetary Diversity/common/planet_classes/pd_superhabitable_planet_classes.txt:231
+- pc_pd_machine_superhabitable_arc  |  Planetary Diversity/common/planet_classes/pd_superhabitable_planet_classes.txt:264
+- pc_pd_machine_tidally_locked  |  Planetary Diversity/common/planet_classes/pd_tidally_locked_planet_classes.txt:286
+- pc_pd_machine_tidally_locked_arc  |  Planetary Diversity/common/planet_classes/pd_tidally_locked_planet_classes.txt:316
+- pc_pd_mangrove  |  Planetary Diversity/common/planet_classes/pd_regular_wet_planet_dummy_classes.txt:506
+- pc_pd_marsh  |  Planetary Diversity/common/planet_classes/pd_regular_wet_planet_dummy_classes.txt:144
+- pc_pd_mediterranean  |  Planetary Diversity/common/planet_classes/pd_regular_dry_planet_dummy_classes.txt:303
+- pc_pd_megaflora  |  Planetary Diversity/common/planet_classes/pd_regular_wet_planet_dummy_classes.txt:205
+- pc_pd_mesa  |  Planetary Diversity/common/planet_classes/pd_regular_dry_planet_dummy_classes.txt:257
+- pc_pd_monsoon  |  Planetary Diversity/common/planet_classes/pd_regular_dry_planet_dummy_classes.txt:669
+- pc_pd_moss  |  Planetary Diversity/common/planet_classes/pd_regular_wet_planet_dummy_classes.txt:125
+- pc_pd_mud  |  Planetary Diversity/common/planet_classes/pd_regular_frozen_planet_dummy_classes.txt:548
+- pc_pd_mushroom  |  Planetary Diversity/common/planet_classes/pd_regular_wet_planet_dummy_classes.txt:87
+- pc_pd_mycelium  |  Planetary Diversity/common/planet_classes/pd_regular_frozen_planet_dummy_classes.txt:528
+- pc_pd_necro_cave  |  Planetary Diversity/common/planet_classes/pd_cavern_planet_classes.txt:411
+- pc_pd_necro_shroud_cave  |  Planetary Diversity/common/planet_classes/pd_cavern_planet_classes.txt:436
+- pc_pd_nuked_cave  |  Planetary Diversity/common/planet_classes/pd_cavern_planet_classes.txt:143
+- pc_pd_nuked_superhabitable  |  Planetary Diversity/common/planet_classes/pd_superhabitable_planet_classes.txt:138
+- pc_pd_nuked_tidally_locked  |  Planetary Diversity/common/planet_classes/pd_tidally_locked_planet_classes.txt:197
+- pc_pd_oasis  |  Planetary Diversity/common/planet_classes/pd_regular_dry_planet_dummy_classes.txt:30
+- pc_pd_obsidian  |  Planetary Diversity/common/planet_classes/pd_regular_wet_planet_dummy_classes.txt:611
+- pc_pd_opal  |  Planetary Diversity/common/planet_classes/pd_regular_dry_planet_dummy_classes.txt:418
+- pc_pd_outback  |  Planetary Diversity/common/planet_classes/pd_regular_dry_planet_dummy_classes.txt:52
+- pc_pd_peatland  |  Planetary Diversity/common/planet_classes/pd_regular_frozen_planet_dummy_classes.txt:658
+- pc_pd_petrified  |  Planetary Diversity/common/planet_classes/pd_regular_wet_planet_dummy_classes.txt:183
+- pc_pd_prairie  |  Planetary Diversity/common/planet_classes/pd_regular_dry_planet_dummy_classes.txt:531
+- pc_pd_primal  |  Planetary Diversity/common/planet_classes/pd_regular_dry_planet_dummy_classes.txt:486
+- pc_pd_ravine  |  Planetary Diversity/common/planet_classes/pd_regular_frozen_planet_dummy_classes.txt:439
+- pc_pd_reef  |  Planetary Diversity/common/planet_classes/pd_regular_wet_planet_dummy_classes.txt:423
+- pc_pd_retinal  |  Planetary Diversity/common/planet_classes/pd_regular_wet_planet_dummy_classes.txt:6
+- pc_pd_sakura  |  Planetary Diversity/common/planet_classes/pd_regular_wet_planet_dummy_classes.txt:106
+- pc_pd_salt  |  Planetary Diversity/common/planet_classes/pd_regular_dry_planet_dummy_classes.txt:213
+- pc_pd_sandstone  |  Planetary Diversity/common/planet_classes/pd_regular_dry_planet_dummy_classes.txt:600
+- pc_pd_semi_arid  |  Planetary Diversity/common/planet_classes/pd_regular_dry_planet_dummy_classes.txt:554
+- pc_pd_shroud_cave  |  Planetary Diversity/common/planet_classes/pd_cavern_planet_classes.txt:361
+- pc_pd_silvergrass  |  Planetary Diversity/common/planet_classes/pd_regular_dry_planet_dummy_classes.txt:692
+- pc_pd_sinkhole  |  Planetary Diversity/common/planet_classes/pd_regular_dry_planet_dummy_classes.txt:737
+- pc_pd_snow  |  Planetary Diversity/common/planet_classes/pd_regular_frozen_planet_dummy_classes.txt:280
+- pc_pd_sodalite  |  Planetary Diversity/common/planet_classes/pd_regular_dry_planet_dummy_classes.txt:190
+- pc_pd_steppe  |  Planetary Diversity/common/planet_classes/pd_regular_dry_planet_dummy_classes.txt:508
+- pc_pd_storm  |  Planetary Diversity/common/planet_classes/pd_regular_frozen_planet_dummy_classes.txt:213
+- pc_pd_striped  |  Planetary Diversity/common/planet_classes/pd_regular_dry_planet_dummy_classes.txt:372
+- pc_pd_succulent  |  Planetary Diversity/common/planet_classes/pd_regular_dry_planet_dummy_classes.txt:349
+- pc_pd_superbloom  |  Planetary Diversity/common/planet_classes/pd_regular_dry_planet_dummy_classes.txt:441
+- pc_pd_supercontinent  |  Planetary Diversity/common/planet_classes/pd_regular_dry_planet_dummy_classes.txt:715
+- pc_pd_supraglacial_lakes  |  Planetary Diversity/common/planet_classes/pd_regular_frozen_planet_dummy_classes.txt:167
+- pc_pd_swamp  |  Planetary Diversity/common/planet_classes/pd_regular_wet_planet_dummy_classes.txt:248
+- pc_pd_taiga  |  Planetary Diversity/common/planet_classes/pd_regular_frozen_planet_dummy_classes.txt:394
+- pc_pd_tepid  |  Planetary Diversity/common/planet_classes/pd_regular_wet_planet_dummy_classes.txt:66
+- pc_pd_tepui  |  Planetary Diversity/common/planet_classes/pd_regular_wet_planet_dummy_classes.txt:485
+- pc_pd_thunder  |  Planetary Diversity/common/planet_classes/pd_regular_wet_planet_dummy_classes.txt:632
+- pc_pd_tidally_necro  |  Planetary Diversity/common/planet_classes/pd_tidally_locked_planet_classes.txt:374
+- pc_pd_tidally_wasteland  |  Planetary Diversity/common/planet_classes/pd_tidally_locked_planet_classes.txt:346
+- pc_pd_tidepool  |  Planetary Diversity/common/planet_classes/pd_regular_wet_planet_dummy_classes.txt:379
+- pc_pd_travertine  |  Planetary Diversity/common/planet_classes/pd_regular_frozen_planet_dummy_classes.txt:680
+- pc_pd_treeline  |  Planetary Diversity/common/planet_classes/pd_regular_frozen_planet_dummy_classes.txt:636
+- pc_pd_turquoise  |  Planetary Diversity/common/planet_classes/pd_regular_dry_planet_dummy_classes.txt:623
+- pc_pd_tuya  |  Planetary Diversity/common/planet_classes/pd_regular_frozen_planet_dummy_classes.txt:592
+- pc_pd_wasteland_cave  |  Planetary Diversity/common/planet_classes/pd_cavern_planet_classes.txt:335
+- pc_pd_wet_cave  |  Planetary Diversity/common/planet_classes/pd_cavern_planet_classes.txt:54
+- pc_pd_wet_gaia  |  Planetary Diversity/common/planet_classes/pd_gaia_planet_classes.txt:90
+- pc_pd_wet_superhabitable  |  Planetary Diversity/common/planet_classes/pd_superhabitable_planet_classes.txt:5
+- pc_pd_wet_tidally_locked  |  Planetary Diversity/common/planet_classes/pd_tidally_locked_planet_classes.txt:5
+- pc_subglacial  |  Planetary Diversity/common/planet_classes/pd_unihabitabile_planet_classes.txt:35
+- pc_volcanic_pd  |  Planetary Diversity/common/planet_classes/pd_unihabitabile_planet_classes.txt:115
+
+### Planetary Diversity - Ascension Worlds (65 unique classes, 65 definitions)
+
+- pc_aquatic  |  Planetary Diversity - Ascension Worlds/common/planet_classes/pd_aw_aquatic_dummy_classes.txt:1
+- pc_aquatic_hot  |  Planetary Diversity - Ascension Worlds/common/planet_classes/pd_aw_aquatic_dummy_classes.txt:26
+- pc_aquatic_shroud  |  Planetary Diversity - Ascension Worlds/common/planet_classes/pd_aw_aquatic_shroud_dummy_classes.txt:1
+- pc_aquatic_shroud_hot  |  Planetary Diversity - Ascension Worlds/common/planet_classes/pd_aw_aquatic_shroud_dummy_classes.txt:26
+- pc_hive_dummy  |  Planetary Diversity - Ascension Worlds/common/planet_classes/pd_aw_hive_dummy_classes.txt:1
+- pc_pd_agriworld  |  Planetary Diversity - Ascension Worlds/common/planet_classes/pd_aw_superproject_planet_classes.txt:33
+- pc_pd_aqua_shroud_habitat  |  Planetary Diversity - Ascension Worlds/common/planet_classes/pd_aw_aquatic_shroud_dummy_classes.txt:130
+- pc_pd_aquatic_city  |  Planetary Diversity - Ascension Worlds/common/planet_classes/pd_aw_aquatic_dummy_classes.txt:52
+- pc_pd_aquatic_hive  |  Planetary Diversity - Ascension Worlds/common/planet_classes/pd_aw_aquatic_dummy_classes.txt:129
+- pc_pd_aquatic_machine  |  Planetary Diversity - Ascension Worlds/common/planet_classes/pd_aw_aquatic_dummy_classes.txt:172
+- pc_pd_aquatic_relic  |  Planetary Diversity - Ascension Worlds/common/planet_classes/pd_aw_aquatic_dummy_classes.txt:89
+- pc_pd_aquatic_shroud_city  |  Planetary Diversity - Ascension Worlds/common/planet_classes/pd_aw_aquatic_shroud_dummy_classes.txt:52
+- pc_pd_aquatic_shroud_relic  |  Planetary Diversity - Ascension Worlds/common/planet_classes/pd_aw_aquatic_shroud_dummy_classes.txt:89
+- pc_pd_city_headquarters_aquatic  |  Planetary Diversity - Ascension Worlds/common/planet_classes/pd_aw_aquatic_dummy_classes.txt:217
+- pc_pd_city_headquarters_aquatic_shroud  |  Planetary Diversity - Ascension Worlds/common/planet_classes/pd_aw_aquatic_shroud_dummy_classes.txt:155
+- pc_pd_city_headquarters_necro  |  Planetary Diversity - Ascension Worlds/common/planet_classes/pd_aw_necro_dummy_classes.txt:77
+- pc_pd_city_headquarters_necro_shroud  |  Planetary Diversity - Ascension Worlds/common/planet_classes/pd_aw_necro_shroud_dummy_classes.txt:76
+- pc_pd_city_headquarters_shroud  |  Planetary Diversity - Ascension Worlds/common/planet_classes/pd_aw_shrouded_dummy_classes.txt:117
+- pc_pd_city_machine_capital_aquatic  |  Planetary Diversity - Ascension Worlds/common/planet_classes/pd_aw_aquatic_dummy_classes.txt:332
+- pc_pd_city_palace_aquatic  |  Planetary Diversity - Ascension Worlds/common/planet_classes/pd_aw_aquatic_dummy_classes.txt:240
+- pc_pd_city_palace_aquatic_shroud  |  Planetary Diversity - Ascension Worlds/common/planet_classes/pd_aw_aquatic_shroud_dummy_classes.txt:178
+- pc_pd_city_palace_necro  |  Planetary Diversity - Ascension Worlds/common/planet_classes/pd_aw_necro_dummy_classes.txt:100
+- pc_pd_city_palace_necro_shroud  |  Planetary Diversity - Ascension Worlds/common/planet_classes/pd_aw_necro_shroud_dummy_classes.txt:99
+- pc_pd_city_palace_shroud  |  Planetary Diversity - Ascension Worlds/common/planet_classes/pd_aw_shrouded_dummy_classes.txt:140
+- pc_pd_city_senate_aquatic  |  Planetary Diversity - Ascension Worlds/common/planet_classes/pd_aw_aquatic_dummy_classes.txt:263
+- pc_pd_city_senate_aquatic_shroud  |  Planetary Diversity - Ascension Worlds/common/planet_classes/pd_aw_aquatic_shroud_dummy_classes.txt:201
+- pc_pd_city_senate_necro  |  Planetary Diversity - Ascension Worlds/common/planet_classes/pd_aw_necro_dummy_classes.txt:123
+- pc_pd_city_senate_necro_shroud  |  Planetary Diversity - Ascension Worlds/common/planet_classes/pd_aw_necro_shroud_dummy_classes.txt:122
+- pc_pd_city_senate_shroud  |  Planetary Diversity - Ascension Worlds/common/planet_classes/pd_aw_shrouded_dummy_classes.txt:163
+- pc_pd_commercial_city_aquatic  |  Planetary Diversity - Ascension Worlds/common/planet_classes/pd_aw_aquatic_dummy_classes.txt:286
+- pc_pd_commercial_city_aquatic_shroud  |  Planetary Diversity - Ascension Worlds/common/planet_classes/pd_aw_aquatic_shroud_dummy_classes.txt:224
+- pc_pd_commercial_city_necro  |  Planetary Diversity - Ascension Worlds/common/planet_classes/pd_aw_necro_dummy_classes.txt:146
+- pc_pd_commercial_city_necro_shroud  |  Planetary Diversity - Ascension Worlds/common/planet_classes/pd_aw_necro_shroud_dummy_classes.txt:145
+- pc_pd_commercial_city_shroud  |  Planetary Diversity - Ascension Worlds/common/planet_classes/pd_aw_shrouded_dummy_classes.txt:186
+- pc_pd_core_tap  |  Planetary Diversity - Ascension Worlds/common/planet_classes/pd_aw_superproject_planet_classes.txt:1
+- pc_pd_flora_hive  |  Planetary Diversity - Ascension Worlds/common/planet_classes/pd_aw_arcology_gestalt_classes.txt:2
+- pc_pd_garden_city_aquatic  |  Planetary Diversity - Ascension Worlds/common/planet_classes/pd_aw_aquatic_dummy_classes.txt:309
+- pc_pd_garden_city_aquatic_shroud  |  Planetary Diversity - Ascension Worlds/common/planet_classes/pd_aw_aquatic_shroud_dummy_classes.txt:247
+- pc_pd_garden_city_machine_capital_aquatic  |  Planetary Diversity - Ascension Worlds/common/planet_classes/pd_aw_aquatic_dummy_classes.txt:355
+- pc_pd_garden_city_necro  |  Planetary Diversity - Ascension Worlds/common/planet_classes/pd_aw_necro_dummy_classes.txt:169
+- pc_pd_garden_city_necro_shroud  |  Planetary Diversity - Ascension Worlds/common/planet_classes/pd_aw_necro_shroud_dummy_classes.txt:168
+- pc_pd_garden_city_shroud  |  Planetary Diversity - Ascension Worlds/common/planet_classes/pd_aw_shrouded_dummy_classes.txt:209
+- pc_pd_lithoid_aquatic  |  Planetary Diversity - Ascension Worlds/common/planet_classes/pd_aw_lithoid_dummy_classes.txt:75
+- pc_pd_lithoid_aquatic_shroud  |  Planetary Diversity - Ascension Worlds/common/planet_classes/pd_aw_lithoid_dummy_classes.txt:147
+- pc_pd_lithoid_cyan  |  Planetary Diversity - Ascension Worlds/common/planet_classes/pd_aw_lithoid_dummy_classes.txt:3
+- pc_pd_lithoid_necro  |  Planetary Diversity - Ascension Worlds/common/planet_classes/pd_aw_lithoid_dummy_classes.txt:123
+- pc_pd_lithoid_necro_shroud  |  Planetary Diversity - Ascension Worlds/common/planet_classes/pd_aw_lithoid_dummy_classes.txt:171
+- pc_pd_lithoid_red  |  Planetary Diversity - Ascension Worlds/common/planet_classes/pd_aw_lithoid_dummy_classes.txt:27
+- pc_pd_lithoid_shroud  |  Planetary Diversity - Ascension Worlds/common/planet_classes/pd_aw_lithoid_dummy_classes.txt:99
+- pc_pd_lithoid_yellow  |  Planetary Diversity - Ascension Worlds/common/planet_classes/pd_aw_lithoid_dummy_classes.txt:51
+- pc_pd_megaflora_hive  |  Planetary Diversity - Ascension Worlds/common/planet_classes/pd_aw_megaflora_planet_classes.txt:3
+- pc_pd_megaflora_hive_bloomed  |  Planetary Diversity - Ascension Worlds/common/planet_classes/pd_aw_megaflora_planet_classes.txt:34
+- pc_pd_necro  |  Planetary Diversity - Ascension Worlds/common/planet_classes/pd_aw_necro_dummy_classes.txt:3
+- pc_pd_necro_city  |  Planetary Diversity - Ascension Worlds/common/planet_classes/pd_aw_necro_dummy_classes.txt:28
+- pc_pd_necro_relic  |  Planetary Diversity - Ascension Worlds/common/planet_classes/pd_aw_necro_dummy_classes.txt:53
+- pc_pd_necro_shroud  |  Planetary Diversity - Ascension Worlds/common/planet_classes/pd_aw_necro_shroud_dummy_classes.txt:3
+- pc_pd_necro_shroud_city  |  Planetary Diversity - Ascension Worlds/common/planet_classes/pd_aw_necro_shroud_dummy_classes.txt:28
+- pc_pd_necro_shroud_relic  |  Planetary Diversity - Ascension Worlds/common/planet_classes/pd_aw_necro_shroud_dummy_classes.txt:52
+- pc_pd_shroud  |  Planetary Diversity - Ascension Worlds/common/planet_classes/pd_aw_shrouded_dummy_classes.txt:2
+- pc_pd_shroud_city  |  Planetary Diversity - Ascension Worlds/common/planet_classes/pd_aw_shrouded_dummy_classes.txt:71
+- pc_pd_shroud_habitat  |  Planetary Diversity - Ascension Worlds/common/planet_classes/pd_aw_shrouded_dummy_classes.txt:48
+- pc_pd_shroud_relic  |  Planetary Diversity - Ascension Worlds/common/planet_classes/pd_aw_shrouded_dummy_classes.txt:94
+- pc_pd_shroud_ring  |  Planetary Diversity - Ascension Worlds/common/planet_classes/pd_aw_shrouded_dummy_classes.txt:25
+- pc_pd_stripmine  |  Planetary Diversity - Ascension Worlds/common/planet_classes/pd_aw_superproject_planet_classes.txt:65
+- pc_pd_wasteland  |  Planetary Diversity - Ascension Worlds/common/planet_classes/pd_aw_wasteland_dummy_classes.txt:2
+
+### Planetary Diversity - More Arcologies (5 unique classes, 5 definitions)
+
+- pc_pd_commercial_city  |  Planetary Diversity - More Arcologies/common/planet_classes/pd_arcology_dummy_classes.txt:28
+- pc_pd_fortress_city  |  Planetary Diversity - More Arcologies/common/planet_classes/pd_arcology_dummy_classes.txt:6
+- pc_pd_garden_city  |  Planetary Diversity - More Arcologies/common/planet_classes/pd_arcology_dummy_classes.txt:50
+- pc_pd_hive  |  Planetary Diversity - More Arcologies/common/planet_classes/pd_arcology_gestalt_classes.txt:2
+- pc_pd_machine  |  Planetary Diversity - More Arcologies/common/planet_classes/pd_arcology_gestalt_classes.txt:35
+
+### Planetary Diversity - Unique Worlds (3 unique classes, 3 definitions)
+
+- pc_pd_biosynth  |  Planetary Diversity - Unique Worlds/common/planet_classes/pd_unique_planet_dummy_classes.txt:45
+- pc_pd_crystal  |  Planetary Diversity - Unique Worlds/common/planet_classes/pd_unique_planet_dummy_classes.txt:23
+- pc_pd_floating  |  Planetary Diversity - Unique Worlds/common/planet_classes/pd_unique_planet_dummy_classes.txt:1
+
+### Planetary Diversity - Vanilla Replacements (55 unique classes, 55 definitions)
+
+- pc_a_star  |  Planetary Diversity - Vanilla Replacements/common/planet_classes/00_planet_classes.txt:1074
+- pc_ai  |  Planetary Diversity - Vanilla Replacements/common/planet_classes/00_planet_classes.txt:859
+- pc_alpine  |  Planetary Diversity - Vanilla Replacements/common/planet_classes/00_planet_classes.txt:372
+- pc_aquahabitat  |  Planetary Diversity - Vanilla Replacements/common/planet_classes/pdrw_planet_classes.txt:1
+- pc_arctic  |  Planetary Diversity - Vanilla Replacements/common/planet_classes/00_planet_classes.txt:333
+- pc_arid  |  Planetary Diversity - Vanilla Replacements/common/planet_classes/00_planet_classes.txt:96
+- pc_asteroid  |  Planetary Diversity - Vanilla Replacements/common/planet_classes/00_planet_classes.txt:479
+- pc_b_star  |  Planetary Diversity - Vanilla Replacements/common/planet_classes/00_planet_classes.txt:1047
+- pc_barren  |  Planetary Diversity - Vanilla Replacements/common/planet_classes/00_planet_classes.txt:568
+- pc_barren_cold  |  Planetary Diversity - Vanilla Replacements/common/planet_classes/00_planet_classes.txt:593
+- pc_black_hole  |  Planetary Diversity - Vanilla Replacements/common/planet_classes/00_planet_classes.txt:1264
+- pc_broken  |  Planetary Diversity - Vanilla Replacements/common/planet_classes/00_planet_classes.txt:1667
+- pc_continental  |  Planetary Diversity - Vanilla Replacements/common/planet_classes/00_planet_classes.txt:214
+- pc_cosmogenesis_world  |  Planetary Diversity - Vanilla Replacements/common/planet_classes/00_planet_classes.txt:1593
+- pc_cybrex  |  Planetary Diversity - Vanilla Replacements/common/planet_classes/00_planet_classes.txt:982
+- pc_desert  |  Planetary Diversity - Vanilla Replacements/common/planet_classes/00_planet_classes.txt:54
+- pc_f_star  |  Planetary Diversity - Vanilla Replacements/common/planet_classes/00_planet_classes.txt:1101
+- pc_frozen  |  Planetary Diversity - Vanilla Replacements/common/planet_classes/00_planet_classes.txt:645
+- pc_g_star  |  Planetary Diversity - Vanilla Replacements/common/planet_classes/00_planet_classes.txt:1128
+- pc_gaia  |  Planetary Diversity - Vanilla Replacements/common/planet_classes/00_planet_classes.txt:936
+- pc_gas_giant  |  Planetary Diversity - Vanilla Replacements/common/planet_classes/00_planet_classes.txt:449
+- pc_habitat  |  Planetary Diversity - Vanilla Replacements/common/planet_classes/00_planet_classes.txt:1551
+- pc_hive  |  Planetary Diversity - Vanilla Replacements/common/planet_classes/00_planet_classes.txt:710
+- pc_ice_asteroid  |  Planetary Diversity - Vanilla Replacements/common/planet_classes/00_planet_classes.txt:500
+- pc_infested  |  Planetary Diversity - Vanilla Replacements/common/planet_classes/00_planet_classes.txt:896
+- pc_k_star  |  Planetary Diversity - Vanilla Replacements/common/planet_classes/00_planet_classes.txt:1155
+- pc_m_giant_star  |  Planetary Diversity - Vanilla Replacements/common/planet_classes/00_planet_classes.txt:1209
+- pc_m_star  |  Planetary Diversity - Vanilla Replacements/common/planet_classes/00_planet_classes.txt:1182
+- pc_machine  |  Planetary Diversity - Vanilla Replacements/common/planet_classes/00_planet_classes.txt:754
+- pc_machine_broken  |  Planetary Diversity - Vanilla Replacements/common/planet_classes/00_planet_classes.txt:795
+- pc_molten  |  Planetary Diversity - Vanilla Replacements/common/planet_classes/00_planet_classes.txt:543
+- pc_nanotech  |  Planetary Diversity - Vanilla Replacements/common/planet_classes/00_planet_classes.txt:1010
+- pc_neutron_star  |  Planetary Diversity - Vanilla Replacements/common/planet_classes/00_planet_classes.txt:1291
+- pc_nuked  |  Planetary Diversity - Vanilla Replacements/common/planet_classes/00_planet_classes.txt:674
+- pc_ocean  |  Planetary Diversity - Vanilla Replacements/common/planet_classes/00_planet_classes.txt:254
+- pc_pulsar  |  Planetary Diversity - Vanilla Replacements/common/planet_classes/00_planet_classes.txt:1313
+- pc_rare_crystal_asteroid  |  Planetary Diversity - Vanilla Replacements/common/planet_classes/00_planet_classes.txt:521
+- pc_relic  |  Planetary Diversity - Vanilla Replacements/common/planet_classes/03_planet_classes_ancient_relics.txt:1
+- pc_ringworld_habitable  |  Planetary Diversity - Vanilla Replacements/common/planet_classes/00_planet_classes.txt:1343
+- pc_ringworld_habitable_damaged  |  Planetary Diversity - Vanilla Replacements/common/planet_classes/00_planet_classes.txt:1386
+- pc_ringworld_seam  |  Planetary Diversity - Vanilla Replacements/common/planet_classes/00_planet_classes.txt:1460
+- pc_ringworld_seam_damaged  |  Planetary Diversity - Vanilla Replacements/common/planet_classes/00_planet_classes.txt:1486
+- pc_ringworld_tech  |  Planetary Diversity - Vanilla Replacements/common/planet_classes/00_planet_classes.txt:1409
+- pc_ringworld_tech_damaged  |  Planetary Diversity - Vanilla Replacements/common/planet_classes/00_planet_classes.txt:1434
+- pc_savannah  |  Planetary Diversity - Vanilla Replacements/common/planet_classes/00_planet_classes.txt:135
+- pc_shattered  |  Planetary Diversity - Vanilla Replacements/common/planet_classes/00_planet_classes.txt:1689
+- pc_shattered_ring_habitable  |  Planetary Diversity - Vanilla Replacements/common/planet_classes/00_planet_classes.txt:1512
+- pc_shielded  |  Planetary Diversity - Vanilla Replacements/common/planet_classes/00_planet_classes.txt:826
+- pc_shrouded  |  Planetary Diversity - Vanilla Replacements/common/planet_classes/00_planet_classes.txt:1645
+- pc_t_star  |  Planetary Diversity - Vanilla Replacements/common/planet_classes/00_planet_classes.txt:1236
+- pc_toxic  |  Planetary Diversity - Vanilla Replacements/common/planet_classes/00_planet_classes.txt:618
+- pc_toxoid_star  |  Planetary Diversity - Vanilla Replacements/common/planet_classes/00_planet_classes.txt:1711
+- pc_tropical  |  Planetary Diversity - Vanilla Replacements/common/planet_classes/00_planet_classes.txt:175
+- pc_tundra  |  Planetary Diversity - Vanilla Replacements/common/planet_classes/00_planet_classes.txt:294
+- pc_volcanic  |  Planetary Diversity - Vanilla Replacements/common/planet_classes/00_planet_classes.txt:411
+
+### Vanilla4.3 (67 unique classes, 67 definitions)
+
+- pc_a_star  |  Vanilla4.3/common/planet_classes/00_planet_classes.txt:1074
+- pc_ai  |  Vanilla4.3/common/planet_classes/00_planet_classes.txt:859
+- pc_alpine  |  Vanilla4.3/common/planet_classes/00_planet_classes.txt:372
+- pc_arctic  |  Vanilla4.3/common/planet_classes/00_planet_classes.txt:333
+- pc_arid  |  Vanilla4.3/common/planet_classes/00_planet_classes.txt:96
+- pc_asteroid  |  Vanilla4.3/common/planet_classes/00_planet_classes.txt:479
+- pc_astral_scar  |  Vanilla4.3/common/planet_classes/00_planet_classes_astral_planes_dlc.txt:18
+- pc_b_star  |  Vanilla4.3/common/planet_classes/00_planet_classes.txt:1047
+- pc_barren  |  Vanilla4.3/common/planet_classes/00_planet_classes.txt:568
+- pc_barren_cold  |  Vanilla4.3/common/planet_classes/00_planet_classes.txt:593
+- pc_black_hole  |  Vanilla4.3/common/planet_classes/00_planet_classes.txt:1264
+- pc_broken  |  Vanilla4.3/common/planet_classes/00_planet_classes.txt:1667
+- pc_city  |  Vanilla4.3/common/planet_classes/02_planet_classes_megacorp.txt:1
+- pc_continental  |  Vanilla4.3/common/planet_classes/00_planet_classes.txt:214
+- pc_cosmogenesis_world  |  Vanilla4.3/common/planet_classes/00_planet_classes.txt:1593
+- pc_crystal_asteroid  |  Vanilla4.3/common/planet_classes/00_planet_classes_leviathans.txt:37
+- pc_crystal_habitat  |  Vanilla4.3/common/planet_classes/00_planet_classes_first_contact_dlc.txt:37
+- pc_cutholoid  |  Vanilla4.3/common/planet_classes/04_planet_classes_grand_archive.txt:1
+- pc_cybrex  |  Vanilla4.3/common/planet_classes/00_planet_classes.txt:982
+- pc_desert  |  Vanilla4.3/common/planet_classes/00_planet_classes.txt:54
+- pc_egg_cracked  |  Vanilla4.3/common/planet_classes/00_planet_classes_distant_stars.txt:34
+- pc_f_star  |  Vanilla4.3/common/planet_classes/00_planet_classes.txt:1101
+- pc_frozen  |  Vanilla4.3/common/planet_classes/00_planet_classes.txt:645
+- pc_g_star  |  Vanilla4.3/common/planet_classes/00_planet_classes.txt:1128
+- pc_gaia  |  Vanilla4.3/common/planet_classes/00_planet_classes.txt:936
+- pc_gas_giant  |  Vanilla4.3/common/planet_classes/00_planet_classes.txt:449
+- pc_gray_goo  |  Vanilla4.3/common/planet_classes/00_planet_classes_distant_stars.txt:2
+- pc_habitat  |  Vanilla4.3/common/planet_classes/00_planet_classes.txt:1551
+- pc_habitat_shielded  |  Vanilla4.3/common/planet_classes/01_planet_classes_apocalypse.txt:33
+- pc_hive  |  Vanilla4.3/common/planet_classes/00_planet_classes.txt:710
+- pc_ice_asteroid  |  Vanilla4.3/common/planet_classes/00_planet_classes.txt:500
+- pc_infested  |  Vanilla4.3/common/planet_classes/00_planet_classes.txt:896
+- pc_junk  |  Vanilla4.3/common/planet_classes/05_planet_classes_strange_worlds.txt:1
+- pc_k_star  |  Vanilla4.3/common/planet_classes/00_planet_classes.txt:1155
+- pc_m_giant_star  |  Vanilla4.3/common/planet_classes/00_planet_classes.txt:1209
+- pc_m_star  |  Vanilla4.3/common/planet_classes/00_planet_classes.txt:1182
+- pc_machine  |  Vanilla4.3/common/planet_classes/00_planet_classes.txt:754
+- pc_machine_broken  |  Vanilla4.3/common/planet_classes/00_planet_classes.txt:795
+- pc_molten  |  Vanilla4.3/common/planet_classes/00_planet_classes.txt:543
+- pc_nanotech  |  Vanilla4.3/common/planet_classes/00_planet_classes.txt:1010
+- pc_neutron_star  |  Vanilla4.3/common/planet_classes/00_planet_classes.txt:1291
+- pc_nuked  |  Vanilla4.3/common/planet_classes/00_planet_classes.txt:674
+- pc_ocean  |  Vanilla4.3/common/planet_classes/00_planet_classes.txt:254
+- pc_pulsar  |  Vanilla4.3/common/planet_classes/00_planet_classes.txt:1313
+- pc_rare_crystal_asteroid  |  Vanilla4.3/common/planet_classes/00_planet_classes.txt:521
+- pc_relic  |  Vanilla4.3/common/planet_classes/03_planet_classes_ancient_relics.txt:1
+- pc_rift_star  |  Vanilla4.3/common/planet_classes/00_planet_classes_astral_planes_dlc.txt:1
+- pc_ringworld_habitable  |  Vanilla4.3/common/planet_classes/00_planet_classes.txt:1343
+- pc_ringworld_habitable_damaged  |  Vanilla4.3/common/planet_classes/00_planet_classes.txt:1386
+- pc_ringworld_seam  |  Vanilla4.3/common/planet_classes/00_planet_classes.txt:1460
+- pc_ringworld_seam_damaged  |  Vanilla4.3/common/planet_classes/00_planet_classes.txt:1486
+- pc_ringworld_shielded  |  Vanilla4.3/common/planet_classes/01_planet_classes_apocalypse.txt:5
+- pc_ringworld_tech  |  Vanilla4.3/common/planet_classes/00_planet_classes.txt:1409
+- pc_ringworld_tech_damaged  |  Vanilla4.3/common/planet_classes/00_planet_classes.txt:1434
+- pc_savannah  |  Vanilla4.3/common/planet_classes/00_planet_classes.txt:135
+- pc_shattered  |  Vanilla4.3/common/planet_classes/00_planet_classes.txt:1689
+- pc_shattered_2  |  Vanilla4.3/common/planet_classes/03_planet_classes_events.txt:2
+- pc_shattered_ring_habitable  |  Vanilla4.3/common/planet_classes/00_planet_classes.txt:1512
+- pc_shielded  |  Vanilla4.3/common/planet_classes/00_planet_classes.txt:826
+- pc_shrouded  |  Vanilla4.3/common/planet_classes/00_planet_classes.txt:1645
+- pc_t_star  |  Vanilla4.3/common/planet_classes/00_planet_classes.txt:1236
+- pc_toxic  |  Vanilla4.3/common/planet_classes/00_planet_classes.txt:618
+- pc_toxoid_star  |  Vanilla4.3/common/planet_classes/00_planet_classes.txt:1711
+- pc_tropical  |  Vanilla4.3/common/planet_classes/00_planet_classes.txt:175
+- pc_tundra  |  Vanilla4.3/common/planet_classes/00_planet_classes.txt:294
+- pc_volcanic  |  Vanilla4.3/common/planet_classes/00_planet_classes.txt:411
+- pc_warden_guardian  |  Vanilla4.3/common/planet_classes/00_planet_classes_first_contact_dlc.txt:76
+
