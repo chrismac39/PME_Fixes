@@ -1,0 +1,198 @@
+﻿l_simp_chinese:
+
+############
+# Deposits #
+############
+
+pme_d_space_elevator:0 "§空间电梯"
+pme_d_space_elevator_desc:0 "这是一个行星级的超级工程。这座空间电梯大大缩短了人员和货物往返轨道的时间和成本，远远超过我们最先进的推进器可能达到的水平。这在很大程度上归功于重力抵消技术、超高强度材料和从地表到地球同步轨道的真空密封电梯井。这个结构对贸易和旅游业的影响不可低估。"
+
+pme_d_worldwide_maglev:0 "全球磁悬浮系统"
+pme_d_worldwide_maglev_desc:0 "这是一个行星级的超级工程。这个世界的管理部门决定大力投资公共交通是一项值得的事业。这个横跨整个行星的磁悬浮铁路就是其结果。速度快、可靠性高、费用低廉，使得前往地表任何主要地点的旅行变得微不足道。"
+
+pme_d_planetary_irrigation_water:0 "行星灌溉和水处理"
+pme_d_planetary_irrigation_water_desc:0 "这是一个行星级的超级工程。一个高效的全球水处理和分配系统。分布在全球各地的众多设施确保了农业、公共和私人的水需求始终得到满足。"
+
+pme_d_fleet_academy:0 "§EGrand Fleet Officer's Academy"
+pme_d_fleet_academy_desc:0 "Si Vis Pacem, Para Bellum is an old phrase from this society's history. It means "In times of peace, prepare for war." This academy stands as a testament to that principle, training some of the galaxy's finest fleet officers and admirals."
+
+pme_d_university_cityscape:0 "§E大学城市景观"
+pme_d_university_cityscape_desc:0 "这是一个行星级的超级工程。这座城市的设计目的是以高等教育为唯一目标，这个角色它表现得非常出色。这座城市包括一些商业和居住空间，但只有足够让学生和教职员工满意的空间。"
+
+pme_d_mini_ecumenopolis:0 "§E首都世界城"
+pme_d_mini_ecumenopolis_desc:0 "这是一个行星级的超级工程。一个迷你的世界城市覆盖了行星表面的大约7%。所有主要分支的行星政府都设在这里。这座巨大的城市配备了最先进的安全设施和充足的商业和居住空间。偶尔会有人质疑为什么政治阶层与行星其他地区分开。这些问题被通过试验和测试的面包和马戏团程序压制下去。"
+
+pme_d_deep_mantle_exotic_hyperforge:0 "Deep Mantle Exotic Hyperforge"
+pme_d_deep_mantle_exotic_hyperforge_desc:0 "Straddling the boundary between the crust and the mantle, this facility produces resources once thought purely fictional. Dark Matter, fueling endless energy production and enhancing shields across the empire. Living Metal, enabling structures to mend on their own. Nanites, revolutionizing medicine and unlocking architectural marvels. These three resources, when used together, have made this planet nearly impossible to bombard from orbit. As a result, these strategic resources are distributed throughout the empire to improve the durability and speed of starships."
+
+pme_d_gaia_biosphere_preservation_webbing:0 "Biosphere Preservation Webbing"
+pme_d_gaia_biosphere_preservation_webbing_desc:0 "Arranged in a web-like lattice around the surface of this planet are numerous warehouses, lodges, labs, and staging points. The purpose of these facilities is to sample, index, and maintain the biosphere of this world in perpetuity. Operating out of these sites are the Biosphere Keepers, an exclusive, specialized league of biologists. Through largely unknown means, these biologists have discovered a method to produce Zro directly. They guard this knowledge fiercely."
+
+pme_d_mining_construction:0 "行星采矿和建设总部"
+pme_d_mining_construction_desc:0 "这是一个行星级的超级工程。各种采矿和建设财团的总部设在这个行星上。这两个群体之间的接近使得任何类型的基础设施的建设、维护和扩展更加廉价、快速和成本效益更高。"
+
+pme_d_supermax_prison_rehab:0 "ADX监狱和康复中心"
+pme_d_supermax_prison_rehab_desc:0 "这是一个行星级的超级工程。这个世界上所有最坏的罪犯都被关押在这个监狱的ADX部分。他们自愿从事各种琐碎的工作来偿还他们对社会的债务，并且会得到小额报酬。整个营地随时由无数的执法者和士兵巡逻，确保随时保持秩序。这个营地的康复部分用于服刑后愿意接受康复的囚犯或被认为在其他地方无法康复的人。由于这两个设施，这个行星享有较低的犯罪率和罪犯、成瘾者甚至许多心理受损者中改造的高比例。"
+
+pme_d_resort_archipelago:0 "§E度假胜地群岛"
+pme_d_resort_archipelago_desc:0 "这是一个行星级的超级工程。按照五星级质量标准，这个度假胜地综合体将得到六星。建在美丽的岛屿群之上，竭尽全力保护美丽的景观，这个度假胜地是独一无二的。整个度假胜地综合体遍布各种顶级设施，无论是俱乐部、酒吧、水疗中心、桑拿浴室、海滩还是其他任何可能的休闲设施，都可以在这里找到。"
+
+pme_d_interstellar_hospital:0 "星际医院"
+pme_d_interstellar_hospital_desc:0 "这是一个行星级的超级工程。这座庞大的医院是这个星球上居民医疗创新的见证。配备了所有最先进的、生命拯救和延长设备，由高度训练的专业人员组成，很难在整个银河系找到更好的治疗设施。"
+
+pme_d_planetary_fusion_grid:0 "行星聚变网格"
+pme_d_planetary_fusion_grid_desc:0 "这是一个行星级的超级工程。巨大的聚变反应堆分布在这个行星的表面。这些反应堆产生了维持所有形式政府、工业和商业运行所需的能量。"
+
+pme_d_corporate_megacampus:0 "企业巨型校园"
+pme_d_corporate_megacampus_desc:0 "这是一个行星级的超级工程。办公室环绕着这座巨大的大楼外部，容纳了这个行星上最重要的许多企业。除了办公空间外，大楼的大部分对公众开放，提供就餐、购物、社交等各种机会。"
+
+pme_d_subsurface_megaforges:0 "地下超级锻造厂"
+pme_d_subsurface_megaforges_desc:0 "这是一个行星级的超级工程。沿着这个行星地壳的表面，有许多大型锻造厂生产最高质量的合金。这些合金用于全球各地的建筑物，使得基础设施和建筑物更牢固。此外，它们的大规模生产意味着合金短缺，至少在这个行星上已经是过去的事。这降低了建筑时间和建筑成本。多余的合金则出售给帝国其他地区，增强了整个防御工业的实力。"
+
+pme_d_orbital_superfactory:0 "轨道超级工厂"
+pme_d_orbital_superfactory_desc:0 "这是一个行星级的超级工程。高度稳定地位于距离行星表面较高的地球同步轨道上，这座巨大的工厂生产着惊人数量的奢侈品和必需品。所有产品都是最高质量的，由许多不同的制造商租赁工厂的部分生产，该工厂为行星及其周边提供几乎任何人所需或所愿的东西。"
+
+pme_d_orbital_defense_grid:0 "轨道防御网格"
+pme_d_orbital_defense_grid_desc:0 "这是一个行星级的超级工程。要塞级别的站点环绕着这个行星，始终保持对行星表面的持续警戒。配备了高度先进的武器、装甲和护盾，很少有飞船或抛射物会到达行星表面。"
+
+pme_d_chemical_hazardous_goods:0 "化学品和危险品处理"
+pme_d_chemical_hazardous_goods_desc:0 "这是一个行星级的超级工程。行星管理部门在一座最先进的危险物质回收和再处理厂投入了巨额资金。这个设施将技术和材料分解为有用的部分，几乎可以无限循环地通过经济系统进行处理。"
+
+pme_d_orbital_colonies:0 "§E轨道殖民地"
+pme_d_orbital_colonies_desc:0 "这是一个行星级的超级工程。为了容纳这个行星不断增长的人口，已经建造了几个庞大的轨道站点，它们稳定地运行在轨道上。每个站点都像一个大型小行星一样大，可以容纳数百万人口，并为许多新区提供了空间。"
+
+pme_d_polar_resource_silos:0 "极地资源储存仓库"
+pme_d_polar_resource_silos_desc:0 "这是一个行星级的超级工程。这些巨大的储存仓库、保险库和仓库建造旨在满足这个行星对材料储存的不断增长的需求。整个复杂系统由一支规模庞大的训练有素的士兵小队保护和维护，一样数量的工人和文员负责跟踪管理这个站点的进出货物。"
+
+########################
+### Machine Deposits ###
+########################
+
+pme_d_machine_global_management_nexus:0 "§E全球管理中枢"
+pme_d_machine_global_management_nexus_desc:0 "这是这个行星机器管理系统的中央枢纽，它监督着遍布这个世界表面的机器社会的每一个方面，从原始资源采购到基础设施管理等等。"
+
+pme_d_machine_orbital_colonies:0 "§E轨道殖民地"
+pme_d_machine_orbital_colonies_desc:0 "随着这个行星的机器人数量增长，共识认为建造多个轨道栖息地以有效储存当前未活动单位是合适的。因此，这个行星有了增加的住房能力，并为地面上专门用于生产的区域提供了更多空间。"
+
+pme_d_machine_fleet_coordination_systems:0 "§EFleet Coordination Systems"
+pme_d_machine_fleet_coordination_systems_desc:0 "Built on top of and burrowing deep into sturdy bedrock, this facility assists naval fleets with calculations, maneuvers and target acquisition, improving performance by noticeable margins. This is achieved by equipping every ship with a quantum communicator, allowing for instantaneous transfer of information over unlimited distances."
+
+pme_d_machine_continental_computing_system:0 "§E大陆计算系统"
+pme_d_machine_continental_computing_system_desc:0 "在这个行星的一个大陆下面，一个巨大的互连的超级计算复合体提供了空间和设备，使得一支计算机群能够无干扰地完成它们的工作。"
+
+pme_d_machine_planetwide_software_standardization_network:0 "§E全球软件标准化网络"
+pme_d_machine_planetwide_software_standardization_network_desc:0 "这个行星机器人群体对软件维护的需求得到了满足并远远超过了这个先进设施。这个设施使得所有型号的机器人可以完美同步工作，提高了效率。"
+
+pme_d_machine_deep_mantle_exotic_hyperforge:0 "Deep Mantle Exotic Hyperforge"
+pme_d_machine_deep_mantle_exotic_hyperforge_desc:0 "In a sealed facility deep below the planet's surface, the most advanced forges and matter printers at this intelligence's disposal operate ceaselessly. Fabricating dark matter, living metal and nanites enable seamless construction, improved weaponry and impenetrable defenses. These exotic materials serve to augment the efficiency of the intelligence in countless ways."
+
+pme_d_machine_space_elevator:0 "§E空间电梯"
+pme_d_machine_space_elevator_desc:0 "这座巍峨的空间电梯建造旨在使得太空旅行和运输变得微不足道。它在这一任务上取得了非凡的成功，使得对这个行星及其周围空间的进一步开发成为可能。"
+
+pme_d_machine_drone_reprogramming_center:0 "机器人重新编程中心"
+pme_d_machine_drone_reprogramming_center_desc:0 "这是一个用于处理在机器人数量如此庞大的行星上不可避免的问题的设施。那些无法重新编程的机器人将被报废并回收用于制造新模型。"
+
+pme_d_machine_auxiliary_assembly_centers:0 "辅助装配中心"
+pme_d_machine_auxiliary_assembly_centers_desc:0 "当这个行星上的机器人生产设施显然无法胜任任务时，这个行星的管理部门命令建造这些辅助装配中心，以弥补其他地方的不足。"
+
+pme_d_machine_subsurface_megaforges:0 "地下超级锻造厂"
+pme_d_machine_subsurface_megaforges_desc:0 "在这个行星地壳下数千米处，有一个巨大的设施专门用于处理矿石制成合金。这个设施被称为地下超级锻造厂，由一支机器人大军运行。生产全天候稳定进行，确保需求始终得到满足。"
+
+pme_d_machine_chemical_hazardous_goods:0 "化学品和危险品处理"
+pme_d_machine_chemical_hazardous_goods_desc:0 "当这个行星开始难以满足各种危险但战略性材料的需求时，这个设施被迅速建造。各种型号的机器人工作以转化、回收或以其他方式促进战略重要材料的可靠生产。"
+
+pme_d_machine_orbital_defense_grid:0 "轨道防御网格"
+pme_d_machine_orbital_defense_grid_desc:0 "在这个行星低轨道上是一系列先进的防御设施，用于保护行星免受轨道轰炸的袭击。这些站点数量众多，几乎不可能耗尽它们的供应，迫使入侵舰队采取不同且不那么具破坏性的策略来轰击这个行星。"
+
+pme_d_machine_worldwide_maglev:0 "全球磁悬浮网络"
+pme_d_machine_worldwide_maglev_desc:0 "一套磁悬浮列车网覆盖了这个行星的表面，实现了机器人和资源之间的快速、廉价的运输。"
+
+pme_d_machine_polar_resource_silos:0 "极地资源储存仓库"
+pme_d_machine_polar_resource_silos_desc:0 "在这个行星的极地附近，有一个网络的库房、仓库和保险库，整齐地储存着这个行星工业所需的绝大部分资源。一支规模庞大的机器人队伍负责保卫和维护这些设施。"
+
+pme_d_machine_system_extraction:0 "系统提取复合体"
+pme_d_machine_system_extraction_desc:0 "为了增加矿产生产，这个设施被建造出来，为采矿机器人提供了轻松接近太空的通道。结果是，这个太阳系中的任何卫星、行星或小行星的矿物财富都可以轻松地被开采，并快速运送到行星表面。"
+
+pme_d_machine_planetary_water_processing:0 "行星水处理"
+pme_d_machine_planetary_water_processing_desc:0 "尽管这个种族的本质是机械化的，但水仍然是一种非常有用的资源。因此，这个设施被建造出来，以促进高效的水处理和运输，满足这个行星各个工业场所对水资源的需求。"
+
+pme_d_machine_planetary_fusion_grid:0 "行星聚变网格"
+pme_d_machine_planetary_fusion_grid_desc:0 "为了确保这个机器社会的各个方面都有充足的能源，这个行星表面建造了一系列高产能的聚变反应堆。结果是一个健全的电网，使得这个世界的工业即使在直接受到攻击时也能继续运作。"
+
+#####################
+### Hive Deposits ###
+#####################
+
+pme_d_hive_planetary_coordination_nodes:0 "§EPlanetary Coordination Nodes"
+pme_d_hive_planetary_coordination_nodes_desc:0 "From these nodes the hive coordinates its collective actions with precision, improving the efficiency of specialist drones and the cohesion of the planet's hive overall, resulting in a far more productive super-organism."
+
+pme_d_hive_orbital_colonies:0 "§EBuild Orbital Colonies"
+pme_d_hive_orbital_colonies_desc:0 "To sustain the ever-increasing population of drones on this planet, the hive built a series of habitats in orbit. These provide more housing and jobs, but most of all, they free up a significant amount of space on the planet's surface for additional industry."
+
+pme_d_hive_fleet_coordination_nexus:0 "§EFleet Coordination Nexus"
+pme_d_hive_fleet_coordination_nexus_desc:0 "This nexus provides the means to drastically alter the way fleet action is undertaken and understood. Significantly improving the communications, calculations and performance of the hive's fleets no matter where they may be in the galaxy. This complex is highly fortified, well-staffed and painstakingly maintained."
+
+pme_d_hive_collective_computing_consciousness:0 "§ECollective Computing Consciousness"
+pme_d_hive_collective_computing_consciousness_desc:0 "Through the collective neural capacity of countless drones, this facility contributes greatly to the wider hive's understanding of the universe and how it can be manipulated to its ends. In order to achieve this, drones dedicated to this task are provided with significantly more food and amenities than is standard for drones of equal status."
+
+pme_d_hive_consciousness_synchronization_lattice:0 "§EConsciousness Synchronization Lattice"
+pme_d_hive_consciousness_synchronization_lattice_desc:0 "This planet-spanning network of connection points, resting dens and feeding galleries is optimally dispersed across the surface to allow for maximized drone productivity and better coordination within the hive."
+
+pme_d_hive_deep_mantle_exotic_hyperforge:0 "Deep Mantle Exotic Hyperforge"
+pme_d_hive_deep_mantle_exotic_hyperforge_desc:0 "Deep below the planet's crust, the hive's most sophisticated bio-forges and matter printers operate without rest. These organic machines toil to produce the most exotic, rare resources of all: dark matter, living metal, and nanites. With these, the multitude is strengthened. Ships, buildings and the unseen infrastructure that keeps the hive connected, all benefit from the resources produced here."
+
+pme_d_hive_gaia_biosphere_preservation_webbing:0 "Biosphere Preservation Webbing"
+pme_d_hive_gaia_biosphere_preservation_webbing_desc:0 "On a lattice of levitating pedestals that span across this planet's skies are numerous bio-facilities that labour to preserve the biosphere. Working tirelessly, the drones collect, record and nurture all aspects of the planetary environment for the hive's greater purpose. Through their toil, these drones also, mysteriously, produce small amounts of Zro."
+
+pme_d_hive_space_elevator:0 "§ESpace Elevator"
+pme_d_hive_space_elevator_desc:0 "This towering space elevator enables the hive to rapidly transport products, resources and drones from the planet's surface to space and back. All this is achieved at a fraction of the cost of any other method, resulting in a significant increase in output."
+
+pme_d_hive_neural_regulation_nexus:0 "Neural Regulation Nexus"
+pme_d_hive_neural_regulation_nexus_desc:0 "This enormous, highly secure facility was built to manage the ever-increasing population of deviant drones on this planet. Depending on how far the drone has deviated, it will either be re-integrated into the greater hive or simply terminated."
+
+pme_d_hive_supplemental_breeding_pools:0 "Supplemental Breeding Pools"
+pme_d_hive_supplemental_breeding_pools_desc:0 "This sprawling structure has been built to ensure the planet's ever-growing demand for drones is met no matter the circumstance. Countless drones labor day and night to ensure the pools are supplied with enough essential nutrients to keep a steady swarm of new, fully grown drones entering service every cycle."
+
+pme_d_hive_subsurface_megaforges:0 "Subsurface Megaforges"
+pme_d_hive_subsurface_megaforges_desc:0 "These gargantuan forges were built to supply this planet and the greater hive with the high-quality alloys that are always in demand. The forges are worked by swarms of drones at all hours, only rarely being shut down for maintenance to ensure quality is maintained."
+
+pme_d_hive_chemical_hazardous_goods:0 "Hazardous Materials Processing Superfactory"
+pme_d_hive_chemical_hazardous_goods_desc:0 "A sprawling facility housing all the industrial equipment required to store, process and recycle the most hazardous goods that the hive uses across its vast network. Efforts are made to limit the effects on the surrounding environment, to ensure it can be exploited for the hive's other needs."
+
+pme_d_hive_orbital_defense_grid:0 "Orbital Defense Grid"
+pme_d_hive_orbital_defense_grid_desc:0 "To protect the planet, and the incredibly important industrial sites on its surface, this orbital network of defensive satellites and stations was constructed. Meticulously planned, with overlapping firing arcs to the point of near redundancy, this planet can weather anything the enemy throws at it."
+
+pme_d_hive_worldwide_maglev:0 "Worldwide Maglev System"
+pme_d_hive_worldwide_maglev_desc:0 "A web of interconnected maglev lines stretches across every corner of this planet. Transporting both drones and material, this transportation network cuts down on the cost and production times of the most simple of goods to the most complex technology."
+
+pme_d_hive_polar_resource_silos:0 "Polar Resource Silos"
+pme_d_hive_polar_resource_silos_desc:0 "In order to store the gargantuan stockpiles of resources this planet requires and ensure that in case of emergencies, there aren't shortages, the poles of this planet have been largely covered with titanic silos, vaults and warehouses. In addition, an army of drones works tirelessly to catalogue, maintain and transport the goods stored here."
+
+pme_d_hive_mineral_extraction_warrens:0 "Mineral Extraction Warrens"
+pme_d_hive_mineral_extraction_warrens_desc:0 "Collectively known as the Extraction Warrens by the hive, this network of shafts, tunnels and galleries allows the hive to extract an immense amount of mineral wealth from the planet's crust. As a result, the time it takes to build structures on the planetary surface as well as the cost to maintain them is decreased significantly."
+
+pme_d_hive_nutrient_processing_megaplant:0 "Nutrient Processing Megaplant"
+pme_d_hive_nutrient_processing_megaplant_desc:0 "This massive food processing plant serves the drones of this planet and beyond. Producing the highest quality of nutrients from plant or animal matter, anything that doesn't contribute to the hive's collective survival is processed into food, sustaining the never-ending growth of the hive."
+
+pme_d_hive_planetary_fusion_grid:0 "Planetary Fusion Grid"
+pme_d_hive_planetary_fusion_grid_desc:0 "Located in strategic, well-fortified locations across the planetary surface are numerous, highly efficient fusion power plants, meticulously maintained and tuned to perfection. Powering every facet of this world, from the climate control of breeding pools to the pumps ensuring a constant supply of nutrients in feeding tubes, they ensure the hive never wants for energy."
+
+##########################
+### Ascendant Deposits ###
+##########################
+
+pme_d_psionic_shroud_emitter:0 "念动护罩发射器"
+pme_d_psionic_shroud_emitter_desc:0 "这是一个行星级的超级工程。这座难以想象的高塔在行星的大气层中释放出一团细微的Zro尘雾。尘雾太细微以至于无法看见，它渗入一切，显著增强了这个世界居民的力量。此外，这座塔本身由大量的心灵感应者人员组成。"
+
+pme_d_gene_preservation_vaults:0 "基因保存库"
+pme_d_gene_preservation_vaults_desc:0 "这是一个行星级的超级工程。这个行星的基因保存库是无与伦比的。它促进了对用于克隆和治疗这个世界人口的基因库的存储、编目和改进。因此，这个人口的生产力大大提高。"
+
+pme_d_orbital_robotics_assembly_labs:0 "轨道机器人装配实验室"
+pme_d_orbital_robotics_assembly_labs_desc:0 "这是一个行星级的超级工程。这些轨道实验室制造了维护和发展这个行星机器人社会所需的无数合成骨架。"
+
+pme_d_machine_orbital_robotics_assembly_labs:0 "轨道机器人装配实验室"
+pme_d_machine_orbital_robotics_assembly_labs_desc:0 "这是一个行星级的超级工程。这些轨道实验室制造了维护和发展这个行星机器人社会所需的无数合成骨架。"
+
+pme_d_cybernetics_uplink_facility:0 "网络化生物连接设施"
+pme_d_cybernetics_uplink_facility_desc:0 "这是一个行星级的超级工程。这个设施帮助微调行星人口的生物连接器，以适应他们独特的生物特征和怪癖。因此，任何安装了任何级别的生化连接器的人在其增强生产力的任何追求中都会受益。"
+

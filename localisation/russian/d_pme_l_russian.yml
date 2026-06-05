@@ -1,0 +1,198 @@
+﻿l_russian:
+
+################
+### Deposits ###
+################
+
+pme_d_mini_ecumenopolis:0 "§ECapital Ecumenopolis"
+pme_d_mini_ecumenopolis_desc:0 "A miniature ecumenopolis covers roughly 7% of the planet's surface. All major branches of the planetary government are located here. The titanic city comes equipped with state-of-the-art security and plenty of commercial and living space. Infrequently, questions are raised about why the political class is separated from the rest of the planet. These questions are suppressed with the tried-and-tested routine of bread and circuses."
+
+pme_d_orbital_colonies:0 "§EOrbital Colonies"
+pme_d_orbital_colonies_desc:0 "In order to house the growing population of this planet several vast orbital stations have been constructed in a stable orbit. These stations, each the size of a large asteroid, can house millions and provide the space for many new districts."
+
+pme_d_fleet_academy:0 "§EGrand Fleet Officer's Academy"
+pme_d_fleet_academy_desc:0 "Si Vis Pacem, Para Bellum is an old phrase from this society's history. It means "In times of peace, prepare for war." This academy stands as a testament to that principle, training some of the galaxy's finest fleet officers and admirals."
+
+pme_d_university_cityscape:0 "§EUniversity Cityscape"
+pme_d_university_cityscape_desc:0 "This city was designed with higher education as its sole purpose, a role it performs admirably. The city includes some commercial and residential space, which over time has lead to this cityscape becoming a thriving metropolis and center for innovation."
+
+pme_d_resort_archipelago:0 "§EResort Archipelago"
+pme_d_resort_archipelago_desc:0 "On a five-star scale of quality, this resort complex would score a six. Built on top of a beautiful island archipelago, with every effort put into preserving the beautiful landscape, this resort is one of a kind. State-of-the-art facilities of all kinds, be they clubs, bars, spas, saunas, beaches, or any other possible leisure facility a person could desire are spread across this entire resort complex."
+
+pme_d_deep_mantle_exotic_hyperforge:0 "Deep Mantle Exotic Hyperforge"
+pme_d_deep_mantle_exotic_hyperforge_desc:0 "Straddling the boundary between the crust and the mantle, this facility produces resources once thought purely fictional. Dark Matter, fueling endless energy production and enhancing shields across the empire. Living Metal, enabling structures to mend on their own. Nanites, revolutionizing medicine and unlocking architectural marvels. These three resources, when used together, have made this planet nearly impossible to bombard from orbit. As a result, these strategic resources are distributed throughout the empire to improve the durability and speed of starships."
+
+pme_d_gaia_biosphere_preservation_webbing:0 "Biosphere Preservation Webbing"
+pme_d_gaia_biosphere_preservation_webbing_desc:0 "Arranged in a web-like lattice around the surface of this planet are numerous warehouses, lodges, labs, and staging points. The purpose of these facilities is to sample, index, and maintain the biosphere of this world in perpetuity. Operating out of these sites are the Biosphere Keepers, an exclusive, specialized league of biologists. Through largely unknown means, these biologists have discovered a method to produce Zro directly. They guard this knowledge fiercely."
+
+pme_d_space_elevator:0 "§ESpace Elevator"
+pme_d_space_elevator_desc:0 "This space elevator significantly reduces the time and cost of moving people and cargo to and from orbit. This is thanks in large part to gravity nullification technology, super-tensile materials, and a vacuum-sealed elevator shaft running from the surface to geostationary orbit. The impact this structure has on trade and tourism can not be overstated."
+
+pme_d_worldwide_maglev:0 "Worldwide Maglev System"
+pme_d_worldwide_maglev_desc:0 "The administration of this world has invested heavily in planetary transit. This planet-spanning maglev railway is the result. Incredibly fast, highly reliable, and with low fees, it makes travel to any major location on the surface trivial."
+
+pme_d_planetary_irrigation_water:0 "Planetary Irrigation and Water Treatment"
+pme_d_planetary_irrigation_water_desc:0 "A highly efficient global water treatment and distribution system. The numerous facilities dotted around the planet ensure the public, agricultural, and industrial sectors are never undersupplied no matter where on the planet they may be."
+
+pme_d_mining_construction:0 "Planetary Mining and Construction HQ"
+pme_d_mining_construction_desc:0 "The headquarters of the various mining and construction consortiums that operate on this planet. The proximity between both of these groups makes building, maintaining, and expanding infrastructure of any sort cheaper, quicker, and far more cost-effective."
+
+pme_d_supermax_prison_rehab:0 "ADX Prison and Rehab Center"
+pme_d_supermax_prison_rehab_desc:0 "All of this world's worst criminals are held within the ADX portion of this prison. They perform voluntary labor in various menial jobs to repay their debt to society and are minorly compensated for their work. The entire compound is patrolled at all times by countless enforcers and soldiers, ensuring order is maintained at all times. The rehab section of the compound is used for willing prisoners after their sentence or people deemed too dangerous to be rehabilitated elsewhere. As a result of both facilities, the planet enjoys low crime rates and a high percentage of reform among criminals, addicts, and even many psychologically damaged people."
+
+pme_d_interstellar_hospital:0 "Interstellar Hospital"
+pme_d_interstellar_hospital_desc:0 "This monolithic hospital is a testament to the medical innovations of the species inhabiting this world. Equipped with all the greatest life-saving and prolonging equipment money can buy, staffed by highly trained professionals, it's unlikely a person could find better treatment anywhere in the galaxy."
+
+pme_d_planetary_fusion_grid:0 "Planetary Fusion Grid"
+pme_d_planetary_fusion_grid_desc:0 "Gargantuan fusion reactors are dotted across the surface of this planet. These reactors create the energy needed to keep all forms of government, industry, and commerce running nonstop."
+
+pme_d_corporate_megacampus:0 "Corporate Megacampus"
+pme_d_corporate_megacampus_desc:0 "Offices line the exterior of this monolithic mega-building, housing many of the most important corporations that operate on this planet. Aside from office space, much of the building is open to the public, providing opportunities for dining, shopping, networking, and much more."
+
+pme_d_subsurface_megaforges:0 "Subsurface Megaforges"
+pme_d_subsurface_megaforges_desc:0 "The great forges that line this portion of the planet's crust produce alloys of the highest quality through all hours of the day. These alloys are used in structures across the planet, resulting in sturdier infrastructure and buildings. Furthermore, the sheer scale at which they can be produced means alloy shortages, at least on this planet, are a thing of the past. This reduces building times and the cost of building. The excess is sold off to the rest of the empire, bolstering the defense industry at large."
+
+pme_d_orbital_superfactory:0 "Orbital Superfactory"
+pme_d_orbital_superfactory_desc:0 "In a stable geostationary orbit high above the planet's surface, this gargantuan factory produces luxuries and necessities in staggering amounts. All of the highest quality and made by numerous different manufacturers who lease portions of the station, the factory serves the planet and beyond, providing almost anything someone could need or desire."
+
+pme_d_orbital_defense_grid:0 "Orbital Defense Grid"
+pme_d_orbital_defense_grid_desc:0 "Citadel-class stations surround this planet, keeping a constant vigil over the planetary surface. Armed with highly advanced weaponry, armor, and shielding, very few ships or projectiles will ever reach the surface."
+
+pme_d_chemical_hazardous_goods:0 "Hazardous Materials Processing Superfactory"
+pme_d_chemical_hazardous_goods_desc:0 "The Planetary Administration has invested an incredible sum of money in this state-of-the-art hazardous materials recycling and reprocessing plant. This facility strips down technology and materials for anything useful, cycling nearly everything it processes through the economic system indefinitely."
+
+pme_d_polar_resource_silos:0 "Polar Resource Silos"
+pme_d_polar_resource_silos_desc:0 "These titanic storage silos, vaults, and warehouses were built to meet the ever-increasing need for materials storage on this planet. The entire complex is guarded by a small army's worth of well-trained soldiers and a similar number of labourers and clerks keep track of all that comes and goes from the site."
+
+########################
+### Machine Deposits ###
+########################
+
+pme_d_machine_global_management_nexus:0 "§EGlobal Management Nexus"
+pme_d_machine_global_management_nexus_desc:0 "The central nexus of this planet's machine management system, it oversees every facet of the robotic society spread over the surface of this world, from raw resource procurement to infrastructure management and anything in between."
+
+pme_d_machine_orbital_colonies:0 "§EOrbital Colonies"
+pme_d_machine_orbital_colonies_desc:0 "As the drone population of this planet grew, the consensus saw fit to construct multiple orbital habitats for the efficient storage of units not currently active. As a result, this planet has an increased housing capacity and more space for districts dedicated to production on the surface."
+
+pme_d_machine_continental_computing_system:0 "§EContinental Computing Systems"
+pme_d_machine_continental_computing_system_desc:0 "Underneath one of the continents of this planet, a titanic lattice of interconnected supercomputing complexes provides the space and equipment necessary for an army of calculator drones to do their jobs undisturbed."
+
+pme_d_machine_fleet_coordination_systems:0 "§EFleet Coordination Systems"
+pme_d_machine_fleet_coordination_systems_desc:0 "Built on top of and burrowing deep into sturdy bedrock, this facility assists naval fleets with calculations, maneuvers and target acquisition, improving performance by noticeable margins. This is achieved by equipping every ship with a quantum communicator, allowing for instantaneous transfer of information over unlimited distances."
+
+pme_d_machine_planetwide_software_standardization_network:0 "§EPlanetwide Software Standardization Network"
+pme_d_machine_planetwide_software_standardization_network_desc:0 "The software upkeep demands of this planet's drone population are met and far surpassed by this state-of-the-art facility. The facility all software synced so units of any model can work together in perfect sync, allowing for increased efficiency."
+
+pme_d_machine_deep_mantle_exotic_hyperforge:0 "Deep Mantle Exotic Hyperforge"
+pme_d_machine_deep_mantle_exotic_hyperforge_desc:0 "In a sealed facility deep below the planet's surface, the most advanced forges and matter printers at this intelligence's disposal operate ceaselessly. Fabricating dark matter, living metal and nanites enable seamless construction, improved weaponry and impenetrable defenses. These exotic materials serve to augment the efficiency of the intelligence in countless ways."
+
+pme_d_machine_space_elevator:0 "§ESpace Elevator"
+pme_d_machine_space_elevator_desc:0 "This towering space elevator was built to make travel and transport to space a trivial matter. It succeeded in this undertaking spectacularly, allowing for further exploitation of both the planet and its surrounding space."
+
+pme_d_machine_drone_reprogramming_center:0 "Drone Reprogramming Center"
+pme_d_machine_drone_reprogramming_center_desc:0 "A facility built to deal with the deviant drones that are an inevitability on a planet with so many drones. Those that can't be reprogrammed are instead scrapped and recycled into new models."
+
+pme_d_machine_auxiliary_assembly_centers:0 "Auxiliary Assembly Centers"
+pme_d_machine_auxiliary_assembly_centers_desc:0 "When it became apparent the drone production facilities located on this planet weren't up to the task, the management of this planet ordered the construction of these auxiliary assembly centers to make up for any shortfalls elsewhere."
+
+pme_d_machine_subsurface_megaforges:0 "Subsurface Megaforges"
+pme_d_machine_subsurface_megaforges_desc:0 "Kilometers underneath the surface of this planet's crust there's a gargantuan facility dedicated to the processing of minerals in to alloys. The facility has been dubbed the Subsurface Megaforge and is operated by an army of drones. Production is steady at all hours of the day, ensuring demand is always met."
+
+pme_d_machine_chemical_hazardous_goods:0 "Hazardous Materials Processing Superfactory"
+pme_d_machine_chemical_hazardous_goods_desc:0 "When this planet started struggling to meet the demand for various dangerous yet strategic materials, this facility was built in short order. Drones of all makes and models work to transmute, recycle or otherwise facilitate the reliable production of strategically important materials."
+
+pme_d_machine_orbital_defense_grid:0 "Orbital Defense Grid"
+pme_d_machine_orbital_defense_grid_desc:0 "In low orbit around this world is a constellation of advanced defensive emplacements that protect the planet from orbital bombardment. The stations are so numerous that it's nearly impossible to exhaust their supply, forcing invading fleets to adopt different and less destructive strategies while bombarding this planet."
+
+pme_d_machine_worldwide_maglev:0 "Worldwide Maglev Network"
+pme_d_machine_worldwide_maglev_desc:0 "A network of Maglev trains crisscross this planet's surface, enabling quick, cheap transportation of drones and resources between any two points."
+
+pme_d_machine_polar_resource_silos:0 "Polar Resource Silos"
+pme_d_machine_polar_resource_silos_desc:0 "Near the poles of this planet are a network of vaults, silos and warehouses that neatly store the vast majority of resources used by this planet's industry. A small army of drones guard and maintain these facilities."
+
+pme_d_machine_system_extraction:0 "System Extraction Complex"
+pme_d_machine_system_extraction_desc:0 "In a bid to increase mineral production, this facility was built, providing mining drones easy access to space. The result is any moon, planetary body or asteroid in this solar system can be easily exploited for its mineral wealth and quickly shipped planet-side."
+
+pme_d_machine_planetary_water_processing:0 "Planetary Water Processing"
+pme_d_machine_planetary_water_processing_desc:0 "Despite the robotic nature of this species, water is still a highly useful resource. As such this facility was constructed to facilitate the efficient treatment and transport of water to various industrial sites around the world."
+
+pme_d_machine_planetary_fusion_grid:0 "Planetary Fusion Grid"
+pme_d_machine_planetary_fusion_grid_desc:0 "To ensure abundant energy for all facets of this robotic society, a series of high output fusion reactors have been built across the planetary surface. The result is a robust power grid allowing this worlds industry to continue functioning even when under direct assault."
+
+#####################
+### Hive Deposits ###
+#####################
+
+pme_d_hive_planetary_coordination_nodes:0 "§EPlanetary Coordination Nodes"
+pme_d_hive_planetary_coordination_nodes_desc:0 "From these nodes the hive coordinates its collective actions with precision, improving the efficiency of specialist drones and the cohesion of the planet's hive overall, resulting in a far more productive super-organism."
+
+pme_d_hive_orbital_colonies:0 "§EBuild Orbital Colonies"
+pme_d_hive_orbital_colonies_desc:0 "To sustain the ever-increasing population of drones on this planet, the hive built a series of habitats in orbit. These provide more housing and jobs, but most of all, they free up a significant amount of space on the planet's surface for additional industry."
+
+pme_d_hive_fleet_coordination_nexus:0 "§EFleet Coordination Nexus"
+pme_d_hive_fleet_coordination_nexus_desc:0 "This nexus provides the means to drastically alter the way fleet action is undertaken and understood. Significantly improving the communications, calculations and performance of the hive's fleets no matter where they may be in the galaxy. This complex is highly fortified, well-staffed and painstakingly maintained."
+
+pme_d_hive_collective_computing_consciousness:0 "§ECollective Computing Consciousness"
+pme_d_hive_collective_computing_consciousness_desc:0 "Through the collective neural capacity of countless drones, this facility contributes greatly to the wider hive's understanding of the universe and how it can be manipulated to its ends. In order to achieve this, drones dedicated to this task are provided with significantly more food and amenities than is standard for drones of equal status."
+
+pme_d_hive_consciousness_synchronization_lattice:0 "§EConsciousness Synchronization Lattice"
+pme_d_hive_consciousness_synchronization_lattice_desc:0 "This planet-spanning network of connection points, resting dens and feeding galleries is optimally dispersed across the surface to allow for maximized drone productivity and better coordination within the hive."
+
+pme_d_hive_deep_mantle_exotic_hyperforge:0 "Deep Mantle Exotic Hyperforge"
+pme_d_hive_deep_mantle_exotic_hyperforge_desc:0 "Deep below the planet's crust, the hive's most sophisticated bio-forges and matter printers operate without rest. These organic machines toil to produce the most exotic, rare resources of all: dark matter, living metal, and nanites. With these, the multitude is strengthened. Ships, buildings and the unseen infrastructure that keeps the hive connected, all benefit from the resources produced here."
+
+pme_d_hive_gaia_biosphere_preservation_webbing:0 "Biosphere Preservation Webbing"
+pme_d_hive_gaia_biosphere_preservation_webbing_desc:0 "On a lattice of levitating pedestals that span across this planet's skies are numerous bio-facilities that labour to preserve the biosphere. Working tirelessly, the drones collect, record and nurture all aspects of the planetary environment for the hive's greater purpose. Through their toil, these drones also, mysteriously, produce small amounts of Zro."
+
+pme_d_hive_space_elevator:0 "§ESpace Elevator"
+pme_d_hive_space_elevator_desc:0 "This towering space elevator enables the hive to rapidly transport products, resources and drones from the planet's surface to space and back. All this is achieved at a fraction of the cost of any other method, resulting in a significant increase in output."
+
+pme_d_hive_neural_regulation_nexus:0 "Neural Regulation Nexus"
+pme_d_hive_neural_regulation_nexus_desc:0 "This enormous, highly secure facility was built to manage the ever-increasing population of deviant drones on this planet. Depending on how far the drone has deviated, it will either be re-integrated into the greater hive or simply terminated."
+
+pme_d_hive_supplemental_breeding_pools:0 "Supplemental Breeding Pools"
+pme_d_hive_supplemental_breeding_pools_desc:0 "This sprawling structure has been built to ensure the planet's ever-growing demand for drones is met no matter the circumstance. Countless drones labor day and night to ensure the pools are supplied with enough essential nutrients to keep a steady swarm of new, fully grown drones entering service every cycle."
+
+pme_d_hive_subsurface_megaforges:0 "Subsurface Megaforges"
+pme_d_hive_subsurface_megaforges_desc:0 "These gargantuan forges were built to supply this planet and the greater hive with the high-quality alloys that are always in demand. The forges are worked by swarms of drones at all hours, only rarely being shut down for maintenance to ensure quality is maintained."
+
+pme_d_hive_chemical_hazardous_goods:0 "Hazardous Materials Processing Superfactory"
+pme_d_hive_chemical_hazardous_goods_desc:0 "A sprawling facility housing all the industrial equipment required to store, process and recycle the most hazardous goods that the hive uses across its vast network. Efforts are made to limit the effects on the surrounding environment, to ensure it can be exploited for the hive's other needs."
+
+pme_d_hive_orbital_defense_grid:0 "Orbital Defense Grid"
+pme_d_hive_orbital_defense_grid_desc:0 "To protect the planet, and the incredibly important industrial sites on its surface, this orbital network of defensive satellites and stations was constructed. Meticulously planned, with overlapping firing arcs to the point of near redundancy, this planet can weather anything the enemy throws at it."
+
+pme_d_hive_worldwide_maglev:0 "Worldwide Maglev System"
+pme_d_hive_worldwide_maglev_desc:0 "A web of interconnected maglev lines stretches across every corner of this planet. Transporting both drones and material, this transportation network cuts down on the cost and production times of the most simple of goods to the most complex technology."
+
+pme_d_hive_polar_resource_silos:0 "Polar Resource Silos"
+pme_d_hive_polar_resource_silos_desc:0 "In order to store the gargantuan stockpiles of resources this planet requires and ensure that in case of emergencies, there aren't shortages, the poles of this planet have been largely covered with titanic silos, vaults and warehouses. In addition, an army of drones works tirelessly to catalogue, maintain and transport the goods stored here."
+
+pme_d_hive_mineral_extraction_warrens:0 "Mineral Extraction Warrens"
+pme_d_hive_mineral_extraction_warrens_desc:0 "Collectively known as the Extraction Warrens by the hive, this network of shafts, tunnels and galleries allows the hive to extract an immense amount of mineral wealth from the planet's crust. As a result, the time it takes to build structures on the planetary surface as well as the cost to maintain them is decreased significantly."
+
+pme_d_hive_nutrient_processing_megaplant:0 "Nutrient Processing Megaplant"
+pme_d_hive_nutrient_processing_megaplant_desc:0 "This massive food processing plant serves the drones of this planet and beyond. Producing the highest quality of nutrients from plant or animal matter, anything that doesn't contribute to the hive's collective survival is processed into food, sustaining the never-ending growth of the hive."
+
+pme_d_hive_planetary_fusion_grid:0 "Planetary Fusion Grid"
+pme_d_hive_planetary_fusion_grid_desc:0 "Located in strategic, well-fortified locations across the planetary surface are numerous, highly efficient fusion power plants, meticulously maintained and tuned to perfection. Powering every facet of this world, from the climate control of breeding pools to the pumps ensuring a constant supply of nutrients in feeding tubes, they ensure the hive never wants for energy."
+
+##########################
+### Ascendant Deposits ###
+##########################
+
+pme_d_psionic_shroud_emitter:0 "Psionic Shroud Emitter"
+pme_d_psionic_shroud_emitter_desc:0 "This unimaginably tall tower seeds the atmosphere of the planet with a fine mist of Zro dust. The dust is too fine to be visible and finds its way into everything, empowering the population of this world significantly. Furthermore, the tower itself is staffed by a large contingent of telepaths."
+
+pme_d_gene_preservation_vaults:0 "Gene Preservation Vaults"
+pme_d_gene_preservation_vaults_desc:0 "The Gene Preservation Vaults of this planet are second to none. Facilitating the storage, cataloguing, and improvement of the genetic stock used to clone and treat the population of this world. As a result, the populace is significantly more productive. These effects go beyond just the planet's surface, however, slowly improving the species as a whole, leadership included."
+
+pme_d_orbital_robotics_assembly_labs:0 "Orbital Robotics Assembly Labs"
+pme_d_orbital_robotics_assembly_labs_desc:0 "These orbital labs manufacture the countless synthetic frames required to maintain and grow the robotic society upon this planet. They simultaneously serve as auxiliary data centers to allow for more efficient processes across all sectors."
+
+pme_d_machine_orbital_robotics_assembly_labs:0 "Orbital Robotics Assembly Labs"
+pme_d_machine_orbital_robotics_assembly_labs_desc:0 "These orbital labs manufacture the countless synthetic frames required to maintain and grow the robotic society upon this planet. "
+
+pme_d_cybernetics_uplink_facility:0 "Cybernetics Uplink Facility"
+pme_d_cybernetics_uplink_facility_desc:0 "This facility helps fine-tune the planetary populations' cybernetics to their unique biological traits and quirks. As a result, anyone with any level of cybernetics installed benefits from an improved level of productivity in whichever pursuits their cybernetics augment."
+

@@ -1,0 +1,17 @@
+﻿l_simp_chinese:
+
+################
+### Blockers ###
+################
+
+pme_b_rudimentary_planetary_megastructure_ruins:0 "Simple Planetary Megastructure Ruins"
+pme_b_rudimentary_planetary_megastructure_ruins_desc:0 "This must once have been a planetary megastructure of some kind. Whatever caused its destruction has left nearly nothing of value behind."
+
+pme_b_intermediate_planetary_megastructure_ruins:0 "Common Planetary Megastructure Ruins"
+pme_b_intermediate_planetary_megastructure_ruins_desc:0 "This was once a relatively complex planetary megastructure. Though destroyed, it still has some valuable materials left, as well as some potential data about its construction."
+
+pme_b_advanced_planetary_megastructure_ruins:0 "Advanced Planetary Megastructure Ruins"
+pme_b_advanced_planetary_megastructure_ruins_desc:0 "These ruins were at one point a highly advanced planetary megastructure. Even in its current state, plenty of valuable resources and a wealth of potential data can be found in the remains."
+
+pme_b_ascendant_planetary_megastructure_ruins:0 "Ascendant Planetary Megastructure Ruins"
+pme_b_ascendant_planetary_megastructure_ruins_desc:0 "Once a shining beacon of planetary mega engineers, these ruins are all that remain. Though mostly destroyed, this massive facility was so well constructed that some portions remain relatively pristine. As such, a veritable trove of resources can be salvaged and nigh endless insights can be gleaned from its ruins."

@@ -1,0 +1,13 @@
+{
+  "files.associations": {
+    "**/*.txt": "paradox",
+    "**/*.gfx": "paradox",
+    "**/*.mod": "paradox",
+    "**/*.gui": "paradox",
+    "**/*.asset": "paradox",
+    "**/*.yml": "paradox"
+  },
+  "[paradox]": {
+    "editor.formatOnSave": false
+  }
+}

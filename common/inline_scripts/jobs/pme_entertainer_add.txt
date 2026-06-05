@@ -1,0 +1,12 @@
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			NOT = { has_valid_civic = civic_warrior_culture }
+			NOT = { is_gestalt = yes }
+		}
+	}
+	modifier = {
+		job_entertainer_add = $AMOUNT$
+	}
+}

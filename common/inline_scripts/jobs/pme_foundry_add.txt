@@ -1,0 +1,38 @@
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			is_regular_empire = yes
+			is_catalytic_empire = no
+		}
+	}
+	modifier = {
+		job_foundry_add = $AMOUNT$
+	}
+}
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			is_hive_empire = yes
+			is_catalytic_empire = no
+		}
+	}
+	modifier = {
+		job_fabricator_add = $AMOUNT$
+	}
+}
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			is_machine_empire = yes
+			is_catalytic_empire = no
+		}
+	}
+	modifier = {
+		job_fabricator_add = $AMOUNT$
+	}
+}
