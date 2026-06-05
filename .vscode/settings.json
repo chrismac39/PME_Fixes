@@ -1,0 +1,12 @@
+{
+  "files.associations": {
+    "common/**/*.txt": "paradox",
+    "events/**/*.txt": "paradox",
+    "interface/**/*.gfx": "paradox",
+    "descriptor.mod": "paradox",
+    "localisation/**/*.yml": "yaml"
+  },
+  "[paradox]": {
+    "editor.formatOnSave": false
+  }
+}
