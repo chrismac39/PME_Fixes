@@ -1,0 +1,44 @@
+#############################################################################
+### Planetary Mega Engineering Hyperforge Matterweaver Jobs Inline Script ###
+#############################################################################
+
+
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			is_regular_empire = yes
+			is_wilderness_empire = no
+		}
+	}
+	modifier = {
+		job_pi_hyperforge_matterweaver_add = $AMOUNT$
+	}
+}
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			is_machine_empire = yes
+			is_wilderness_empire = no
+		}
+	}
+	modifier = {
+		job_pi_machine_hyperforge_matterweaver_drone_add = $AMOUNT$
+	}
+}
+
+triggered_planet_modifier = {
+	potential = {
+		exists = owner
+		owner = {
+			is_hive_empire = yes
+			is_wilderness_empire = no
+		}
+	}
+	modifier = {
+		job_pi_hive_hyperforge_matterweaver_drone_add = $AMOUNT$
+	}
+}

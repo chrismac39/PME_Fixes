@@ -1,0 +1,19 @@
+#############################
+### Planet Class Triggers ###
+#############################
+
+pi_is_gaia_planet = {
+    is_planet_class = pc_gaia
+}
+
+pi_is_ecumenopolis = {
+    is_planet_class = pc_city
+}
+
+pi_is_machine_planet = {
+    is_planet_class = pc_machine
+}
+
+pi_is_hive_planet = {
+    is_planet_class = pc_hive
+}

@@ -1,0 +1,27 @@
+############################
+### Technology Variables ###
+############################
+
+########################
+### Tehcnology Costs ###
+########################
+
+@pi_tech_cost_r1 = 8000
+
+@pi_tech_cost_r2 = 12000
+
+@pi_tech_cost_r3 = 16000
+
+@pi_tech_cost_r4 = 22000
+
+##########################
+### Technology Weights ###
+##########################
+
+@pi_tech_weight_r1 = 65
+
+@pi_tech_weight_r2 = 60
+
+@pi_tech_weight_r3 = 55
+
+@pi_tech_weight_r4 = 50

@@ -1,0 +1,532 @@
+#######################################
+### Planetary Mega Engineering Jobs ###
+#######################################
+
+
+################################
+### Hyperforge Matterweavers ###
+################################
+
+
+pi_hyperforge_matterweaver = {
+	category = specialist
+
+	swappable_data = {
+		default = {
+			condition_string = SPECIALIST_JOB_TRIGGER
+			building_icon = pi_deep_mantle_exotic_hyperforge
+			icon = pi_hyperforge_matterweaver
+		}
+	}
+
+	tags = { strategic_resource }
+
+	possible_precalc = can_fill_specialist_job
+
+	possible_pre_triggers = {
+		has_owner = yes
+		has_planet = yes
+		is_enslaved = no
+		is_being_purged = no
+		is_being_assimilated = no
+		is_sapient = yes
+	}
+
+	possible = {
+		owner = { is_regular_empire = yes }
+		is_sapient = yes
+	}
+
+	resources = {
+		category = planet_jobs
+		produces = {
+			sr_dark_matter = 0.75
+            sr_living_metal = 0.75
+		}
+		upkeep = {
+            alloys = 2
+			energy = 3
+            minerals = 4
+		}
+	}
+
+	inline_script = "jobs/job_hyperforge_matterweaver_modifiers"
+
+	weight = {
+		weight = @specialist_job_weight
+		mult = value:job_weights_modifier|JOB|pi_hyperforge_matterweaver|RESOURCE|sr_dark_matter|
+
+		modifier = {
+			factor = 1.5
+			has_trait = trait_intelligent
+		}
+	}
+}
+
+pi_machine_hyperforge_matterweaver_drone = {
+	category = complex_drone
+
+	swappable_data = {
+		default = {
+			condition_string = DRONE_JOB_TRIGGER
+			building_icon = pi_deep_mantle_exotic_hyperforge
+			icon = pi_hyperforge_matterweaver
+		}
+	}
+
+	tags = { strategic_resource }
+
+	possible_precalc = can_fill_drone_job
+
+	possible_pre_triggers = {
+		has_owner = yes
+		has_planet = yes
+		is_being_purged = no
+		is_being_assimilated = no
+	}
+
+	possible = {
+		owner = { is_machine_empire = yes }
+		can_think = yes
+	}
+
+	resources = {
+		category = planet_jobs
+		produces = {
+			sr_dark_matter = 0.75
+			sr_living_metal = 0.75
+			nanites = 0.75
+		}
+		upkeep = {
+			alloys = 2
+			energy = 3
+			minerals = 4
+		}
+	}
+
+	inline_script = "jobs/job_hyperforge_matterweaver_modifiers"
+
+	weight = {
+		weight = @complex_drone_job_weight
+		mult = value:job_weights_modifier|JOB|pi_machine_hyperforge_matterweaver_drone|RESOURCE|sr_dark_matter|
+	}
+}
+
+pi_hive_hyperforge_matterweaver_drone = {
+	category = complex_drone
+
+	swappable_data = {
+		default = {
+			condition_string = DRONE_JOB_TRIGGER
+			building_icon = pi_deep_mantle_exotic_hyperforge
+			icon = pi_hyperforge_matterweaver
+		}
+	}
+
+	tags = { strategic_resource }
+
+	possible_precalc = can_fill_drone_job
+
+	possible_pre_triggers = {
+		has_owner = yes
+		has_planet = yes
+		is_being_purged = no
+		is_being_assimilated = no
+	}
+
+	possible = {
+		owner = { is_hive_empire = yes }
+		can_think = yes
+	}
+
+	resources = {
+		category = planet_jobs
+		produces = {
+			sr_dark_matter = 0.75
+			sr_living_metal = 0.75
+			nanites = 0.75
+		}
+		upkeep = {
+			alloys = 2
+			energy = 3
+			minerals = 4
+		}
+	}
+
+	inline_script = "jobs/job_hyperforge_matterweaver_modifiers"
+
+	weight = {
+		weight = @complex_drone_job_weight
+		mult = value:job_weights_modifier|JOB|pi_hive_hyperforge_matterweaver_drone|RESOURCE|sr_dark_matter|
+	}
+}
+
+
+###############################
+### Gaian Biosphere Keepers ###
+###############################
+
+#######################
+### Regular Empires ###
+#######################
+
+pi_biosphere_keeper = {
+	category = specialist
+
+	swappable_data = {
+		default = {
+			condition_string = SPECIALIST_JOB_TRIGGER
+			building_icon = pi_gaia_biosphere_preservation_webbing
+			icon = pi_biosphere_keeper
+		}
+	}
+
+	tags = { habitability }
+
+	possible_precalc = can_fill_specialist_job
+
+	possible_pre_triggers = {
+		has_owner = yes
+		has_planet = yes
+		is_enslaved = no
+		is_being_purged = no
+		is_being_assimilated = no
+		is_sapient = yes
+	}
+
+	possible = {
+		can_think = yes
+	}
+
+	resources = {
+		category = planet_jobs
+		produces = {
+			sr_zro = 1.25
+		}
+		upkeep = {
+			energy = 3
+			food = 3
+		}
+	}
+
+	planet_modifier = {
+		planet_pops_upkeep_mult = -0.05
+		planet_pops_consumer_goods_upkeep_mult = -0.05
+	}
+
+	inline_script = "jobs/job_biosphere_keeper_modifiers"
+
+	weight = {
+		weight = @specialist_job_weight
+		mult = value:job_weights_modifier|JOB|pi_biosphere_keeper|RESOURCE|zro|
+		modifier = {
+			factor = 1.5
+			has_trait = trait_intelligent
+		}
+		modifier = {
+			factor = 0.1
+			is_enslaved = yes
+		}
+	}
+
+	promotion = {
+		time = @standard_promotion_time
+		effect = {
+			pop_amount_change_category = {
+				CATEGORY = specialist
+				AMOUNT = local_pop_amount
+			}
+		}
+	}
+}
+
+####################
+### Hive Empires ###
+####################
+
+pi_hive_biosphere_keeper_drone = {
+	category = complex_drone
+
+	swappable_data = {
+		default = {
+			condition_string = DRONE_JOB_TRIGGER
+			building_icon = pi_hive_gaia_biosphere_preservation_webbing
+			icon = pi_hive_biosphere_keeper_drone
+		}
+	}
+
+	tags = { habitability }
+
+	possible_precalc = can_fill_drone_job
+
+	possible_pre_triggers = {
+		has_owner = yes
+		has_planet = yes
+		is_being_purged = no
+		is_being_assimilated = no
+	}
+
+	possible = {
+		is_enslaved = no
+		can_think = yes
+	}
+
+	resources = {
+		category = planet_jobs
+		produces = {
+			sr_zro = 1.25
+		}
+		upkeep = {
+			energy = 3
+			food = 3
+		}
+	}
+
+	planet_modifier = {
+		planet_pops_upkeep_mult = -0.05
+	}
+
+	inline_script = "jobs/job_biosphere_keeper_modifiers"
+
+	weight = {
+		weight = @complex_drone_job_weight
+		mult = value:job_weights_modifier|JOB|pi_hive_biosphere_keeper_drone|RESOURCE|sr_zro|
+		modifier = {
+			factor = 1.5
+			has_trait = trait_intelligent
+		}
+		modifier = {
+			factor = 0.1
+			is_enslaved = yes
+		}
+	}
+}
+
+
+#################################
+### Campus Research Directors ###
+#################################
+
+pi_campus_research_director = {
+	category = ruler
+
+	swappable_data = {
+		default = {
+			condition_string = RULER_JOB_TRIGGER
+			building_icon = pi_campus_research_director
+			icon = pi_campus_research_director
+		}
+	}
+
+	tags = { research }
+
+	possible_precalc = can_fill_ruler_job
+
+	possible_pre_triggers = {
+		has_owner = yes
+		has_planet = yes
+		is_enslaved = no
+		is_being_purged = no
+		is_being_assimilated = no
+		is_sapient = yes
+	}
+
+	possible = {
+		can_think = yes
+	}
+
+	resources = {
+		category = planet_jobs
+		produces = {
+			physics_research = 12
+			society_research = 12
+			engineering_research = 12
+			unity = 5
+		}
+		upkeep = {
+			energy = 3
+			consumer_goods = 3	
+		}
+	}
+
+	inline_script = "jobs/job_campus_research_director_modifiers"
+
+	weight = {
+		weight = @ruler_job_weight
+		mult = value:job_weights_modifier|JOB|pi_campus_research_director|RESOURCE|physics_research|society_research|engineering_research|
+		modifier = {
+			factor = 1.5
+			has_trait = trait_intelligent
+		}
+		modifier = {
+			factor = 0.1
+			is_enslaved = yes
+		}
+	}
+
+	promotion = {
+		time = @standard_promotion_time
+		effect = {
+			pop_amount_change_category = {
+				CATEGORY = ruler
+				AMOUNT = local_pop_amount
+			}
+		}
+	}
+}
+
+###############################
+### Megaforge Metallurgists ###
+###############################
+
+### Regular Empire Jobs ###
+
+pi_megaforge_metallurgist = {
+	category = specialist
+
+	swappable_data = {
+		default = {
+			condition_string = SPECIALIST_JOB_TRIGGER
+			building_icon = pi_subsurface_megaforge
+			icon = pi_megaforge_metallurgist
+		}
+	}
+
+	tags = { alloys }
+
+	possible_precalc = can_fill_specialist_job
+
+	possible_pre_triggers = {
+		has_owner = yes
+		has_planet = yes
+		is_enslaved = no
+		is_being_purged = no
+		is_being_assimilated = no
+		is_sapient = yes
+	}
+
+	possible = {
+		owner = { is_regular_empire = yes }
+		is_sapient = yes
+	}
+
+	resources = {
+		category = planet_jobs
+		produces = {
+			alloys = 12
+		}
+		upkeep = {
+			energy = 3
+            minerals = 4
+		}
+	}
+
+	inline_script = "jobs/job_megaforge_metallurgist_modifiers"
+
+	weight = {
+		weight = @specialist_job_weight
+		mult = value:job_weights_modifier|JOB|pi_megaforge_metallurgist|RESOURCE|alloys|
+		modifier = {
+			factor = 0.1
+			is_enslaved = yes
+		}
+	}
+}
+
+### Machine Empire Jobs ###
+
+pi_machine_megaforge_metallurgist_drone = {
+	category = complex_drone
+
+	swappable_data = {
+		default = {
+			condition_string = DRONE_JOB_TRIGGER
+			building_icon = pi_subsurface_megaforge
+			icon = pi_megaforge_metallurgist
+		}
+	}
+
+	tags = { alloys }
+
+	possible_precalc = can_fill_drone_job
+
+	possible_pre_triggers = {
+		has_owner = yes
+		has_planet = yes
+		is_enslaved = no
+		is_being_purged = no
+		is_being_assimilated = no
+	}
+
+	possible = {
+		owner = { is_machine_empire = yes }
+		can_think = yes
+	}
+
+	resources = {
+		category = planet_jobs
+		produces = {
+			alloys = 10
+		}
+		upkeep = {
+			energy = 3
+			minerals = 4
+		}
+	}
+
+	inline_script = "jobs/job_megaforge_metallurgist_modifiers"
+
+	weight = {
+		weight = @complex_drone_job_weight
+		mult = value:job_weights_modifier|JOB|pi_machine_megaforge_metallurgist|RESOURCE|alloys|
+	}
+}
+
+### Hive Empire Jobs ###
+
+pi_hive_megaforge_metallurgist_drone = {
+	category = complex_drone
+
+	swappable_data = {
+		default = {
+			condition_string = DRONE_JOB_TRIGGER
+			building_icon = pi_subsurface_megaforge
+			icon = pi_megaforge_metallurgist
+		}
+	}
+
+	tags = { alloys }
+
+	possible_precalc = can_fill_drone_job
+
+	possible_pre_triggers = {
+		has_owner = yes
+		has_planet = yes
+		is_enslaved = no
+		is_being_purged = no
+		is_being_assimilated = no
+	}
+
+	possible = {
+		owner = { is_hive_empire = yes }
+		can_think = yes
+	}
+
+	resources = {
+		category = planet_jobs
+		produces = {
+			alloys = 10
+		}
+		upkeep = {
+			energy = 3
+			minerals = 4
+		}
+	}
+
+	inline_script = "jobs/job_megaforge_metallurgist_modifiers"
+
+	weight = {
+		weight = @complex_drone_job_weight
+		mult = value:job_weights_modifier|JOB|pi_hive_megaforge_metallurgist|RESOURCE|alloys|
+	}
+}

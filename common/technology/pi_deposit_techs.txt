@@ -1,0 +1,135 @@
+################################################
+### Planetary Mega Engineering Deposit Techs ###
+################################################
+
+tech_pi_rudimentary_planetary_mega_engineering = {
+	cost = @pi_tech_cost_r1
+	area = engineering
+	tier = 0
+	category = { materials }
+	weight = @pi_tech_weight_r1
+	is_rare = yes
+
+	modifier = {
+		planet_districts_energy_upkeep_mult = -0.05
+		planet_structures_cost_mult = -0.05
+	}
+
+}
+
+tech_pi_intermediate_economic_planetary_mega_engineering = {
+	cost = @pi_tech_cost_r2
+	area = society
+	tier = 1
+	prerequisites = { "tech_pi_rudimentary_planetary_mega_engineering" }
+	category = { statecraft }
+	weight = @pi_tech_weight_r2
+	is_rare = yes
+
+	modifier = {
+		planet_buildings_energy_upkeep_mult = -0.05
+		planet_max_districts_add = 1
+	}
+
+}
+
+tech_pi_intermediate_governmental_planetary_mega_engineering = {
+	cost = @pi_tech_cost_r2
+	area = society
+	tier = 1
+	prerequisites = { "tech_pi_rudimentary_planetary_mega_engineering" }
+	category = { statecraft }
+	weight = @pi_tech_weight_r2
+	is_rare = yes
+
+	modifier = {
+		planet_structures_cost_mult = -0.05
+		planet_max_districts_add = 1
+	}
+
+}
+
+tech_pi_intermediate_defensive_planetary_mega_engineering = {
+	cost = @pi_tech_cost_r2
+	area = engineering
+	tier = 1
+	prerequisites = { "tech_pi_rudimentary_planetary_mega_engineering" }
+	category = { materials }
+	weight = @pi_tech_weight_r2
+	is_rare = yes
+
+	modifier = {
+		planet_structures_cost_mult = -0.05
+		planet_districts_energy_upkeep_mult = -0.05
+	}
+
+}
+
+tech_pi_intermediate_industrial_planetary_mega_engineering = {
+	cost = @pi_tech_cost_r2
+	area = engineering
+	tier = 1
+	prerequisites = { "tech_pi_rudimentary_planetary_mega_engineering" }
+	category = { industry }
+	weight = @pi_tech_weight_r2
+	is_rare = yes
+
+	modifier = {
+		planet_districts_energy_upkeep_mult = -0.05
+		planet_buildings_energy_upkeep_mult = -0.05
+	}
+}
+
+tech_pi_advanced_planetary_mega_engineering = {
+	cost = @pi_tech_cost_r3
+	area = society
+	tier = 2
+	prerequisites = { "tech_pi_intermediate_governmental_planetary_mega_engineering" }
+	category = { new_worlds }
+	weight = @pi_tech_weight_r3
+	is_rare = yes
+
+	modifier = {
+		planet_districts_energy_upkeep_mult = -0.10
+		planet_buildings_energy_upkeep_mult = -0.10
+		planet_structures_cost_mult = -0.05
+		planet_max_districts_add = 1
+	}
+
+}
+
+tech_pi_specialized_planetary_mega_engineering = {
+	cost = @pi_tech_cost_r3
+	area = society
+	tier = 2
+	prerequisites = { "tech_pi_advanced_planetary_mega_engineering" }
+	category = { new_worlds }
+	weight = @pi_tech_weight_r3
+	is_rare = yes
+
+	modifier = {
+		pop_environment_tolerance = 0.05
+		empire_size_pops_mult = -0.10
+		empire_size_districts_mult = -0.10
+		planet_max_districts_add = 1
+	}
+
+}
+
+tech_pi_ascendant_planetary_mega_engineering = {
+	cost = @pi_tech_cost_r4
+	area = society
+	tier = 2
+	prerequisites = { "tech_pi_advanced_planetary_mega_engineering" }
+	category = { new_worlds }
+	weight = @pi_tech_weight_r4
+	is_rare = yes
+
+	modifier = {
+		planet_districts_energy_upkeep_mult = -0.10
+		planet_buildings_energy_upkeep_mult = -0.10
+		planet_structures_cost_mult = -0.10
+		planet_max_districts_add = 2
+	}
+
+}

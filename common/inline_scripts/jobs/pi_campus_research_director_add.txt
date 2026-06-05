@@ -1,0 +1,31 @@
+###########################################################
+### Planetary Mega Engineering Campus Research Director ###
+###########################################################
+
+### Regular Organics ###
+
+triggered_planet_modifier = {
+    potential = {
+        exists = owner
+        owner = {
+            is_regular_empire = yes
+            is_wilderness_empire = no
+        }
+    }
+    
+    job_pi_campus_research_director_add = $AMOUNT$
+    
+}
+
+triggered_desc = {
+    trigger = {
+        exists = owner
+        owner = {
+            is_regular_empire = yes
+            is_wilderness_empire = no
+        }
+    }
+    
+    text = pi_campus_research_director_effect_desc
+    
+}
