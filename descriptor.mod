@@ -1,4 +1,4 @@
-version="3.11"
+version="1.0.0"
 tags={
 	"Economy"
 }
